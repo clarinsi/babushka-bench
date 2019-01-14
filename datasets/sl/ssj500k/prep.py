@@ -27,6 +27,15 @@ for doc in root.iter('{http://www.tei-c.org/ns/1.0}div'):
         text=''
         tokens=[]
         for element in sentence:
+          if element.tag[-3:]=='seg':
+            for subelement in element:
+              text+=subelement.text
+              if not subelement.tag.endswith('}c'):
+                if subelement.tag.endswith('w'):
+                  lemma=subelement.attrib['lemma']
+                else:
+                  lemma=subelement.text
+                tokens.append((subelement.text,lemma,subelement.attrib['ana'].split(':')[1]))
           if element.tag[-2:] not in ('pc','}w','}c'):
             continue
           text+=element.text

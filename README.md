@@ -8,8 +8,8 @@ Benchmarking NLP tools on Slovene, Croatian and Serbian
 
 | tool | revision | parameters | dataset | language | P | R | F1 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| reldi-tokeniser | fb85138 | -l sl | ssj500k | sl | 99.67 | 99.17 | 99.42 |
-| Obeliks4J | 32266e7 | ssj500k | default | sl | 99.94 | 99.95 | 99.95 |
+| reldi-tokeniser | fb85138 | -l sl | ssj500k | sl | 99.68 |     99.18 |     99.43 |
+| Obeliks4J | 32266e7 | ssj500k | default | sl | 99.98 |     99.98 |     99.98 |
 
 ### Words
 
@@ -19,8 +19,8 @@ Will come later when tagging is included?
 
 | tool | revision | parameters | dataset | language | P | R | F1 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| reldi-tokeniser | fb85138 | -l sl | ssj500k | sl | 96.57 | 93.85 | 95.19 |
-| Obeliks4J | 32266e7 | default | ssj500k | sl | 97.11 | 96.02 | 96.56 |
+| reldi-tokeniser | fb85138 | -l sl | ssj500k | sl | 97.85 |     96.49 |     97.17 |
+| Obeliks4J | 32266e7 | default | ssj500k | sl | 99.09 |     99.26 |     99.18 |
 
 ## Morphosyntactic tagging
 
