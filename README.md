@@ -29,6 +29,7 @@ Will come later when tagging is included?
 ## Morphosyntactic tagging
 
 | tool | revision | comment | segmentation | dataset | language | P | R | F1 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | reldi-tagger | 994f746 | | | gold | ssj500k | sl | 94.21 |     94.21 |     94.21 |
 | Parser-v3 | 9ee9e8f |  | gold | ssj500k | sl | 96.58 |     96.58 |     96.58 |
 | Parser-v3 | 9ee9e8f |  | Obeliks4J | ssj500k | sl | 96.56 |     96.55 |     96.56 |
