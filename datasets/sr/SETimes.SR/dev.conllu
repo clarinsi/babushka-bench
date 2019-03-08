@@ -1047,7 +1047,7 @@
 2	kiparskih	kiparski	ADJ	Agpmpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	_	_	_	_
 3	Turaka	Turčin	PROPN	Npmpg	Case=Gen|Gender=Masc|Number=Plur	_	_	_	_
 4	Mehmet	Mehmet	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
-5	Ali	Ali	X	X		_	_	_	_
+5	Ali	Ali	X	X	_	_	_	_	_
 6	Talat	Talat	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 7	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
 8	u	u	ADP	Sl	Case=Loc	_	_	_	_
@@ -1364,7 +1364,7 @@
 28	portparol	portparol	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 29	grupe	grupa	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	_	_	_	_
 30	Arif	Arif	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
-31	Ali	Ali	X	X		_	_	_	_
+31	Ali	Ali	X	X	_	_	_	_	_
 32	Cangi	Cangi	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 33	.	.	PUNCT	Z	_	_	_	_	_
 
@@ -3099,9 +3099,9 @@
 23	u	u	ADP	Sl	Case=Loc	_	_	_	_
 24	finalu	finale	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	_	_	_	_
 25	turnira	turnir	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
-26	Open	Open	X	Xf		_	_	_	_
-27	de	dati	X	Xf		_	_	_	_
-28	Mosel	Mosel	X	Xf		_	_	_	_
+26	Open	Open	X	Xf	_	_	_	_	_
+27	de	dati	X	Xf	_	_	_	_	_
+28	Mosel	Mosel	X	Xf	_	_	_	_	_
 29	koji	koji	DET	Pi-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	_	_	_	_
 30	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
 31	igran	igrati	ADJ	Appmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	_	_	_	_
@@ -3178,7 +3178,7 @@
 31	,	,	PUNCT	Z	_	_	_	_	_
 32	u	u	ADP	Sl	Case=Loc	_	_	_	_
 33	Bosni	Bosna	PROPN	Npfsl	Case=Loc|Gender=Fem|Number=Sing	_	_	_	_
-34	i	i	CCONJ	Cc		_	_	_	_
+34	i	i	CCONJ	Cc	_	_	_	_	_
 35	Hercegovini	Hercegovina	PROPN	Npfsl	Case=Loc|Gender=Fem|Number=Sing	_	_	_	_
 36	,	,	PUNCT	Z	_	_	_	_	_
 37	književnom	književan	ADJ	Agpfsiy	Case=Ins|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	_	_	_	_
@@ -3221,8 +3221,8 @@
 18	novog	nov	ADJ	Agpmsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	_	_	_	_
 19	filma	film	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
 20	"	"	PUNCT	Z	_	_	_	_	_
-21	War	war	X	Xf		_	_	_	_
-22	Inc	inc	X	Xf		_	_	_	_
+21	War	war	X	Xf	_	_	_	_	_
+22	Inc	inc	X	Xf	_	_	_	_	_
 23	"	"	PUNCT	Z	_	_	_	_	_
 24	.	.	PUNCT	Z	_	_	_	_	_
 
@@ -3707,7 +3707,7 @@
 
 # text = Asocijacija Pro Demokratija (APD), jedna od vodećih rumunskih nevladinih organizacija koja se bori za demokratiju i koja je, između ostalih, nadgledala izbore u Rumuniji, osudila je "manjak etike i profesionalizma koji karakteriše predsedničku predizbornu kampanju".
 1	Asocijacija	asocijacija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
-2	Pro	pro	X	Xf		_	_	_	_
+2	Pro	pro	X	Xf	_	_	_	_	_
 3	Demokratija	demokratija	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 4	(	(	PUNCT	Z	_	_	_	_	_
 5	APD	APD	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
@@ -3819,7 +3819,7 @@
 18	Evenimentul	Evenimentul	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 19	Zilei	Zilei	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 20	za	za	ADP	Sa	Case=Acc	_	_	_	_
-21	SETimes	SETimes	X	Xf		_	_	_	_
+21	SETimes	SETimes	X	Xf	_	_	_	_	_
 22	.	.	PUNCT	Z	_	_	_	_	_
 
 # text = "Cilj tih napada na ličnost je da se pokrenu emocije kod izbornog tela: da se glasači protivnika navedu da ne izađu na glasanje ili da se privuku novi glasači koji su besni zbog takvih 'otkrića'", dodao je on.
@@ -4586,9 +4586,9 @@
 33	za	za	ADP	Sa	Case=Acc	_	_	_	_
 34	politiku	politika	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	_	_	_	_
 35	(	(	PUNCT	Z	_	_	_	_	_
-36	European	european	X	Xf		_	_	_	_
-37	Policy	policy	X	Xf		_	_	_	_
-38	Centre	centre	X	Xf		_	_	_	_
+36	European	european	X	Xf	_	_	_	_	_
+37	Policy	policy	X	Xf	_	_	_	_	_
+38	Centre	centre	X	Xf	_	_	_	_	_
 39	-	-	PUNCT	Z	_	_	_	_	_
 40	EPC	EPC	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 41	)	)	PUNCT	Z	_	_	_	_	_
@@ -5419,7 +5419,7 @@
 14	rekao	reći	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	_	_	_	_
 15	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
 16	za	za	ADP	Sa	Case=Acc	_	_	_	_
-17	SETimes	SETimes	X	Xf		_	_	_	_
+17	SETimes	SETimes	X	Xf	_	_	_	_	_
 18	da	da	SCONJ	Cs	_	_	_	_	_
 19	Kosovo	Kosovo	PROPN	Npnsn	Case=Nom|Gender=Neut|Number=Sing	_	_	_	_
 20	"	"	PUNCT	Z	_	_	_	_	_
@@ -5551,7 +5551,7 @@
 10	rekao	reći	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	_	_	_	_
 11	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
 12	za	za	ADP	Sa	Case=Acc	_	_	_	_
-13	SETimes	SETimes	X	Xf		_	_	_	_
+13	SETimes	SETimes	X	Xf	_	_	_	_	_
 14	da	da	SCONJ	Cs	_	_	_	_	_
 15	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
 16	Fehmiju	Fehmiju	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
@@ -5667,7 +5667,7 @@
 21	pesmu	pesma	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	_	_	_	_
 22	"	"	PUNCT	Z	_	_	_	_	_
 23	Đelem	đelem	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
-24	,	,	PUNCT	Z		_	_	_	_
+24	,	,	PUNCT	Z	_	_	_	_	_
 25	Đelem	đelem	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 26	"	"	PUNCT	Z	_	_	_	_	_
 27	.	.	PUNCT	Z	_	_	_	_	_
@@ -6180,7 +6180,7 @@
 9	Sporazuma	sporazum	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
 10	o	o	ADP	Sl	Case=Loc	_	_	_	_
 11	stabilizaciji	stabilizacija	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	_	_	_	_
-12	i	i	CCONJ	Cc		_	_	_	_
+12	i	i	CCONJ	Cc	_	_	_	_	_
 13	pridruživanju	pridruživanje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	_	_	_	_
 14	između	između	ADP	Sg	Case=Gen	_	_	_	_
 15	Srbije	Srbija	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	_	_	_	_
@@ -7577,9 +7577,9 @@
 7	Crnog	crn	ADJ	Agpnsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	_	_	_	_
 8	Mora	more	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	_	_	_	_
 9	(	(	PUNCT	Z	_	_	_	_	_
-10	Transboundary	transboundary	X	Xf		_	_	_	_
-11	Diagnostic	diagnostic	X	Xf		_	_	_	_
-12	Analysis	analysis	X	Xf		_	_	_	_
+10	Transboundary	transboundary	X	Xf	_	_	_	_	_
+11	Diagnostic	diagnostic	X	Xf	_	_	_	_	_
+12	Analysis	analysis	X	Xf	_	_	_	_	_
 13	-	-	PUNCT	Z	_	_	_	_	_
 14	TDA	TDA	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 15	)	)	PUNCT	Z	_	_	_	_	_
@@ -8463,9 +8463,9 @@
 1	Menekse	Manekse	PROPN	Npmpn	Case=Nom|Gender=Masc|Number=Plur	_	_	_	_
 2	Tokijaj	Tokijaj	PROPN	Npmpn	Case=Nom|Gender=Masc|Number=Plur	_	_	_	_
 3	za	za	ADP	Sa	Case=Acc	_	_	_	_
-4	Southeast	southeast	X	Xf		_	_	_	_
-5	European	european	X	Xf		_	_	_	_
-6	Times	times	X	Xf		_	_	_	_
+4	Southeast	southeast	X	Xf	_	_	_	_	_
+5	European	european	X	Xf	_	_	_	_	_
+6	Times	times	X	Xf	_	_	_	_	_
 7	iz	iz	ADP	Sg	Case=Gen	_	_	_	_
 8	Istanbula	Istanbul	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
 9	3.8.2011.	3.8.2011.	ADJ	Mdo	NumType=Ord	_	_	_	_
@@ -9648,7 +9648,7 @@
 7	Vojvođanske	vojvođanski	ADJ	Agpfsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	_	_	_	_
 8	akademije	akademija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	_	_	_	_
 9	nauka	nauka	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	_	_	_	_
-10	i	i	CCONJ	Cc		_	_	_	_
+10	i	i	CCONJ	Cc	_	_	_	_	_
 11	umetnosti	umetnost	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	_	_	_	_
 12	.	.	PUNCT	Z	_	_	_	_	_
 
@@ -9668,7 +9668,7 @@
 4	Oružanih	oružan	ADJ	Agpfpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	_	_	_	_
 5	snaga	snaga	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	_	_	_	_
 6	Bosne	Bosna	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	_	_	_	_
-7	i	i	CCONJ	Cc		_	_	_	_
+7	i	i	CCONJ	Cc	_	_	_	_	_
 8	Hercegovine	Hercegovina	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	_	_	_	_
 9	čine	činiti	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
 10	vodovi	vod	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	_	_	_	_
@@ -9733,7 +9733,7 @@
 14	Ministarstvo	ministarstvo	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	_	_	_	_
 15	odbrane	odbrana	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	_	_	_	_
 16	Bosne	Bosna	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	_	_	_	_
-17	i	i	CCONJ	Cc		_	_	_	_
+17	i	i	CCONJ	Cc	_	_	_	_	_
 18	Hercegovine	Hercegovina	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	_	_	_	_
 19	(	(	PUNCT	Z	_	_	_	_	_
 20	BiH	BiH	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_

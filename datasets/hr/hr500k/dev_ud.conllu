@@ -2977,7 +2977,7 @@
 17	Svjetskog	svjetski	ADJ	Agpmsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
 18	kupa	kup	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
 19	2006	2006	NUM	Mdc	NumType=Card	18	nummod	_	_
-20	-	-	PUNCT	Z		21	punct	_	_
+20	-	-	PUNCT	Z	_	21	punct	_	_
 21	2007	2007	NUM	Mdc	NumType=Card	19	conj	_	_
 22	.	.	PUNCT	Z	_	11	punct	_	_
 
@@ -3058,7 +3058,7 @@
 31	Travniku	Travnik	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	30	appos	_	_
 32	u	u	ADP	Sl	Case=Loc	33	case	_	_
 33	Bosni	Bosna	PROPN	Npfsl	Case=Loc|Gender=Fem|Number=Sing	31	nmod	_	_
-34	i	i	CCONJ	Cc		33	flat	_	_
+34	i	i	CCONJ	Cc	_	33	flat	_	_
 35	Hercegovini	Hercegovina	PROPN	Npfsl	Case=Loc|Gender=Fem|Number=Sing	33	flat	_	_
 36	književnom	književan	ADJ	Agpfsiy	Case=Ins|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	37	amod	_	_
 37	raspravom	rasprava	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	19	obl	_	_
@@ -3100,8 +3100,8 @@
 19	novog	nov	ADJ	Agpmsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
 20	filma	film	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
 21	"	"	PUNCT	Z	_	22	punct	_	_
-22	War	War	X	Xf		20	appos	_	_
-23	Inc	Inc	X	Xf		22	compound	_	_
+22	War	War	X	Xf	_	20	appos	_	_
+23	Inc	Inc	X	Xf	_	22	compound	_	_
 24	"	"	PUNCT	Z	_	22	punct	_	_
 25	.	.	PUNCT	Z	_	6	punct	_	_
 
@@ -3574,8 +3574,8 @@
 
 # text = Udruženje Pro Democratia (APD), vodeća rumunjska nevladina organizacija za promicanje demokracije koja je, između ostalih, nadzirala izbore u Rumunjskoj, osudila je "manjak etike i profesionalizma koji odlikuje izbornu kampanju za predsjednika".
 1	Udruženje	udruženje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	26	nsubj	_	_
-2	Pro	pro	X	Xf		1	compound	_	_
-3	Democratia	Democratia	X	Xf		1	compound	_	_
+2	Pro	pro	X	Xf	_	1	compound	_	_
+3	Democratia	Democratia	X	Xf	_	1	compound	_	_
 4	(	(	PUNCT	Z	_	5	punct	_	_
 5	APD	APD	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
 6	)	)	PUNCT	Z	_	5	punct	_	_
@@ -4067,7 +4067,7 @@
 13	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
 14	odredili	odrediti	VERB	Vmp-pm	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	11	acl	_	_
 15	UN	UN	PROPN	Npmpn	Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	_
-16	.	.	PUNCT	Z		3	punct	_	_
+16	.	.	PUNCT	Z	_	3	punct	_	_
 
 # text = "Najvažnija su dva standarda: sloboda kretanja i održiv povratak.
 1	"	"	PUNCT	Z	_	2	punct	_	_
@@ -5437,7 +5437,7 @@
 19	slušajući	slušati	ADV	Rr	Tense=Pres|VerbForm=Conv	15	xcomp	_	_
 20	"	"	PUNCT	Z	_	21	punct	_	_
 21	Djelem	Djelem	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	19	obj	_	_
-22	,	,	PUNCT	Z		21	punct	_	_
+22	,	,	PUNCT	Z	_	21	punct	_	_
 23	Djelem	Djelem	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	21	compound	_	_
 24	"	"	PUNCT	Z	_	21	punct	_	_
 25	.	.	PUNCT	Z	_	11	punct	_	_
@@ -5818,7 +5818,7 @@
 15	izgradnju	izgradnja	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	13	nmod	_	_
 16	naftovoda	naftovod	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
 17	Burgas	Burgas	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	16	appos	_	_
-18	-	-	PUNCT	Z		19	punct	_	_
+18	-	-	PUNCT	Z	_	19	punct	_	_
 19	Alexandroupolis	Alexandroupolis	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	17	conj	_	_
 20	.	.	PUNCT	Z	_	3	punct	_	_
 
@@ -5924,7 +5924,7 @@
 8	Sporazuma	sporazum	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
 9	o	o	ADP	Sl	Case=Loc	10	compound	_	_
 10	stabilizaciji	stabilizacija	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	8	compound	_	_
-11	i	i	CCONJ	Cc		10	compound	_	_
+11	i	i	CCONJ	Cc	_	10	compound	_	_
 12	priključenju	priključenje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	10	compound	_	_
 13	između	između	ADP	Sg	Case=Gen	14	compound	_	_
 14	Srbije	Srbija	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	12	compound	_	_
@@ -9230,7 +9230,7 @@
 7	Vojvođanske	vojvođanski	ADJ	Agpfsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	8	compound	_	_
 8	akademije	akademija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
 9	znanosti	znanost	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	8	compound	_	_
-10	i	i	CCONJ	Cc		9	compound	_	_
+10	i	i	CCONJ	Cc	_	9	compound	_	_
 11	umjetnosti	umjetnost	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	9	compound	_	_
 12	.	.	PUNCT	Z	_	4	punct	_	_
 
@@ -9250,7 +9250,7 @@
 4	oružanih	oružan	ADJ	Agpfpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	_
 5	snaga	snaga	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	_
 6	Bosne	Bosna	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
-7	i	i	CCONJ	Cc		6	flat	_	_
+7	i	i	CCONJ	Cc	_	6	flat	_	_
 8	Hercegovine	Hercegovina	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	6	flat	_	_
 9	čine	činiti	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	vodovi	vod	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
@@ -9293,7 +9293,7 @@
 16	Ministarstvo	ministarstvo	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	24	nsubj	_	_
 17	obrane	obrana	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	16	compound	_	_
 18	Bosne	Bosna	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	17	compound	_	_
-19	i	i	CCONJ	Cc		18	compound	_	_
+19	i	i	CCONJ	Cc	_	18	compound	_	_
 20	Hercegovine	Hercegovina	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	18	compound	_	_
 21	(	(	PUNCT	Z	_	22	punct	_	_
 22	BiH	BiH	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	18	parataxis	_	_
@@ -10474,8 +10474,8 @@
 37	.	.	PUNCT	Z	_	7	punct	_	_
 
 # text = Malware Help.
-1	Malware	Malware	X	Xf		2	flat_foreign	_	_
-2	Help	Help	X	Xf		0	root	_	_
+1	Malware	Malware	X	Xf	_	2	flat_foreign	_	_
+2	Help	Help	X	Xf	_	0	root	_	_
 3	.	.	PUNCT	Z	_	2	punct	_	_
 
 # text = Želite li doznati nešto više o raznoraznim opasnostima koje danas vrebaju sve računalne korisnike, a pri tome naučiti i kako se zaštititi, onda je ovo web-stranica koju biste definitivno trebali posjetiti.
@@ -10764,9 +10764,9 @@
 27	.	.	PUNCT	Z	_	1	punct	_	_
 
 # text = R-Tools Technology Inc.
-1	R-Tools	R-Tools	X	Xf		2	flat_foreign	_	_
-2	Technology	Technology	X	Xf		0	root	_	_
-3	Inc	Inc	X	Xf		2	flat_foreign	_	_
+1	R-Tools	R-Tools	X	Xf	_	2	flat_foreign	_	_
+2	Technology	Technology	X	Xf	_	0	root	_	_
+3	Inc	Inc	X	Xf	_	2	flat_foreign	_	_
 4	.	.	PUNCT	Z	_	2	punct	_	_
 
 # text = Ovo je još jedna dobro poznata softverska tvrtka koja se fokusira na izradu programa za spašavanje podataka, pa ako niti jedan program koji iskušate ne uspije vratiti ono što tražite, pokušajte s njihovim R-Studio alatom.
@@ -12224,7 +12224,7 @@
 22	u	u	ADP	Sl	Case=Loc	23	case	_	_
 23	Ministarstvu	ministarstvo	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	13	obl	_	_
 24	zdravstva	zdravstvo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	23	nmod	_	_
-25	i	i	CCONJ	Cc		27	cc	_	_
+25	i	i	CCONJ	Cc	_	27	cc	_	_
 26	socijalne	socijalan	ADJ	Agpfsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	_
 27	skrbi	skrb	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	24	conj	_	_
 28	.	.	PUNCT	Z	_	8	punct	_	_
@@ -13537,7 +13537,7 @@
 4	"	"	PUNCT	Z	_	5	punct	_	_
 5	Delta	Delta	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	3	appos	_	_
 6	4	4	NUM	Mdc	NumType=Card	5	nummod	_	_
-7	Heavy	Heavy	X	Xf		5	compound	_	_
+7	Heavy	Heavy	X	Xf	_	5	compound	_	_
 8	"	"	PUNCT	Z	_	5	punct	_	_
 9	,	,	PUNCT	Z	_	12	punct	_	_
 10	koja	koji	DET	Pi-fsn	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	12	nsubj	_	_
@@ -13678,9 +13678,9 @@
 7	ratnog	ratni	ADJ	Agpnsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
 8	zrakoplovstva	zrakoplovstvo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
 9	'	'	PUNCT	Z	_	10	punct	_	_
-10	Air	Air	X	Xf		8	appos	_	_
-11	and	and	X	Xf		10	compound	_	_
-12	Space	Space	X	Xf		10	compound	_	_
+10	Air	Air	X	Xf	_	8	appos	_	_
+11	and	and	X	Xf	_	10	compound	_	_
+12	Space	Space	X	Xf	_	10	compound	_	_
 13	'	'	PUNCT	Z	_	10	punct	_	_
 14	,	,	PUNCT	Z	_	1	punct	_	_
 15	ravnatelj	ravnatelj	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	23	nsubj	_	_
@@ -13700,7 +13700,7 @@
 29	'	'	PUNCT	Z	_	30	punct	_	_
 30	Delta	delta	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	28	appos	_	_
 31	4	4	NUM	Mdc	NumType=Card	30	nummod	_	_
-32	Heavy	heavy	X	Xf		30	compound	_	_
+32	Heavy	heavy	X	Xf	_	30	compound	_	_
 33	'	'	PUNCT	Z	_	30	punct	_	_
 34	biti	biti	AUX	Van	VerbForm=Inf	35	aux_pass	_	_
 35	lansirana	lansirati	ADJ	Appfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	23	ccomp	_	_
@@ -13746,7 +13746,7 @@
 1	"	"	PUNCT	Z	_	2	punct	_	_
 2	Delta	delta	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
 3	4	4	NUM	Mdc	NumType=Card	2	nummod	_	_
-4	Heavy	Heavy	X	Xf		2	compound	_	_
+4	Heavy	Heavy	X	Xf	_	2	compound	_	_
 5	"	"	PUNCT	Z	_	2	punct	_	_
 6	,	,	PUNCT	Z	_	10	punct	_	_
 7	trenutno	trenutno	ADV	Rgp	Degree=Pos	8	advmod	_	_
@@ -15392,7 +15392,7 @@
 9	Hrvatske	Hrvatska	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
 10	i	i	CCONJ	Cc	_	11	cc	_	_
 11	Bosne	Bosna	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	9	conj	_	_
-12	i	i	CCONJ	Cc		11	flat	_	_
+12	i	i	CCONJ	Cc	_	11	flat	_	_
 13	Hercegovine	Hercegovina	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	11	flat	_	_
 14	,	,	PUNCT	Z	_	18	punct	_	_
 15	a	a	CCONJ	Cc	_	18	cc	_	_
@@ -15404,7 +15404,7 @@
 21	Madžarske	Madžarska	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	19	conj	_	_
 22	te	te	CCONJ	Cc	_	23	cc	_	_
 23	Srbije	Srbija	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	19	conj	_	_
-24	i	i	CCONJ	Cc		26	cc	_	_
+24	i	i	CCONJ	Cc	_	26	cc	_	_
 25	Crne	Crna	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	26	compound	_	_
 26	Gore	Gora	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	23	conj	_	_
 27	.	.	PUNCT	Z	_	4	punct	_	_

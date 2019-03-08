@@ -171,8 +171,8 @@
 # text = Niskobudžetna kompanija Easy Jet počela je sa radom na Kosovu 19. juna.
 1	Niskobudžetna	niskobudžetan	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	_	_	_	_
 2	kompanija	kompanija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
-3	Easy	easy	X	Xf		_	_	_	_
-4	Jet	jet	X	Xf		_	_	_	_
+3	Easy	easy	X	Xf	_	_	_	_	_
+4	Jet	jet	X	Xf	_	_	_	_	_
 5	počela	početi	VERB	Vmp-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	_	_	_	_
 6	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
 7	sa	sa	ADP	Si	Case=Ins	_	_	_	_
@@ -768,7 +768,7 @@
 5	Homen	Homen	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 6	izjavio	izjaviti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	_	_	_	_
 7	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
-8	B92	B92	X	X		_	_	_	_
+8	B92	B92	X	X	_	_	_	_	_
 9	da	da	SCONJ	Cs	_	_	_	_	_
 10	vlasti	vlast	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	_	_	_	_
 11	planiraju	planirati	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
@@ -1580,7 +1580,7 @@
 9	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
 10	Puhalo	Puhalo	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 11	za	za	ADP	Sa	Case=Acc	_	_	_	_
-12	SETimes	SETimes	X	Xf		_	_	_	_
+12	SETimes	SETimes	X	Xf	_	_	_	_	_
 13	.	.	PUNCT	Z	_	_	_	_	_
 
 # text = Mladi ljudi, dodao je on, uglavnom su zainteresovani za pronalaženje posla i unapređenje kvaliteta života.
@@ -1757,7 +1757,7 @@
 14	,	,	PUNCT	Z	_	_	_	_	_
 15	kaže	kazati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
 16	za	za	ADP	Sa	Case=Acc	_	_	_	_
-17	SETimes	SETimes	X	Xf		_	_	_	_
+17	SETimes	SETimes	X	Xf	_	_	_	_	_
 18	analitičarka	analitičarka	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
 19	Tanja	Tanja	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
 20	Topić	Topić	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
@@ -2007,7 +2007,7 @@
 13	portalu	portal	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	_	_	_	_
 14	u	u	ADP	Sl	Case=Loc	_	_	_	_
 15	zemlji	zemlja	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	_	_	_	_
-16	Sarajevo-x.com	Sarajevo-x.com	X	Xf		_	_	_	_
+16	Sarajevo-x.com	Sarajevo-x.com	X	Xf	_	_	_	_	_
 17	.	.	PUNCT	Z	_	_	_	_	_
 
 # text = U međuvremenu, neki političari u BiH koriste blogove da bi potpomogli svoje političke karijere i ciljeve.
@@ -2107,9 +2107,9 @@
 4	Ivana	Ivana	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
 5	Jovanović	Jovanović	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
 6	za	za	ADP	Sa	Case=Acc	_	_	_	_
-7	Southeast	southeast	X	Xf		_	_	_	_
-8	European	european	X	Xf		_	_	_	_
-9	Times	times	X	Xf		_	_	_	_
+7	Southeast	southeast	X	Xf	_	_	_	_	_
+8	European	european	X	Xf	_	_	_	_	_
+9	Times	times	X	Xf	_	_	_	_	_
 10	iz	iz	ADP	Sg	Case=Gen	_	_	_	_
 11	Prištine	Priština	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	_	_	_	_
 12	i	i	CCONJ	Cc	_	_	_	_	_
@@ -2156,7 +2156,7 @@
 15	međunarodni	međunarodni	ADJ	Agpmsayn	Animacy=Inan|Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	_	_	_	_
 16	krizni	krizan	ADJ	Agpmsayn	Animacy=Inan|Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	_	_	_	_
 17	menadžment	menadžment	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	_	_	_	_
-18	i	i	CCONJ	Cc		_	_	_	_
+18	i	i	CCONJ	Cc	_	_	_	_	_
 19	rešavanje	rešavanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	_	_	_	_
 20	konflikta	konflikt	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
 21	--	--	PUNCT	Z	_	_	_	_	_
@@ -2264,7 +2264,7 @@
 37	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
 38	Veliju	Veliju	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 39	za	za	ADP	Sa	Case=Acc	_	_	_	_
-40	SETimes	SETimes	X	Xf		_	_	_	_
+40	SETimes	SETimes	X	Xf	_	_	_	_	_
 41	.	.	PUNCT	Z	_	_	_	_	_
 
 # text = On je objasnio da se glavni zahtevi odnose na jezik, identitet i kulturu.
@@ -2458,7 +2458,7 @@
 53	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
 54	on	on	PRON	Pp3msn	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	_	_	_	_
 55	za	za	ADP	Sa	Case=Acc	_	_	_	_
-56	SETimes	SETimes	X	Xf		_	_	_	_
+56	SETimes	SETimes	X	Xf	_	_	_	_	_
 57	.	.	PUNCT	Z	_	_	_	_	_
 
 # text = Alma Mašić, direktorka Omladinske inicijative za ljudska prava u Sarajevu, istakla je da "samo 3 odsto Roma u Bosni i Hercegovini ima stalan posao.
@@ -2484,7 +2484,7 @@
 20	Roma	Rom	PROPN	Npmpg	Case=Gen|Gender=Masc|Number=Plur	_	_	_	_
 21	u	u	ADP	Sl	Case=Loc	_	_	_	_
 22	Bosni	Bosna	PROPN	Npfsl	Case=Loc|Gender=Fem|Number=Sing	_	_	_	_
-23	i	i	CCONJ	Cc		_	_	_	_
+23	i	i	CCONJ	Cc	_	_	_	_	_
 24	Hercegovini	Hercegovina	PROPN	Npfsl	Case=Loc|Gender=Fem|Number=Sing	_	_	_	_
 25	ima	imati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
 26	stalan	stalan	ADJ	Agpmsann	Animacy=Inan|Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	_	_	_	_
@@ -2515,7 +2515,7 @@
 21	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
 22	ona	on	PRON	Pp3fsn	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	_	_	_	_
 23	za	za	ADP	Sa	Case=Acc	_	_	_	_
-24	SETimes	SETimes	X	Xf		_	_	_	_
+24	SETimes	SETimes	X	Xf	_	_	_	_	_
 25	.	.	PUNCT	Z	_	_	_	_	_
 
 # text = Situacija je drugačija na Kosovu, gde je srpska zajednica postala manjina posle 1999. godine.
@@ -2586,7 +2586,7 @@
 19	Milica	Milica	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
 20	Marković	Marković	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
 21	za	za	ADP	Sa	Case=Acc	_	_	_	_
-22	SETimes	SETimes	X	Xf		_	_	_	_
+22	SETimes	SETimes	X	Xf	_	_	_	_	_
 23	.	.	PUNCT	Z	_	_	_	_	_
 
 # text = Bekim Blakaj, direktor kosovske kancelarije Centra za humanitarno pravo, okrivljuje paralelne srpske institucije.
@@ -2663,7 +2663,7 @@
 25	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
 26	on	on	PRON	Pp3msn	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	_	_	_	_
 27	za	za	ADP	Sa	Case=Acc	_	_	_	_
-28	SETimes	SETimes	X	Xf		_	_	_	_
+28	SETimes	SETimes	X	Xf	_	_	_	_	_
 29	.	.	PUNCT	Z	_	_	_	_	_
 
 # text = U Preševskoj dolini u Srbiji Albanci su manjina.
@@ -2717,7 +2717,7 @@
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
 3	izjavio	izjaviti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	_	_	_	_
 4	za	za	ADP	Sa	Case=Acc	_	_	_	_
-5	SETimes	SETimes	X	Xf		_	_	_	_
+5	SETimes	SETimes	X	Xf	_	_	_	_	_
 6	da	da	SCONJ	Cs	_	_	_	_	_
 7	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
 8	najurgentniji	urgentan	ADJ	Agsmpny	Case=Nom|Definite=Def|Degree=Sup|Gender=Masc|Number=Plur	_	_	_	_
@@ -2843,7 +2843,7 @@
 25	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
 26	on	on	PRON	Pp3msn	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	_	_	_	_
 27	za	za	ADP	Sa	Case=Acc	_	_	_	_
-28	SETimes	SETimes	X	Xf		_	_	_	_
+28	SETimes	SETimes	X	Xf	_	_	_	_	_
 29	.	.	PUNCT	Z	_	_	_	_	_
 
 # text = Marija Šoentaler iz nemačke zajednice u Vojvodini rekla je za SETimes da rešenje leži u članstvu u EU, jer će odgovor na to "ko je ko i šta je ko… u nekom trenutku biti Evropljanin".
@@ -2857,7 +2857,7 @@
 8	rekla	reći	VERB	Vmp-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	_	_	_	_
 9	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
 10	za	za	ADP	Sa	Case=Acc	_	_	_	_
-11	SETimes	SETimes	X	Xf		_	_	_	_
+11	SETimes	SETimes	X	Xf	_	_	_	_	_
 12	da	da	SCONJ	Cs	_	_	_	_	_
 13	rešenje	rešenje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	_	_	_	_
 14	leži	ležati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
@@ -2922,9 +2922,9 @@
 1	Muhamet	Muhamet	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 2	Brajšori	Brajšori	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 3	za	za	ADP	Sa	Case=Acc	_	_	_	_
-4	Southeast	southeast	X	Xf		_	_	_	_
-5	European	european	X	Xf		_	_	_	_
-6	Times	times	X	Xf		_	_	_	_
+4	Southeast	southeast	X	Xf	_	_	_	_	_
+5	European	european	X	Xf	_	_	_	_	_
+6	Times	times	X	Xf	_	_	_	_	_
 7	iz	iz	ADP	Sg	Case=Gen	_	_	_	_
 8	Prištine	Priština	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	_	_	_	_
 9	--	--	PUNCT	Z	_	_	_	_	_
@@ -3264,7 +3264,7 @@
 
 # text = Za SETimes kaže da sporazum znači manje briga oko putovanja..
 1	Za	za	ADP	Sa	Case=Acc	_	_	_	_
-2	SETimes	SETimes	X	Xf		_	_	_	_
+2	SETimes	SETimes	X	Xf	_	_	_	_	_
 3	kaže	kazati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
 4	da	da	SCONJ	Cs	_	_	_	_	_
 5	sporazum	sporazum	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
@@ -3361,7 +3361,7 @@
 8	,	,	PUNCT	Z	_	_	_	_	_
 9	kaže	kazati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
 10	za	za	ADP	Sa	Case=Acc	_	_	_	_
-11	SETimes	SETimes	X	Xf		_	_	_	_
+11	SETimes	SETimes	X	Xf	_	_	_	_	_
 12	da	da	SCONJ	Cs	_	_	_	_	_
 13	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
 14	to	taj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	_	_	_	_
@@ -3506,7 +3506,7 @@
 15	kaže	kazati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
 16	Vanđeli	Vanđeli	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 17	za	za	ADP	Sa	Case=Acc	_	_	_	_
-18	SETimes	SETimes	X	Xf		_	_	_	_
+18	SETimes	SETimes	X	Xf	_	_	_	_	_
 19	.	.	PUNCT	Z	_	_	_	_	_
 
 # text = Očekuje se da će Kosovo potpisati isti sporazum sa Makedonijom i Crnom Gorom, kaže Alber Gaši, stručnjak za evropske integracije iz Prištine.
@@ -3539,7 +3539,7 @@
 # text = On za SETimes kaže da je to u skladu sa sporazumom o slobodi kretanja sa Srbijom.
 1	On	on	PRON	Pp3msn	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	_	_	_	_
 2	za	za	ADP	Sa	Case=Acc	_	_	_	_
-3	SETimes	SETimes	X	Xf		_	_	_	_
+3	SETimes	SETimes	X	Xf	_	_	_	_	_
 4	kaže	kazati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
 5	da	da	SCONJ	Cs	_	_	_	_	_
 6	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
@@ -3626,9 +3626,9 @@
 8	inicijativom	inicijativa	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	_	_	_	_
 9	o	o	ADP	Sl	Case=Loc	_	_	_	_
 10	migracijama	migracija	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	_	_	_	_
-11	,	,	PUNCT	Z		_	_	_	_
+11	,	,	PUNCT	Z	_	_	_	_	_
 12	azilu	azil	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	_	_	_	_
-13	i	i	CCONJ	Cc		_	_	_	_
+13	i	i	CCONJ	Cc	_	_	_	_	_
 14	izbeglicama	izbeglica	NOUN	Ncfpi	Case=Ins|Gender=Fem|Number=Plur	_	_	_	_
 15	,	,	PUNCT	Z	_	_	_	_	_
 16	Albanija	Albanija	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
@@ -3678,7 +3678,7 @@
 6	i	i	CCONJ	Cc	_	_	_	_	_
 7	sa	sa	ADP	Si	Case=Ins	_	_	_	_
 8	Bosnom	Bosna	PROPN	Npfsi	Case=Ins|Gender=Fem|Number=Sing	_	_	_	_
-9	i	i	CCONJ	Cc		_	_	_	_
+9	i	i	CCONJ	Cc	_	_	_	_	_
 10	Hercegovinom	Hercegovina	PROPN	Npfsi	Case=Ins|Gender=Fem|Number=Sing	_	_	_	_
 11	.	.	PUNCT	Z	_	_	_	_	_
 
@@ -3740,7 +3740,7 @@
 1	SARAJEVO	Sarajevo	PROPN	Npnsn	Case=Nom|Gender=Neut|Number=Sing	_	_	_	_
 2	,	,	PUNCT	Z	_	_	_	_	_
 3	Bosna	Bosna	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
-4	i	i	CCONJ	Cc		_	_	_	_
+4	i	i	CCONJ	Cc	_	_	_	_	_
 5	Hercegovina	Hercegovina	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
 6	(	(	PUNCT	Z	_	_	_	_	_
 7	BiH	BiH	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
@@ -4194,8 +4194,8 @@
 13	urednik	urednik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 14	kosovskog	kosovski	ADJ	Agpmsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	_	_	_	_
 15	dnevnika	dnevnik	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
-16	Bota	Bota	X	Xf		_	_	_	_
-17	Sot	Sot	X	Xf		_	_	_	_
+16	Bota	Bota	X	Xf	_	_	_	_	_
+17	Sot	Sot	X	Xf	_	_	_	_	_
 18	,	,	PUNCT	Z	_	_	_	_	_
 19	poznavao	poznavati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	_	_	_	_
 20	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
@@ -4852,25 +4852,25 @@
 21	Vajt	Vajt	PROPN	Npmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	_	_	_	_
 22	Strajps	Strajps	PROPN	Npmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	_	_	_	_
 23	(	(	PUNCT	Z	_	_	_	_	_
-24	White	white	X	Xf		_	_	_	_
-25	Stripes	stripes	X	Xf		_	_	_	_
+24	White	white	X	Xf	_	_	_	_	_
+25	Stripes	stripes	X	Xf	_	_	_	_	_
 26	)	)	PUNCT	Z	_	_	_	_	_
 27	,	,	PUNCT	Z	_	_	_	_	_
 28	Garbidž	Garbidž	PROPN	Npmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	_	_	_	_
 29	(	(	PUNCT	Z	_	_	_	_	_
-30	Garbage	Garbage	X	Xf		_	_	_	_
+30	Garbage	Garbage	X	Xf	_	_	_	_	_
 31	)	)	PUNCT	Z	_	_	_	_	_
 32	,	,	PUNCT	Z	_	_	_	_	_
 33	Ijana	Ijan	PROPN	Npmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	_	_	_	_
 34	Brauna	Braun	PROPN	Npmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	_	_	_	_
 35	(	(	PUNCT	Z	_	_	_	_	_
-36	Ian	Ian	X	Xf		_	_	_	_
-37	Brown	Brown	X	Xf		_	_	_	_
+36	Ian	Ian	X	Xf	_	_	_	_	_
+37	Brown	Brown	X	Xf	_	_	_	_	_
 38	)	)	PUNCT	Z	_	_	_	_	_
 39	i	i	CCONJ	Cc	_	_	_	_	_
 40	Andervorld	Andervorld	PROPN	Npmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	_	_	_	_
 41	(	(	PUNCT	Z	_	_	_	_	_
-42	Underworld	Underworld	X	Xf		_	_	_	_
+42	Underworld	Underworld	X	Xf	_	_	_	_	_
 43	)	)	PUNCT	Z	_	_	_	_	_
 44	.	.	PUNCT	Z	_	_	_	_	_
 
@@ -5031,14 +5031,14 @@
 23	kiša	kiša	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
 24	(	(	PUNCT	Z	_	_	_	_	_
 25	"	"	PUNCT	Z	_	_	_	_	_
-26	I	i	X	Xf		_	_	_	_
-27	'	'	PUNCT	Z		_	_	_	_
-28	m	m	X	Xf		_	_	_	_
-29	Only	only	X	Xf		_	_	_	_
-30	Happy	happy	X	Xf		_	_	_	_
-31	When	when	X	Xf		_	_	_	_
-32	it	it	X	Xf		_	_	_	_
-33	Rains	rains	X	Xf		_	_	_	_
+26	I	i	X	Xf	_	_	_	_	_
+27	'	'	PUNCT	Z	_	_	_	_	_
+28	m	m	X	Xf	_	_	_	_	_
+29	Only	only	X	Xf	_	_	_	_	_
+30	Happy	happy	X	Xf	_	_	_	_	_
+31	When	when	X	Xf	_	_	_	_	_
+32	it	it	X	Xf	_	_	_	_	_
+33	Rains	rains	X	Xf	_	_	_	_	_
 34	)	)	PUNCT	Z	_	_	_	_	_
 35	zajedno	zajedno	ADV	Rgp	Degree=Pos	_	_	_	_
 36	sa	sa	ADP	Si	Case=Ins	_	_	_	_
@@ -5059,42 +5059,42 @@
 7	Vajt	Vajt	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 8	Strajps	Strajps	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 9	(	(	PUNCT	Z	_	_	_	_	_
-10	White	white	X	Xf		_	_	_	_
-11	Stripes	stripes	X	Xf		_	_	_	_
+10	White	white	X	Xf	_	_	_	_	_
+11	Stripes	stripes	X	Xf	_	_	_	_	_
 12	)	)	PUNCT	Z	_	_	_	_	_
 13	,	,	PUNCT	Z	_	_	_	_	_
 14	Andervorld	Andervorld	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 15	(	(	PUNCT	Z	_	_	_	_	_
-16	Underworld	Underworld	X	Xf		_	_	_	_
+16	Underworld	Underworld	X	Xf	_	_	_	_	_
 17	)	)	PUNCT	Z	_	_	_	_	_
 18	,	,	PUNCT	Z	_	_	_	_	_
 19	Fetboj	Fetboj	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 20	Slim	Slim	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 21	(	(	PUNCT	Z	_	_	_	_	_
-22	Fatboy	Fatboy	X	Xf		_	_	_	_
-23	Slim	Slim	X	Xf		_	_	_	_
+22	Fatboy	Fatboy	X	Xf	_	_	_	_	_
+23	Slim	Slim	X	Xf	_	_	_	_	_
 24	)	)	PUNCT	Z	_	_	_	_	_
 25	,	,	PUNCT	Z	_	_	_	_	_
 26	Ijan	Ijan	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 27	Braun	Braun	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 28	(	(	PUNCT	Z	_	_	_	_	_
-29	Ian	Ian	X	Xf		_	_	_	_
-30	Brown	Brown	X	Xf		_	_	_	_
+29	Ian	Ian	X	Xf	_	_	_	_	_
+30	Brown	Brown	X	Xf	_	_	_	_	_
 31	)	)	PUNCT	Z	_	_	_	_	_
 32	,	,	PUNCT	Z	_	_	_	_	_
 33	Garbidž	Garbidž	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 34	(	(	PUNCT	Z	_	_	_	_	_
-35	Garbage	Garbage	X	Xf		_	_	_	_
+35	Garbage	Garbage	X	Xf	_	_	_	_	_
 36	)	)	PUNCT	Z	_	_	_	_	_
 37	,	,	PUNCT	Z	_	_	_	_	_
 38	Slejer	Slejer	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 39	(	(	PUNCT	Z	_	_	_	_	_
-40	Slayer	Slayer	X	Xf		_	_	_	_
+40	Slayer	Slayer	X	Xf	_	_	_	_	_
 41	)	)	PUNCT	Z	_	_	_	_	_
 42	,	,	PUNCT	Z	_	_	_	_	_
 43	Apokaliptika	Apokaliptika	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
 44	(	(	PUNCT	Z	_	_	_	_	_
-45	Apocalyptica	Apocalyptica	X	Xf		_	_	_	_
+45	Apocalyptica	Apocalyptica	X	Xf	_	_	_	_	_
 46	)	)	PUNCT	Z	_	_	_	_	_
 47	,	,	PUNCT	Z	_	_	_	_	_
 48	i	i	CCONJ	Cc	_	_	_	_	_
@@ -5105,17 +5105,17 @@
 53	Karl	Karl	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 54	Koks	Koks	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 55	(	(	PUNCT	Z	_	_	_	_	_
-56	Carl	Carl	X	Xf		_	_	_	_
-57	Cox	Cox	X	Xf		_	_	_	_
+56	Carl	Carl	X	Xf	_	_	_	_	_
+57	Cox	Cox	X	Xf	_	_	_	_	_
 58	)	)	PUNCT	Z	_	_	_	_	_
 59	,	,	PUNCT	Z	_	_	_	_	_
 60	Feliks	Feliks	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
-61	da	da	X	X		_	_	_	_
+61	da	da	X	X	_	_	_	_	_
 62	Hausket	Hausket	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 63	(	(	PUNCT	Z	_	_	_	_	_
-64	Felix	Felix	X	Xf		_	_	_	_
-65	da	da	X	X		_	_	_	_
-66	Housecat	Housecat	X	Xf		_	_	_	_
+64	Felix	Felix	X	Xf	_	_	_	_	_
+65	da	da	X	X	_	_	_	_	_
+66	Housecat	Housecat	X	Xf	_	_	_	_	_
 67	)	)	PUNCT	Z	_	_	_	_	_
 68	i	i	CCONJ	Cc	_	_	_	_	_
 69	bivši	bivši	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	_	_	_	_
@@ -5298,20 +5298,20 @@
 11	Masiv	Masiv	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 12	Atek	Atek	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 13	(	(	PUNCT	Z	_	_	_	_	_
-14	Massive	massive	X	Xf		_	_	_	_
-15	Attack	attack	X	Xf		_	_	_	_
+14	Massive	massive	X	Xf	_	_	_	_	_
+15	Attack	attack	X	Xf	_	_	_	_	_
 16	)	)	PUNCT	Z	_	_	_	_	_
 17	,	,	PUNCT	Z	_	_	_	_	_
 18	Triki	Triki	PROPN	Npmpn	Case=Nom|Gender=Masc|Number=Plur	_	_	_	_
 19	(	(	PUNCT	Z	_	_	_	_	_
-20	Tricky	Tricky	X	Xf		_	_	_	_
+20	Tricky	Tricky	X	Xf	_	_	_	_	_
 21	)	)	PUNCT	Z	_	_	_	_	_
 22	i	i	CCONJ	Cc	_	_	_	_	_
 23	Igi	Igi	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 24	Pop	Pop	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 25	(	(	PUNCT	Z	_	_	_	_	_
-26	Iggy	iggy	X	Xf		_	_	_	_
-27	Pop	pop	X	Xf		_	_	_	_
+26	Iggy	iggy	X	Xf	_	_	_	_	_
+27	Pop	pop	X	Xf	_	_	_	_	_
 28	)	)	PUNCT	Z	_	_	_	_	_
 29	,	,	PUNCT	Z	_	_	_	_	_
 30	kao	kao	SCONJ	Cs	_	_	_	_	_
@@ -5477,11 +5477,11 @@
 24	spasila	spasiti	VERB	Vmp-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	_	_	_	_
 25	svet	svet	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	_	_	_	_
 26	(	(	PUNCT	Z	_	_	_	_	_
-27	I	i	X	Xf		_	_	_	_
-28	Saved	saved	X	Xf		_	_	_	_
-29	the	the	X	Xf		_	_	_	_
-30	World	world	X	Xf		_	_	_	_
-31	Today	today	X	Xf		_	_	_	_
+27	I	i	X	Xf	_	_	_	_	_
+28	Saved	saved	X	Xf	_	_	_	_	_
+29	the	the	X	Xf	_	_	_	_	_
+30	World	world	X	Xf	_	_	_	_	_
+31	Today	today	X	Xf	_	_	_	_	_
 32	)	)	PUNCT	Z	_	_	_	_	_
 33	i	i	CCONJ	Cc	_	_	_	_	_
 34	deklaracija	deklaracija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
@@ -5847,9 +5847,9 @@
 1	Muhamet	Muhamet	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 2	Brajšori	Brajšori	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 3	za	za	ADP	Sa	Case=Acc	_	_	_	_
-4	Southeast	southeast	X	Xf		_	_	_	_
-5	European	european	X	Xf		_	_	_	_
-6	Times	times	X	Xf		_	_	_	_
+4	Southeast	southeast	X	Xf	_	_	_	_	_
+5	European	european	X	Xf	_	_	_	_	_
+6	Times	times	X	Xf	_	_	_	_	_
 7	iz	iz	ADP	Sg	Case=Gen	_	_	_	_
 8	Prištine	Priština	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	_	_	_	_
 9	--	--	PUNCT	Z	_	_	_	_	_
@@ -6389,7 +6389,7 @@
 18	svetsku	svetski	ADJ	Agpfsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	_	_	_	_
 19	poloitiku	politika	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	_	_	_	_
 20	za	za	ADP	Sa	Case=Acc	_	_	_	_
-21	SETimes	SETimes	X	Xf		_	_	_	_
+21	SETimes	SETimes	X	Xf	_	_	_	_	_
 22	.	.	PUNCT	Z	_	_	_	_	_
 
 # text = "Vlada bi volela da je dobila pozitivniji izveštaj, ali on ne treba da posluži kao sredstvo u političkoj borbi.
@@ -6507,7 +6507,7 @@
 
 # text = Bosna i Hercegovina upozorena da je potrebno završiti ključne reforme
 1	Bosna	Bosna	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
-2	i	i	CCONJ	Cc		_	_	_	_
+2	i	i	CCONJ	Cc	_	_	_	_	_
 3	Hercegovina	Hercegovina	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
 4	upozorena	upozoriti	ADJ	Appfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	_	_	_	_
 5	da	da	SCONJ	Cs	_	_	_	_	_
@@ -6533,7 +6533,7 @@
 13	za	za	ADP	Sa	Case=Acc	_	_	_	_
 14	težnje	težnja	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	_	_	_	_
 15	Bosne	Bosna	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	_	_	_	_
-16	i	i	CCONJ	Cc		_	_	_	_
+16	i	i	CCONJ	Cc	_	_	_	_	_
 17	Hercegovine	Hercegovina	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	_	_	_	_
 18	u	u	ADP	Sl	Case=Loc	_	_	_	_
 19	pogledu	pogled	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	_	_	_	_
@@ -6550,7 +6550,7 @@
 
 # text = Bosna i Hercegovina (BiH) mora da završi sprovođenje ključnih reformi, uključujući i sektor odbrane, ako želi da krene putem integracije u NATO i EU, poručili su međunarodni zvaničnici.
 1	Bosna	Bosna	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
-2	i	i	CCONJ	Cc		_	_	_	_
+2	i	i	CCONJ	Cc	_	_	_	_	_
 3	Hercegovina	Hercegovina	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
 4	(	(	PUNCT	Z	_	_	_	_	_
 5	BiH	BiH	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
@@ -7207,9 +7207,9 @@
 1	Jonilda	Jonilda	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
 2	Koči	Koči	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
 3	za	za	ADP	Sa	Case=Acc	_	_	_	_
-4	Southeast	southeast	X	Xf		_	_	_	_
-5	European	european	X	Xf		_	_	_	_
-6	Times	times	X	Xf		_	_	_	_
+4	Southeast	southeast	X	Xf	_	_	_	_	_
+5	European	european	X	Xf	_	_	_	_	_
+6	Times	times	X	Xf	_	_	_	_	_
 7	iz	iz	ADP	Sg	Case=Gen	_	_	_	_
 8	Tirane	Tirana	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	_	_	_	_
 9	3.8.2011.	3.8.2011.	ADJ	Mdo	NumType=Ord	_	_	_	_
@@ -7400,8 +7400,8 @@
 23	privatne	privatan	ADJ	Agpfsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	_	_	_	_
 24	nacionalne	nacionalan	ADJ	Agpfsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	_	_	_	_
 25	televizije	televizija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	_	_	_	_
-26	Top	top	X	Xf		_	_	_	_
-27	čenel	čenel	X	Xf		_	_	_	_
+26	Top	top	X	Xf	_	_	_	_	_
+27	čenel	čenel	X	Xf	_	_	_	_	_
 28	.	.	PUNCT	Z	_	_	_	_	_
 
 # text = Više albanskih arhitekata čvrsto se usprotivilo rušenju piramide, ne zbog njenog kulturnog nasleđa, već zbog toga što kažu da se građevina lako može preurediti da postane parlamentarni kompleks.

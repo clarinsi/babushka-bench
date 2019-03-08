@@ -50,6 +50,8 @@ for doc in root.iter('{http://www.tei-c.org/ns/1.0}ab'):
                 lemma=subelement.text
               upos=subelement.attrib['msd'].split('||')[0].split('|')
               feats='|'.join(upos[1:])
+              if len(feats)==0:
+                feats='_'
               upos=upos[0].split('=')[1]
               tokens.append((subelement.text,lemma,upos,subelement.attrib['ana'].split(':')[1],feats))
         if element.tag[-2:] not in ('pc','}w','}c'):
