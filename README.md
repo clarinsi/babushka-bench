@@ -36,13 +36,24 @@ Will come later when tagging is included?
 | Parser-v3 | 9ee9e8f | CLARIN.SI FT embeddings | reldi-tokeniser | ssj500k | sl | 96.39 |     96.35 |     96.37 |
 | stanfordnlp | 828ef2e | CoNLL17 embeddings | gold | ssj500k | sl | 96.45 |     96.45 |     96.45 |
 | stanfordnlp | 828ef2e | CLARIN.SI FT embeddings | gold | ssj500k | sl |  96.72 |     96.72 |     96.72 |
-| stanfordnlp | 828ef2e | CLARIN.SI W2V embeddings | gold | ssj500k | sl | | | |
+| stanfordnlp | 828ef2e | CLARIN.SI W2V embeddings | gold | ssj500k | sl | 96.79 |     96.79 |     96.79 |
 | reldi-tagger | 994f746 | | gold | hr500k | hr | 91.91 |     91.91 |     91.91 |
 | Parser-v3 | 9ee9e8f | CLARIN.SI FT embeddings | gold | hr500k | hr | 94.29 |     94.29 |     94.29 |
 | Parser-v3 | 9ee9e8f | CLARIN.SI FT embeddings | reldi-tokeniser | hr500k | hr | 93.89 |     93.86 |     93.87 |
+| stanfordnlp | 828ef2e | CoNLL17 embeddings | gold | hr500k | hr | 93.85 |     93.85 |     93.85 |
+| stanfordnlp | 828ef2e | CLARIN.SI FT embeddings | gold | hr500k | hr | 94.90 |     94.90 |     94.90 |
+| stanfordnlp | 828ef2e | CLARIN.SI W2V embeddings | gold | hr500k | hr | 94.18 |     94.18 |     94.18 |
 | reldi-tagger | 994f746 | | gold | SETimes.SR | sr | 92.03 |     92.03 |     92.03 |
 | Parser-v3 | 9ee9e8f | CLARIN.SI FT embeddings | gold | SETimes.SR | sr | 95.12 |     95.12 |     95.12 |
 | Parser-v3 | 9ee9e8f | CLARIN.SI FT embeddings | reldi-tokeniser | SETimes.SR | sr | 95.07 |     95.12 |     95.10 |
+| stanfordnlp | 828ef2e | CoNLL17 (Croatian) embeddings | gold | SETimes.SR | sr | 94.78 |     94.78 |     94.78 |
+| stanfordnlp | 828ef2e | CLARIN.SI FT (Croatian) embeddings| gold | SETimes.SR | sr |     94.69 |     94.69 |     94.69 |
+| stanfordnlp | 828ef2e | CLARIN.SI FT (Serbian) embeddings | gold | SETimes.SR | sr |  95.23 |     95.23 |     95.23 |
+| stanfordnlp | 828ef2e | CLARIN.SI W2V (Serbian) embeddings | gold | SETimes.SR | sr | 94.91 |     94.91 |     94.91 |
 
-## Lemmatization
+### Lemmatization
 
+| tool | revision | comment | preprocessing | dataset | language | P | R | F1 |
+| stanfordnlp | 828ef2e | | gold | ssj500k | sl | 97.75 |     97.75 |     97.75 |
+| stanfordnlp | 828ef2e | | gold | hr500k | hr | 96.22 |     96.22 |     96.22 |
+| stanfordnlp | 828ef2e | | gold | SETimes.SR | sr | 95.29 |     95.29 |     95.29 |
