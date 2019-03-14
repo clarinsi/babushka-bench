@@ -54,6 +54,7 @@ Will come later when tagging is included?
 ### Lemmatization
 
 | tool | revision | comment | preprocessing | dataset | language | P | R | F1 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | stanfordnlp | 828ef2e | | gold | ssj500k | sl | 97.75 |     97.75 |     97.75 |
 | stanfordnlp | 828ef2e | | gold | hr500k | hr | 96.22 |     96.22 |     96.22 |
 | stanfordnlp | 828ef2e | | gold | SETimes.SR | sr | 95.29 |     95.29 |     95.29 |
