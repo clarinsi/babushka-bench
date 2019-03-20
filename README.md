@@ -41,7 +41,7 @@ Will come later when tagging is included?
 | Parser-v3 | 9ee9e8f | CLARIN.SI FT embeddings | gold | hr500k | hr | 94.29 |     94.29 |     94.29 |
 | Parser-v3 | 9ee9e8f | CLARIN.SI FT embeddings | reldi-tokeniser | hr500k | hr | 93.89 |     93.86 |     93.87 |
 | stanfordnlp | 828ef2e | CoNLL17 embeddings | gold | hr500k | hr | 93.85 |     93.85 |     93.85 |
-| stanfordnlp | 828ef2e | CLARIN.SI FT embeddings | gold | hr500k | hr | 94.90 |     94.90 |     94.90 |
+| stanfordnlp | 828ef2e | CLARIN.SI FT embeddings | gold | hr500k | hr | 94.13 |     94.13 |     94.13 |
 | stanfordnlp | 828ef2e | CLARIN.SI W2V embeddings | gold | hr500k | hr | 94.18 |     94.18 |     94.18 |
 | reldi-tagger | 994f746 | | gold | SETimes.SR | sr | 92.03 |     92.03 |     92.03 |
 | Parser-v3 | 9ee9e8f | CLARIN.SI FT embeddings | gold | SETimes.SR | sr | 95.12 |     95.12 |     95.12 |
