@@ -60,5 +60,9 @@ Will come later when tagging is included?
 | reldi-tagger | 994f746 | | gold | ssj500k | sl | 99.46 |     99.46 |     99.46 |
 | stanfordnlp | 828ef2e | | gold | ssj500k | sl | 97.75 |     97.75 |     97.75 |
 | stanfordnlp+lex | 828ef2e | | gold | ssj500k | sl | 99.30 |     99.30 |     99.30 |
+| reldi-tagger | 994f746 | | gold | hr500k | hr |98.17 |     98.17 |     98.17 |
 | stanfordnlp | 828ef2e | | gold | hr500k | hr | 96.22 |     96.22 |     96.22 |
+| stanfordnlp+lex | 828ef2e | | gold | hr500k | hr | 98.11 |     98.11 |     98.11 |
+| reldi-tagger | 994f746 | | gold | SETimes.SR | sr | 97.89 |     97.89 |     97.89 |
 | stanfordnlp | 828ef2e | | gold | SETimes.SR | sr | 95.29 |     95.29 |     95.29 |
+| stanfordnlp+lex | 828ef2e | | gold | SETimes.SR | sr | 97.78 |     97.78 |     97.78 |
