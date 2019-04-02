@@ -58,11 +58,23 @@ Will come later when tagging is included?
 | tool | revision | comment | preprocessing | dataset | language | P | R | F1 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | reldi-tagger | 994f746 | | gold | ssj500k | sl | 99.46 |     99.46 |     99.46 |
+| reldi-tagger | 994f746 | | gold segmentation, reldi-tagger | ssj500k | sl | 98.35 |     98.35 |     98.35 |
+| reldi-tagger | 994f746 | | gold segmentation, stanfordnlp | ssj500k | sl | 98.77 |     98.77 |     98.77 |
 | stanfordnlp | 828ef2e | | gold | ssj500k | sl | 97.75 |     97.75 |     97.75 |
+| stanfordnlp | 828ef2e | | gold segmentation, stanfordnlp | ssj500k | sl | 97.51 |     97.51 |     97.51 |
 | stanfordnlp+lex | 828ef2e | | gold | ssj500k | sl | 99.30 |     99.30 |     99.30 |
+| stanfordnlp+lex | 828ef2e | | gold segmentation, stanfordnlp | ssj500k | sl | 98.74 |     98.74 |     98.74 |
 | reldi-tagger | 994f746 | | gold | hr500k | hr |98.17 |     98.17 |     98.17 |
+| reldi-tagger | 994f746 | | gold segmentaton, reldi-tagger | hr500k | hr | 96.82 |     96.82 |     96.82 |
+| reldi-tagger | 994f746 | | gold segmentation, stanfordnlp | hr500k | hr | 97.22 |     97.22 |     97.22 |
 | stanfordnlp | 828ef2e | | gold | hr500k | hr | 96.22 |     96.22 |     96.22 |
+| stanfordnlp | 828ef2e | | gold segmentation, stanfordnlp | hr500k | hr | 95.85 |     95.85 |     95.85 |
 | stanfordnlp+lex | 828ef2e | | gold | hr500k | hr | 98.11 |     98.11 |     98.11 |
+| stanfordnlp+lex | 828ef2e | | gold segmentation, stanfordnlp | hr500k | hr | 97.22 |     97.22 |     97.22 |
 | reldi-tagger | 994f746 | | gold | SETimes.SR | sr | 97.89 |     97.89 |     97.89 |
+| reldi-tagger | 994f746 | | gold segmentation, reldi-tagger | SETimes.SR | sr | 96.44 |     96.44 |     96.44 |
+| reldi-tagger | 994f746 | | gold segmentation, stanfordnlp | SETimes.SR | sr | 97.26 |     97.26 |     97.26 |
 | stanfordnlp | 828ef2e | | gold | SETimes.SR | sr | 95.29 |     95.29 |     95.29 |
+| stanfordnlp | 828ef2e | | gold segmentation, stanfordnlp | SETimes.SR | sr | 95.18 |     95.18 |     95.18 |
 | stanfordnlp+lex | 828ef2e | | gold | SETimes.SR | sr | 97.78 |     97.78 |     97.78 |
+| stanfordnlp+lex | 828ef2e | | gold segmentation, stanfordnlp | SETimes.SR |  97.13 |     97.13 |     97.13 
