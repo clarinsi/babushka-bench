@@ -32,6 +32,7 @@ Will come later when tagging is included?
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | reldi-tagger | 994f746 | | gold | ssj500k | sl | 94.21 |     94.21 |     94.21 |
 | Obeliks | | | gold | ssj500k | sl | 92.67 |     92.67 |     92.67 |
+| meta-tagger | | | gold | ssj500k | sl | 94.34 | 94.34 | 94.34 |
 | Parser-v3 | 9ee9e8f | CLARIN.SI FT embeddings | gold | ssj500k | sl | 96.58 |     96.58 |     96.58 |
 | Parser-v3 | 9ee9e8f | CLARIN.SI FT embeddings | Obeliks4J | ssj500k | sl | 96.56 |     96.55 |     96.56 |
 | Parser-v3 | 9ee9e8f | CLARIN.SI FT embeddings | reldi-tokeniser | ssj500k | sl | 96.39 |     96.35 |     96.37 |
@@ -62,6 +63,7 @@ Will come later when tagging is included?
 | reldi-tagger | 994f746 | | gold segmentation, reldi-tagger | ssj500k | sl | 98.35 |     98.35 |     98.35 |
 | reldi-tagger | 994f746 | | gold segmentation, stanfordnlp | ssj500k | sl | 98.77 |     98.77 |     98.77 |
 | Obeliks | | | gold segmentation, Obeliks | ssj500k | sl | 98.19 |     98.19 |     98.19 |
+| meta-tagger | | | gold segmentation, meta-tagger | ssj500k | sl | 98.66 |     98.66 |     98.66 |
 | stanfordnlp | 828ef2e | | gold | ssj500k | sl | 97.75 |     97.75 |     97.75 |
 | stanfordnlp | 828ef2e | | gold segmentation, stanfordnlp | ssj500k | sl | 97.51 |     97.51 |     97.51 |
 | stanfordnlp+lex | 828ef2e | | gold | ssj500k | sl | 99.30 |     99.30 |     99.30 |
