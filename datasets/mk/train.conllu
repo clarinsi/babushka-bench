@@ -1,0 +1,1172 @@
+# sent_id = set-s1979
+# text = Судските процеси против осомничените се очекува да започнат во средината од септември.
+1	Судските	суд	ADJ	Agpmsyd	Degree=Pos|Gender=Masc|Number=Plur|Definite=Def|Distance=Dist	_	_	_	_
+2	процеси	процес	NOUN	Ncmpnn	Case=Nom|Gender=Masc|Number=Plur|Definite=Ind	_	_	_	_
+3	против	против	Adp	P	Type=Prep	_	_	_	_
+4	осомничените	сомнева	NOUN	Ncmpnyd	Case=Nom|Gender=Masc|Number=Plur|Definite=Def	_	_	_	_
+5	се	сум	AUX	Vap3pnan	Tense=Pres|Person=3|Number=Plur|Gender=Neut|Voice=Act|Polarity=Pos	_	_	_	_
+6	очекува	чека	VERB	Vmp3snpn	 Tense=Pres|Person=3|Number=Sing|Gender=Neut|Voice=Pass|Polarity=Pos	_	_	_	_
+7	да	да	PART	Css		_	_	_	_
+8	започнат	почне	VERB	Vmp3snanp	Tense=Pres|Person=3|Number=Sing|Gender=Neut|Voice=Act|Polarity=Pos|Aspect=Prog	_	_	_	_
+9	во	во	Adp	Sps	Type=Prep	_	_	_	_
+10	средината	средина	NOUN	Ncfsnyd	Gender=Fem|Number=Sing|Case=Nom|Definite=Def|Distance=Dist	_	_	_	_
+11	од	од	Adp	Css	Type=Prep	_	_	_	_
+12	септември	септември	NOUN	Ncmsnn	Gender=Masc|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+13	.	.	PUNCT	Z	_	_	_	_	_
+
+# sent_id = set-s3669
+# text = Но, во РС Министерството за трговија тврди дека сé уште нема добиено никакво официјално известување од Сараево и дека за оваа идеја знае само од медиумите.
+1	Но	но	CCONJ	Ccs	_	_	_	_	_
+2	,	,	PUNCT	Z	_	_	_	_	_
+3	во	во	Adp	Sps	Type=Prep	_	_	_	_
+4	РС	РС	PROPN	Npfsnn	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+5	Министерството	министерство	NOUN	Ncnsnyd	Gender=Neut|Number=Sing|Case=Nom|Definite=Def|Distance=Dist	_	_	_	_
+6	за	за	SCONJ	Css	_	_	_	_	_
+7	трговија	трговија	NOUN	Ncfsnn	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+8	тврди	тврди	VERB	Vmp3snan	Tense=Pres|Person=3|Number=Sing|Gender=Neut|Voice=Act|Polarity=Pos|Aspect=Prog	_	_	_	_
+9	дека	дека	SCONJ	Css	_	_	_	_	_
+10	сé	сé	ADV	Rge	Degree=Ela	_	_	_	_
+11	уште	уште	ADV	Rge	Degree=Ela	_	_	_	_
+12	нема	нема	VERB	Vmp3snay	Tense=Pres|Person=3|Number=Sing|Gender=Neut|Voice=Act|Polarity=Neg	_	_	_	_
+13	добиено	добие	VERB	Vmi3snpn	Tense=Imp|Person=3|Number=Sing|Gender=Neut|Voice=passive|Polarity=Pos	_	_	_	_
+14	никакво	никакво	ADJ	Agpnsn	Degree=Pos|Gender=Neut|Number=Sing|Definite=Ind	_	_	_	_
+15	официјално	официјален	ADJ	Agpnsn	Degree=Pos|Gender=Neut|Number=Sing|Definite=Ind	_	_	_	_
+16	известување	известува	NOUN	Ncnsnn	Gender=Neut|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+17	од	од	Adp	Css	Type=Prep	_	_	_	_
+18	Сараево	Сараево	PROPN	Npnsnn	Gender=Neut|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+19	и	и	CCONJ	Css	_	_	_	_	_
+20	дека	дека	SCONJ	Css	_	_	_	_	_
+21	за	за	SCONJ	Css	_	_	_	_	_
+22	оваа	оваа	PRON	Pd3fsn	Case=Nom|Person=3|Gender=Fem|Number=Sing|PronType=Dem	_	_	_	_
+23	идеја	идеја	NOUN	Ncfsnn	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+24	знае	знае	VERB	Vmp3snan	Tense=Pres|Person=3|Number=Sing|Gender=Neut|Voice=Act|Polarity=Pos|Aspect=Prog	_	_	_	_
+25	само	само	ADV	Rge	Degree=Ela	_	_	_	_
+26	од	од	Adp	Css	Type=Prep	_	_	_	_
+27	медиумите	медиум	NOUN	Ncmpnyd	Case=Nom|Gender=Masc|Number=Plur|Definite=Def	_	_	_	_
+28	.	.	PUNCT	Z	_	_	_	_	_
+
+# sent_id = set-s3484
+# text = Друга мерка која би можела да ги стимулира инвестициите е новиот закон за хипотека, која значително ги проширува рамките на видовите недвижен имот кој може да се стави под хипотека и значително ја скратува временската рамка за негова продажба, вели Париводиќ.
+1	Друга	Друг	ADJ	Agpfsn	Degree=Pos|Gender=Fem|Number=Sing|Definite=Ind	_	_	_	_
+2	мерка	мерка	NOUN	Ncfsnn	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+3	која	која	PRON	Pr3fsn	Person=3|Gender=Fem|Number=Sing|Case=Nom|PronType=Rel	_	_	_	_
+4	би	би	PART	Qs	_	_	_	_	_
+5	можела	може	MOD	Vmpsfap	Mood=Part|Number=Sing|Gender=Fem|Voice=Act|Aspect=Perf	_	_	_	_
+6	да	да	PART	Css		_	_	_	_
+7	ги	ги	PRON	Pp3pay	PronType=Prsl|Person=3|Number=Plur|Case=Acc|Clitic=yes	_	_	_	_
+8	стимулира	стимулира	VERB	Vmip3sn	Tense=Pres|Mood=Ind|Person=3|Number=Sing|Polarity=Pos	_	_	_	_
+9	инвестициите	инвестициja	NOUN	Ncfsnyd	Gender=Fem|Number=Plur|Case=Nom|Definite=Def|Distance=Dist	_	_	_	_
+10	е	сум	AUX	Vap3snan	Tense=Pres|Person=3|Number=Sing|Gender=Neut|Voice=Act|Polarity=Pos	_	_	_	_
+11	новиот	нов	ADJ	Agpnsyd	Degree=Pos|Gender=Neut|Number=Sing|Definite=Def|Distance=Dist	_	_	_	_
+12	закон	закон	NOUN	Ncmsnn	Gender=Masc|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+13	за	за	SCONJ	Css	_	_	_	_	_
+14	хипотека	хипотека	NOUN	Ncfsnn	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+15	,	,	PUNCT	Z	_	_	_	_	_
+16	која	која	PRON	Pr3fsn	Person=3|Gender=Fem|Number=Sing|Case=Nom|PronType=Rel	_	_	_	_
+17	значително	значително	ADJ	Agpnsn	Degree=Pos|Gender=Neut|Number=Sing|Definite=Ind	_	_	_	_
+18	ги	ги	PRON	Pp3pay	PronType=Prsl|Person=3|Number=Plur|Case=Acc|Clitic=yes	_	_	_	_
+19	проширува	шири	VERB	Vmp3snanp	Tense=Pres|Person=3|Number=Sing|Gender=Neut|Voice=Act|Polarity=Pos|Aspect=Prog	_	_	_	_
+20	рамките	рамки	NOUN	Ncfpnyd	Gender=Fem|Number=Plur|Case=Nom|Definite=Def|Distance=Dist	_	_	_	_
+21	на	на	Adp	Sps	Type=Prep	_	_	_	_
+22	видовите	вид	NOUN	Ncmpnyd	Case=Nom|Gender=Masc|Number=Plur|Definite=Def	_	_	_	_
+23	недвижен	движи	ADJ	Agpmsn	Degree=Pos|Gender=Masc|Number=Sing|Definite=Ind	_	_	_	_
+24	имот	имот	NOUN	Ncmsnn	Gender=Masc|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+25	кој	кој	PRON	Pr3msn	Person=3|Gender=Masc|Number=Sing|Case=Nom|PronType=Rel	_	_	_	_
+26	може	може	MOD	Vmpsna	Mood=Part|Number=Sing|Gender=Neut|Voice=Act	_	_	_	_
+27	да	да	PART	Css		_	_	_	_
+28	се	се	AUX	Vap3pnan	Tense=Pres|Person=3|Number=Plur|Gender=Neut|Voice=Act|Polarity=Pos	_	_	_	_
+29	стави	ставa	VERB	Vmi3snpn	Tense=Imp|Person=3|Number=Sing|Gender=Neut|Voice=passive|Polarity=Pos	_	_	_	_
+30	под	под	Adp	Sps	Type=Prep	_	_	_	_
+31	хипотека	хипотека	NOUN	Ncfsnn	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+32	и	и	CCONJ	Ccs	_	_	_	_	_
+33	значително	значително	ADJ	Agpnsn	Degree=Pos|Gender=Neut|Number=Sing|Definite=Ind	_	_	_	_
+34	ја	ја	PRON	Pp3fsay	Person=3|Gender=Fem|Number=Sing|Case=Acc|Clitic=yes|PronType=Prs	_	_	_	_
+35	скратува	крати	VERB	Vmi3snan	Tense=Imp|Person=3|Number=Sing|Gender=Neut|Voice=Act|Polarity=Pos	_	_	_	_
+36	временската	време	ADJ	Agpfsyd	Degree=Pos|Gender=Fem|Number=Sing|Definite=Def|Distance=Dist	_	_	_	_
+37	рамка	рамка	NOUN	Ncfsnn	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+38	за	за	SCONJ	Css	_	_	_	_	_
+39	негова	негова	PRON	Ppfssmn	Gender=Fem|Number=Sing|Number[psor]=Sing|Gender[psor]=Masc|Definite=Ind|Poss=Yes	_	_	_	_
+40	продажба	продажба	NOUN	Ncfsnn	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+41	,	,	PUNCT	Z	_	_	_	_	_
+42	вели	вели	VERB	Vmi3snn	Tense=Imp|Person=3|Number=Sing|Gender=Neut|Polarity=Pos	_	_	_	_
+43	Париводиќ	Париводиќ	PROPN	Npmsnn	Gender=Masc|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+44	.	.	PUNCT	Z	_	_	_	_	_
+
+# sent_id = set-s2181
+# text = Во придружба на Бајден на состаноците со трипартитното претседателство на БиХ и со други високи функционери во Сараево, беше шефот за надворешна политика на ЕУ, Хавиер Солана, и високиот претставник и специјален претставник на ЕУ, Валентин Инзко.
+1	Во	Во	Adp	Sps	Type=Prep	_	_	_	_
+2	придружба	дружи	NOUN	Ncfsnn	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+3	на	на	Adp	Sps	Type=Prep	_	_	_	_
+4	Бајден	Бајден	PROPN	Npmsnn	Gender=Masc|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+5	на	на	Adp	Sps	Type=Prep	_	_	_	_
+6	состаноците	состанок	NOUN	Ncmpnn	Gender=Masc|Number=Plur|Case=Nom|Definite=Ind	_	_	_	_
+7	со	со	Adp	Sps	Type=Prep	_	_	_	_
+8	трипартитното	партија	ADJ	Agpfsn	Degree=Pos|Gender=Fem|Number=Sing|Definite=Ind	_	_	_	_
+9	претседателство	претседател	NOUN	Ncnsnn	Gender=Neut|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+10	на	на	Adp	Sps	Type=Prep	_	_	_	_
+11	БиХ	БиХ	PROPN	Npnsnn	Gender=Neut|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+12	и	и	CCONJ	Ccs	_	_	_	_	_
+13	со	со	Adp	Sps	Type=Prep	_	_	_	_
+14	други	друг	ADJ	Agpmpn	Degree=Pos|Gender=Masc|Number=Plur|Definite=Ind	_	_	_	_
+15	високи	висок	ADJ	Agpmpn	Degree=Pos|Gender=Masc|Number=Plur|Definite=Ind	_	_	_	_
+16	функционери	функционер	NOUN	Ncmpnn	Gender=Masc|Number=Plur|Case=Nom|Definite=Ind	_	_	_	_
+17	во	во	Adp	Sps	Type=Prep	_	_	_	_
+18	Сараево	Сараево	PROPN	Npnsnn	Gender=Neut|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+19	,	,	PUNCT	Z	_	_	_	_	_
+20	беше	сум	AUX	Vap3snan	Tense=Pres|Person=3|Number=Sing|Gender=Neut|Voice=Act|Polarity=Pos	_	_	_	_
+21	шефот	шеф	NOUN	Ncmsnyd	Gender=Masc|Number=Sing|Case=Nom|Definite=Def|Distance=Dist	_	_	_	_
+22	за	за	Adp	Sps	Type=Prep	_	_	_	_
+23	надворешна	надвор	ADJ	Agpfsn	Degree=Pos|Gender=Fem|Number=Sing|Definite=Ind	_	_	_	_
+24	политика	политика	NOUN	Ncfsnn	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+25	на	на	Adp	Sps	Type=Prep	_	_	_	_
+26	ЕУ	ЕУ	PROPN	Npnsnn	Gender=Neut|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+27	,	,	PUNCT	Z	_	_	_	_	_
+28	Хавиер	Хавиер	PROPN	Npmsnn	Gender=Masc|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+29	Солана	Солана	PROPN	Npmsnn	Gender=Masc|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+30	,	,	PUNCT	Z	_	_	_	_	_
+31	и	и	CCONJ	Ccs	_	_	_	_	_
+32	високиот	висок	ADJ	Agpmsyd	Degree=Pos|Gender=Masc|Number=Sing|Definite=Def|Distance=Dist	_	_	_	_
+33	претставник	претставник	NOUN	Ncmsnn	Gender=Masc|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+34	и	и	CCONJ	Ccs	_	_	_	_	_
+35	специјален	специјален	ADJ	Agpmsn	Degree=Pos|Gender=Masc|Number=Sing|Definite=Ind	_	_	_	_
+36	претставник	претставник	NOUN	Ncmsnn	Gender=Masc|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+37	на	на	Adp	Sps	Type=Prep	_	_	_	_
+38	ЕУ	ЕУ	PROPN	Npnsnn	Gender=Neut|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+39	,	,	PUNCT	Z	_	_	_	_	_
+40	Валентин	Валентин	PROPN	Npmsnn	Gender=Masc|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+41	Инзко	Инзко	PROPN	Npmsnn	Gender=Masc|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+42	.	.	PUNCT	Z	_	_	_	_	_
+
+# sent_id = set-s789
+# text = Другас верува дека целта на нападот од четвртокот била да покаже дека групата не е поразена.
+1	Другас	Другас	PROPN	Npmsnn	Gender=Masc|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+2	верува	верува	VERB	Vmp3snan	Tense=Pres|Person=3|Number=Sing|Gender=Neut|Voice=Act|Polarity=Pos|Aspect=Prog	_	_	_	_
+3	дека	дека	SCONJ	Css	_	_	_	_	_
+4	целта	цел	NOUN	Ncfsnn	Gender=Fem|Number=Sing|Case=Nom|Definite=Def|Distance=Dist	_	_	_	_
+5	на	на	Adp	Sps	Type=Prep	_	_	_	_
+6	нападот	напад	NOUN	Ncmsnyd	Gender=Masc|Number=Sing|Case=Nom|Definite=Def|Distance=Dist	_	_	_	_
+7	од	од	Adp	Css	Type=Prep	_	_	_	_
+8	четвртокот	четврток	NOUN	Ncmsnyd	Gender=Masc|Number=Sing|Case=Nom|Definite=Def|Distance=Dist	_	_	_	_
+9	била	сум	AUX	Vap3snan	Tense=Pres|Person=3|Number=Sing|Gender=Neut|Voice=Act|Polarity=Pos	_	_	_	_
+10	да	да	PART	Css		_	_	_	_
+11	покаже	покаже	VERB	Vmp3snan	Tense=Pres|Person=3|Number=Sing|Gender=Neut|Voice=Act|Polarity=Pos|Aspect=Prog	_	_	_	_
+12	дека	дека	SCONJ	Css	_	_	_	_	_
+13	групата	група	NOUN	Ncfsnyd	Gender=Fem|Number=Sing|Case=Nom|Definite=Def|Distance=Dist	_	_	_	_
+14	не	не	PART	Q-s		_	_	_	_
+15	е	сум	AUX	Vap3snan	Tense=Pres|Person=3|Number=Sing|Gender=Neut|Voice=Act|Polarity=Pos	_	_	_	_
+16	поразена	поразена	VERB	Vmip3sfn	Mood=Ind|Tense=Pres|Person=3|Number=Sing|Gender=Fem|Polarity=Pos	_	_	_	_
+17	.	.		Z		_	_	_	_
+
+# sent_id = set-s317
+# text = Договорите беа, исто така, различно примени од страна на косовските Срби.
+1	Договорите	договор	NOUN	Ncmpnyd	Case=Nom|Gender=Masc|Number=Plur|Definite=Def	_	_	_	_
+2	беа	сум	AUX	Vap3pnan	Tense=Past|Person=3|Number=Plur|Gender=Neut|Voice=Act|Polarity=Pos	_	_	_	_
+3	,	,	PUNCT	Z	_	_	_	_	_
+4	исто	исто	ADV	Rgp	Degree=Pos	_	_	_	_
+5	така	така	ADV	Rgp	Degree=Pos	_	_	_	_
+6	,	,	PUNCT	Z	_	_	_	_	_
+7	различно	различен	ADV	Rgp	Degree=Pos	_	_	_	_
+8	примени	примени	VERB	Vmp3pnpn	Tense=Pres|Person=3|Number=Plur|Gender=Neut|Voice=Pass|Polarity=Pos	_	_	_	_
+9	од	од	Adp	Css	Type=Prep	_	_	_	_
+10	страна	страна	NOUN	Ncfsnn	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+11	на	на	Adp	Sps	Type=Prep	_	_	_	_
+12	косовските	Косово	ADJ	Agpmpyd	Degree=Pos|Gender=Masc|Number=Plur|Definite=Def|Distance=Dist	_	_	_	_
+13	Срби	Србија	PROPN	Npfpnn	Gender=Fem|Number=Plur|Case=Nom|Definite=Ind	_	_	_	_
+14	.	.	PUNCT	Z	_	_	_	_	_
+
+# sent_id = set-s229
+# text = Сепак, тој во интервјуто од вторникот призна дека тоа нема да е лесна задача и ќе бара многу напорна работа.
+1	Сепак	сепак	CCONJ	Ccs	_	_	_	_	_
+2	,	,	PUNCT	Z	_	_	_	_	_
+3	тој	тој	PRON	Pp3msn	PronType=Prsl|Gender=Masc|Person=3|Number=Sing|Case=Nom	_	_	_	_
+4	во	во	Adp	Sps	Type=Prep	_	_	_	_
+5	интервјуто	интервју	NOUN	Ncmsnn	Gender=Masc|Number=Sing|Case=Nom|Definite=Def|Distance=Dist	_	_	_	_
+6	од	од	Adp	Css	Type=Prep	_	_	_	_
+7	вторникот	вторник	NOUN	Ncmsnyd	Gender=Masc|Number=Sing|Case=Nom|Definite=Def|Distance=Dist	_	_	_	_
+8	призна	признава	VERB	Vmia3s	Mood=Ind|Tense=Past|Person=3|Number=Sing	_	_	_	_
+9	дека	дека	SCONJ	Css	_	_	_	_	_
+10	тоа	тоа	PRON	Pp3nsn	PronType=Prsl|Gender=Neut|Person=3|Number=Sing|Case=Nom	_	_	_	_
+11	нема	нема	VERB	Vaip1syp	Mood=Ind|Tense=Pres|Person=3|Number=Sing	_	_	_	_
+12	да	да	PART	Css		_	_	_	_
+13	е	сум	AUX	Vap3snan	Tense=Pres|Person=3|Number=Sing|Gender=Neut|Voice=Act|Polarity=Pos	_	_	_	_
+14	лесна	лесно	ADJ	Agpfsn	Degree=Pos|Gender=Fem|Number=Sing|Definite=Ind	_	_	_	_
+15	задача	задача	NOUN	Ncfsnn	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+16	и	и	CCONJ	Ccs	_	_	_	_	_
+17	ќе	ќе	PART	Q-s		_	_	_	_
+18	бара	бара	VERB	Vmip3s	Mood=Ind|Tense=Pres|Person=3|Number=Sing	_	_	_	_
+19	многу	многу	ADV	Rgp	Degree=Pos	_	_	_	_
+20	напорна	напорно	ADJ	Agpfsn	Degree=Pos|Gender=Fem|Number=Sing|Definite=Ind	_	_	_	_
+21	работа	работа	NOUN	Ncfsnn	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+22	.	.	PUNCT	Z	_	_	_	_	_
+
+# sent_id = set-s452
+# text = Клучните договори потпишани за време на дводневниот самит на НАТО во Истанбул вклучуваат одлука за започнуваое на програма за обука на ирачките безбедносни сили и решеност за унапредуваое на нивоата на војниците во Авганистан.
+1	Клучните	клучен	ADJ	Agpmpyd	Degree=Pos|Gender=Masc|Number=Plur|Definite=Def|Distance=Dist	_	_	_	_
+2	договори	договор	NOUN	Ncmpnn	Case=Nom|Gender=Masc|Number=Sing|Definite=Ind	_	_	_	_
+3	потпишани	пишува	VERB	Vmpa3pmnp	Mood=Part|Tense=Past|Person=3|Number=Plur|Gender=Masc|Polarity=Pos|Aspect=Perf	_	_	_	_
+4	за	за	SCONJ	Css	_	_	_	_	_
+5	време	време	NOUN	Ncfsnn	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+6	на	на	Adp	Sps	Type=Prep	_	_	_	_
+7	дводневниот	дводневен	ADJ	Agpmsn	Degree=Pos|Gender=Masc|Number=Sing|Definite=Def|Distance=Dist	_	_	_	_
+8	самит	самит	NOUN	Ncmsnn	Gender=Masc|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+9	на	на	Adp	Sps	Type=Prep	_	_	_	_
+10	НАТО	НАТО	PROPN	Npnsnn	Gender=Neut|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+11	во	во	Adp	Sps	Type=Prep	_	_	_	_
+12	Истанбул	Истанбул	PROPN	Npmsnn	Gender=Masc|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+13	вклучуваат	вклучи	VERB	Vmp3pmnp	Tense=Pres|Person=3|Number=Plur|Gender=Masc|Polarity=Pos|Aspect=Prog	_	_	_	_
+14	одлука	одлука	NOUN	Ncfsnn	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+15	за	за	SCONJ	Css	_	_	_	_	_
+16	започнуваое	почне	NOUN	Ncfsnn	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+17	на	на	Adp	Sps	Type=Prep	_	_	_	_
+18	програма	програма	NOUN	Ncfsnn	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+19	за	за	SCONJ	Css	_	_	_	_	_
+20	обука	обука	NOUN	Ncfsnn	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+21	на	на	Adp	Sps	Type=Prep	_	_	_	_
+22	ирачките	Ирак	PROPN	Npmsnn	Gender=Masc|Number=Sing|Case=Nom|Definite=Def|Distance=Dist	_	_	_	_
+23	безбедносни	безбедност	ADJ	Agpfpn	Degree=Pos|Gender=Fem|Number=Plur|Definite=Ind	_	_	_	_
+24	сили	силa	NOUN	Ncfpnn	Gender=Fem|Number=Plur|Case=Nom|Definite=Ind	_	_	_	_
+25	и	и	CCONJ	Ccs	_	_	_	_	_
+26	решеност	реши	NOUN	Ncfsnn	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+27	за	за	SCONJ	Css	_	_	_	_	_
+28	унапредуваое	унапреди	NOUN	Ncfsnn	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+29	на	на	Adp	Sps	Type=Prep	_	_	_	_
+30	нивоата	ниво	NOUN	Ncfsnyd	Gender=Fem|Number=Plur|Case=Nom|Definite=Def|Distance=Dist	_	_	_	_
+31	на	на	Adp	Sps	Type=Prep	_	_	_	_
+32	војниците	војник	NOUN	Ncmpnyd	Case=Nom|Gender=Masc|Number=Plur|Definite=Def	_	_	_	_
+33	во	во	Adp	Sps	Type=Prep	_	_	_	_
+34	Авганистан	Авганистан	PROPN	Npmsnn	Gender=Masc|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+35	.	.	PUNCT	Z	_	_	_	_	_
+
+# sent_id = set-s2019
+# text = Говорејќи на комеморациите по смртта на Фехмиу, неговиот колега и поранешен српски министер за култура Бранислав Лечиќ рече дека научил многу од Фехмиу, со кого ја започнал својата актерска кариера.
+1	Говорејќи	говор	ADV	Rvp	Degree=Pos	_	_	_	_
+2	на	на	Adp	Sps	Type=Prep	_	_	_	_
+3	комеморациите	комеморација	NOUN	Ncfpnyd	Gender=Fem|Number=Plur|Case=Nom|Definite=Def|Distance=Dist	_	_	_	_
+4	по	по	Adp	Sps	Type=Prep	_	_	_	_
+5	смртта	смрт	NOUN	Ncfsnn	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+6	на	на	Adp	Sps	Type=Prep	_	_	_	_
+7	Фехмиу	Фехмиу	PROPN	Npmsnn	Gender=Masc|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+8	,	,	PUNCT	Z	_	_	_	_	_
+9	неговиот	неговиот	PRON	Ppmssmy	Gender=Masc|Number=Sing|Number[psor]=Sing|Gender[psor]=Masc|Definite=Def|PronType=Prs	_	_	_	_
+10	колега	колега	NOUN	Ncmsnn	Gender=Masc|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+11	и	и	CCONJ	Ccs	_	_	_	_	_
+12	поранешен	поранешен	ADJ	Agpmsn	Degree=Pos|Gender=Masc|Number=Sing|Definite=Ind	_	_	_	_
+13	српски	српски	ADJ	Agpmpn	Degree=Pos|Gender=Masc|Number=Plur|Definite=Ind	_	_	_	_
+14	министер	министер	NOUN	Ncmsnn	Gender=Masc|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+15	за	за	SCONJ	Css	_	_	_	_	_
+16	култура	култура	NOUN	Ncmsnn	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+17	Бранислав	Бранислав	PROPN	Npmsnn	Gender=Masc|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+18	Лечиќ	Лечиќ	PROPN	Npmsnn	Gender=Masc|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+19	рече	рече	VERB	Vma3sman	Tense=Past|Person=3|Number=Sing|Gender=Masc|Voice=Act|Polarity=Pos	_	_	_	_
+20	дека	дека	SCONJ	Css	_	_	_	_	_
+21	научил	учи	VERB	Vma3sman	Tense=Past|Person=3|Number=Sing|Gender=Masc|Voice=Act|Polarity=Pos	_	_	_	_
+22	многу	многу	ADV	Rgp	Degree=Pos	_	_	_	_
+23	од	од	Adp	Css	Type=Prep	_	_	_	_
+24	Фехмиу	Фехмиу	PROPN	Npmsnn	Gender=Masc|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+25	,	,	PUNCT	Z	_	_	_	_	_
+26	со	со	Adp	Sps	Type=Prep	_	_	_	_
+27	кого	кого	PRON	Pr3an	Person=3|Case=Acc	_	_	_	_
+28	ја	ја	PRON	Pp3fsay	Person=3|Gender=Fem|Number=Sing|Case=Acc|Clitic=yes|PronType=Prs	_	_	_	_
+29	започнал	почне	VERB	Vma3smanp	Tense=Past|Person=3|Number=Sing|Gender=Masc|Voice=Act|Polarity=Pos	_	_	_	_
+30	својата	својa	PRON	Prfssn	Gender=Fem|Number=Sing|Number[psor]=Sing|Definite=Def|PronType=Rel	_	_	_	_
+31	актерска	актер	ADJ	Agpfsn	Degree=Pos|Gender=Fem|Number=Sing|Definite=Ind	_	_	_	_
+32	кариера	кариера	NOUN	Ncmsnn	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+33	.	.	PUNCT	Z	_	_	_	_	_
+
+# sent_id = set-s2711
+# text = Земјата тврдеше дека Косово уживаше силна автономија во рамките на сојузна Југославија и дека тврдењето на Белград дека е наследник на сојузна Југославија беше „без правна основа“.
+1	Земјата	Земја	NOUN	Ncmsnn	Gender=Masc|Number=Sing|Case=Nom|Definite=Def|Distance=Dist	_	_	_	_
+2	тврдеше	тврди	VERB	_	Tense=Past|Person=3|Number=Sing|Gender=Fem|Polarity=Pos	_	_	_	_
+3	дека	дека	SCONJ	_	_	_	_	_	_
+4	Косово	Косово	PROPN	Npnsnn	Gender=Neut|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+5	уживаше	ужива	VERB	_	Tense=Past|Person=3|Number=Sing|Gender=Fem|Polarity=Pos	_	_	_	_
+6	силна	силна	ADJ	_	Ord=Yes|Degree=Pos|Gender=Fem|Number=Sing|Definite=Ind	_	_	_	_
+7	автономија	автономија	NOUN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+8	во	во	Adp	_	Type=Prep	_	_	_	_
+9	рамките	рамки	NOUN	_	Gender=Masc|Number=Plur|Case=Nom|Definite=Def|Distance=Dist	_	_	_	_
+10	на	на	Adp	_	Type=Prep	_	_	_	_
+11	сојузна	сојузна	ADJ	_	Ord=Yes|Degree=Pos|Gender=Fem|Number=Sing|Definite=Ind	_	_	_	_
+12	Југославија	Југославија	PROPN	Npfsnn	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+13	и	и	CCONJ	_	_	_	_	_	_
+14	дека	дека	SCONJ	_	_	_	_	_	_
+15	тврдењето	тврди	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|Definite=Def|Distance=Dist	_	_	_	_
+16	на	на	Adp	_	Type=Prep	_	_	_	_
+17	Белград	Белград	PROPN	Npmsnn	Gender=Masc|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+18	дека	дека	SCONJ	_	_	_	_	_	_
+19	е	сум	AUX	_	Tense=Pres|Person=3|Number=Sing|Gender=Neut|Voice=Act|Polarity=Pos	_	_	_	_
+20	наследник	наследник	NOUN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+21	на	на	Adp	Sps	Type=Prep	_	_	_	_
+22	сојузна	сојузна	ADJ	_	Ord=Yes|Degree=Pos|Gender=Fem|Number=Sing|Definite=Ind	_	_	_	_
+23	Југославија	Југославија	PROPN	Npfsnn	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+24	беше	беше	AUX	_	Tense=Pres|Person=3|Number=Sing|Gender=Neut|Voice=Act|Polarity=Pos	_	_	_	_
+25	„	„	PUNCT	Z	_	_	_	_	_
+26	без	без	Adp	_	Type=Prep	_	_	_	_
+27	правна	правна	ADJ	_	Ord=Yes|Degree=Pos|Gender=Fem|Number=Sing|Definite=Ind	_	_	_	_
+28	основа	основа	NOUN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+29	“	“	PUNCT	Z	_	_	_	_	_
+30	.	.	PUNCT	Z	_	_	_	_	_
+
+# sent_id = set-s1416
+# text = Во извештајот на Интернешнал хералд трибјун од неделата се цитира изјавата на премиерот Агим Чеку дека Косово ќе може да прогласи независност „до крајот на мај“.
+1	Во	Во	Adp	_	Type=Prep	_	_	_	_
+2	извештајот	извештај	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|Definite=Def|Distance=Dist	_	_	_	_
+3	на	на	Adp	_	Type=Prep	_	_	_	_
+4	Интернешнал	Интернешнал	PROPN	Npmsnn	Gender=Masc|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+5	хералд	хералд	PROPN	Npmsnn	Gender=Masc|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+6	трибјун	трибјун	PROPN	Npmsnn	Gender=Masc|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+7	од	од	Adp	_	Type=Prep	_	_	_	_
+8	неделата	недела	NOUN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Def|Distance=Dist	_	_	_	_
+9	се	се	AUX	_	Tense=Pres|Person=3|Number=Plur|Gender=Neut|Voice=Act|Polarity=Pos	_	_	_	_
+10	цитира	цитира	VERB	_	Tense=Pres|Person=3|Number=Sing|Gender=Neut|Polarity=Pos	_	_	_	_
+11	изјавата	изјава	NOUN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Def|Distance=Dist	_	_	_	_
+12	на	на	Adp	_	Type=Prep	_	_	_	_
+13	премиерот	премиер	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|Definite=Def|Distance=Dist	_	_	_	_
+14	Агим	Агим	PROPN	Npmsnn	Gender=Masc|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+15	Чеку	Чеку	PROPN	Npmsnn	Gender=Masc|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+16	дека	дека	SCONJ	_	_	_	_	_	_
+17	Косово	Косово	PROPN	Npnsnn	Gender=Neut|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+18	ќе	ќе	PART	_		_	_	_	_
+19	може	може	MOD	_	Mood=Part|Number=Sing|Gender=Neut|Voice=Act	_	_	_	_
+20	да	да	PART	_		_	_	_	_
+21	прогласи	прогласи	VERB	_	Tense=Pres|Person=3|Number=Sing|Gender=Neut|Polarity=Pos	_	_	_	_
+22	независност	независност	NOUN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+23	„	„	PUNCT	Z	_	_	_	_	_
+24	до	до	Adp	_	Type=Prep	_	_	_	_
+25	крајот	крај	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|Definite=Def|Distance=Dist	_	_	_	_
+26	на	на	Adp	Sps	Type=Prep	_	_	_	_
+27	мај	мај	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+28	“	“	PUNCT	Z	_	_	_	_	_
+29	.	.	PUNCT	Z	_	_	_	_	_
+
+# sent_id = set-s3519
+# text = Во некои случаи, тие можат да дојдат до судир со правилата поставени од страна на други организации, особено од страна на ЕУ.
+1	Во	Во	Adp	_	Type=Prep	_	_	_	_
+2	некои	некој	PRON	_	PronType=Ind|Person=3|Gender=Neut|Number=Plur|Case=Nom	_	_	_	_
+3	случаи	случај	NOUN	_	Case=Nom|Gender=Masc|Number=Plur|Definite=Ind	_	_	_	_
+4	,	,	PUNCT	Z	_	_	_	_	_
+5	тие	тие	PRON	_	PronType=Prs|Person=3|Gender=Neut|Number=Plur|Case=Nom	_	_	_	_
+6	можат	може	MOD	_	Tense=Pres|Number=Plur|Gender=Neut|Voice=Act|Aspect=Perf	_	_	_	_
+7	да	да	PART	_		_	_	_	_
+8	дојдат	дојде	VERB	_	Tense=Pres|Person=3|Number=Plur|Gender=Neut|Voice=Act|Polarity=Pos|Aspect=Prog	_	_	_	_
+9	до	до	Adp	_	Type=Prep	_	_	_	_
+10	судир	судир	NOUN	_	Case=Nom|Gender=Masc|Number=Sing|Definite=Ind	_	_	_	_
+11	со	со	Adp	_	Type=Prep	_	_	_	_
+12	правилата	правило	NOUN	_	Case=Nom|Gender=Masc|Number=Sing|Definite=Def|Distance=Dist	_	_	_	_
+13	поставени	поставен	ADJ	_	Degree=Pos|Gender=Masc|Number=Plur|Definite=Ind	_	_	_	_
+14	од	од	Adp	_	Type=Prep	_	_	_	_
+15	страна	страна	NOUN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+16	на	на	Adp	Sps	Type=Prep	_	_	_	_
+17	други	други	ADJ	_	Degree=Pos|Gender=Masc|Number=Plur|Definite=Ind	_	_	_	_
+18	организации	организации	NOUN	_	Gender=Fem|Number=Plur|Case=Nom|Definite=Ind	_	_	_	_
+19	,	,	PUNCT	Z	_	_	_	_	_
+20	особено	особено	ADV	_	Degree=Ela	_	_	_	_
+21	од	од	Adp	_	Type=Prep	_	_	_	_
+22	страна	страна	NOUN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+23	на	на	Adp	_	Type=Prep	_	_	_	_
+24	ЕУ	ЕУ	NOUN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+25	.	.	PUNCT	Z	_	_	_	_	_
+
+# sent_id = set-s2506
+# text = Покрај високите јавни трошоци, монополизацијата на српската економија претставува еден од главните фактори за високите стапки на инфлација во земјата.
+1	Покрај	Покрај	Adp	_	Type=Prep	_	_	_	_
+2	високите	високи	ADJ	_	Degree=Pos|Gender=Masc|Number=Plur|Definite=Def|Distance=Dist	_	_	_	_
+3	јавни	јавни	ADJ	_	Degree=Pos|Gender=Masc|Number=Plur|Definite=Ind	_	_	_	_
+4	трошоци	трошоци	NOUN	_	Gender=Masc|Number=Plur|Case=Nom|Definite=Ind	_	_	_	_
+5	,	,	PUNCT	Z	_	_	_	_	_
+6	монополизацијата	монополизација	NOUN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Def|Distance=Dist	_	_	_	_
+7	на	на	Adp	_	Type=Prep	_	_	_	_
+8	српската	српска	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Definite=Def|Distance=Dist	_	_	_	_
+9	економија	економија	NOUN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+10	претставува	претставува	VERB	_	Tense=Pres|Person=3|Number=Sing|Gender=Neut|Voice=Act|Polarity=Pos|Aspect=Prog	_	_	_	_
+11	еден	еден	NUM	_	NumType=Card|Gender=Masc|Number=Sing|NumForm=Word|Definite=Ind	_	_	_	_
+12	од	од	Adp	_	Type=Prep	_	_	_	_
+13	главните	главните	ADJ	_	Degree=Pos|Gender=Masc|Number=Plur|Definite=Def|Distance=Dist	_	_	_	_
+14	фактори	фактори	NOUN	_	Gender=Masc|Number=Plur|Case=Nom|Definite=Ind	_	_	_	_
+15	за	за	SCONJ	Css	_	_	_	_	_
+16	високите	висок	ADJ	_	Degree=Pos|Gender=Masc|Number=Plur|Definite=Def|Distance=Dist	_	_	_	_
+17	стапки	стапки	NOUN	_	Gender=Fem|Number=Plur|Case=Nom|Definite=Ind	_	_	_	_
+18	на	на	Adp	Sps	Type=Prep	_	_	_	_
+19	инфлација	инфлација	NOUN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+20	во	во	Adp	_	Type=Prep	_	_	_	_
+21	земјата	земја	NOUN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+22	.	.	PUNCT	Z	_	_	_	_	_
+
+# sent_id = set-s2255
+# text = Русија ги одби сите претходни верзии што ги подготвија САД и нивните европски сојузници во изминативе неколку недели.
+1	Русија	Русија	PROPN	Npfsnn	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+2	ги	ги	PRON	_	Case=Acc|Person=3|Gender=Fem|Number=Plur|PronType=Prs	_	_	_	_
+3	одби	одби	VERB	_	Tense=Pres|Person=3|Number=Sing|Gender=Neut|Voice=Act|Polarity=Pos|Aspect=Prog	_	_	_	_
+4	сите	сите	PRON	_	Case=Nom|Person=3|Gender=Neut|Number=Plur|PronType=Rel	_	_	_	_
+5	претходни	претходни	ADJ	_	Degree=Pos|Gender=Masc|Number=Plur|Definite=Ind	_	_	_	_
+6	верзии	верзии	NOUN	_	Gender=Fem|Number=Plur|Case=Nom|Definite=Ind	_	_	_	_
+7	што	што	PRON	_	Case=Nom|Person=3|Gender=Neut|Number=Sing|PronType=Rel	_	_	_	_
+8	ги	ги	PRON	_	Case=Acc|Person=3|Gender=Fem|Number=Plur|PronType=Prs	_	_	_	_
+9	подготвија	подготви	VERB	_	Tense=Pres|Person=3|Number=Plur|Gender=Neut|Voice=Act|Polarity=Pos|Aspect=Prog	_	_	_	_
+10	САД	САД	PROPN	Npfpnn	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+11	и	и	CCONJ	_	_	_	_	_	_
+12	нивните	нивен	PRON	_	Case=Acc|Person=3|Gender=Neut|Number=Plur|PronType=Prs|Number[psor]=Plur|Definite=Def|Distance=Dist	_	_	_	_
+13	европски	европски	ADJ	_	Degree=Pos|Gender=Fem|Number=Plur|Definite=Ind	_	_	_	_
+14	сојузници	сојузник	NOUN	_	Gender=Masc|Number=Plur|Case=Nom|Definite=Ind	_	_	_	_
+15	во	во	Adp	_	Type=Prep	_	_	_	_
+16	изминативе	измина	ADJ	_	Degree=Pos|Gender=Masc|Number=Plur|Definite=Def|Distance=Prox	_	_	_	_
+17	неколку	неколку	ADJ	_	Degree=Pos|Gender=Neut|Number=Plur|Definite=Ind	_	_	_	_
+18	недели	недела	NOUN	_	Gender=Masc|Number=Plur|Case=Nom|Definite=Ind	_	_	_	_
+19	.	.	PUNCT	Z	_	_	_	_	_
+
+# sent_id = set-s409
+# text = Албанскиот министер за внатрешни работи, Бујар Нишани, е тој што го потпиша договорот заедно со шефот на руската Федерална служба за контрола на дрогата, Виктор Иванов.
+1	Албанскиот	албански	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Definite=Def|Distance=Dist	_	_	_	_
+2	министер	министер	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+3	за	за	SCONJ	Css	_	_	_	_	_
+4	внатрешни	внатрешен	ADJ	_	Degree=Pos|Gender=Masc|Number=Plur|Definite=Ind	_	_	_	_
+5	работи	работа	NOUN	_	Gender=Fem|Number=Plur|Case=Nom|Definite=Ind	_	_	_	_
+6	,	,	PUNCT	Z	_	_	_	_	_
+7	Бујар	Бујар	PROPN	Npmsnn	Gender=Masc|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+8	Нишани	Нишани	PROPN	Npmsnn	Gender=Masc|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+9	,	,	PUNCT	Z	_	_	_	_	_
+10	е	е	AUX	_	Tense=Pres|Person=3|Number=Sing|Gender=Neut|Voice=Act|Polarity=Pos	_	_	_	_
+11	тој	тој	PRON	_	PronType=Prsl|Gender=Masc|Person=3|Number=Sing|Case=Nom	_	_	_	_
+12	што	што	PRON	_	Case=Nom|Person=3|Gender=Neut|Number=Sing|PronType=Rel	_	_	_	_
+13	го	го	PRON	_	Case=Acc|Person=3|Gender=Masc|Number=Sing|PronType=Prs	_	_	_	_
+14	потпиша	потпише	VERB	_	Tense=Past|Person=3|Number=Sing|Gender=Neut|Voice=Act|Polarity=Pos|Aspect=Perf	_	_	_	_
+15	договорот	договор	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|Definite=Def|Distance=Dist	_	_	_	_
+16	заедно	заедно	ADV	_	Degree=Ela	_	_	_	_
+17	со	со	Adp	_	Type=Prep	_	_	_	_
+18	шефот	шеф	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|Definite=Def|Distance=Dist	_	_	_	_
+19	на	на	Adp	_	Type=Prep	_	_	_	_
+20	руската	руска	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Definite=Def|Distance=Dist	_	_	_	_
+21	Федерална	федерална	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Definite=Ind	_	_	_	_
+22	служба	служба	NOUN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+23	за	за	SCONJ	Css	_	_	_	_	_
+24	контрола	контрола	NOUN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+25	на	на	Adp	_	Type=Prep	_	_	_	_
+26	дрогата	дрога	NOUN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Def|Distance=Dist	_	_	_	_
+27	,	,	PUNCT	Z	_	_	_	_	_
+28	Виктор	Виктор	PROPN	Npmsnn	Gender=Masc|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+29	Иванов	Иванов	PROPN	Npmsnn	Gender=Masc|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+30	.	.	PUNCT	Z	_	_	_	_	_
+
+# sent_id = set-s198
+# text = Десет членови од уставот се изменети:
+1	Десет	десет	NUM	_	NumType=Card|Gender=Masc|Number=Sing|NumForm=Word|Definite=Ind	_	_	_	_
+2	членови	членови	NOUN	_	Gender=Masc|Number=Plur|Case=Nom|Definite=Ind	_	_	_	_
+3	од	од	Adp	_	Type=Prep	_	_	_	_
+4	уставот	устав	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|Definite=Def|Distance=Dist	_	_	_	_
+5	се	се	AUX	_	Tense=Pres|Person=3|Number=Plur|Gender=Neut|Voice=Act|Polarity=Pos	_	_	_	_
+6	изменети	изменет	VERB	_	Tense=Pres|Person=3|Number=Plur|Gender=Neut|Voice=Act|Polarity=Pos|Aspect=Prog	_	_	_	_
+7	:	:	PUNCT	Z	_	_	_	_	_
+
+# sent_id = set-s1837
+# text = Тим на Европската комисија треба да пристигне во БиХ на 19-ти мај со цел да го провери напредокот во исполнувањето на 16-те барања наведени во физибилити студијата на ЕУ за земјата.
+1	Тим	тим	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+2	на	на	Adp	Sps	Type=Prep	_	_	_	_
+3	Европската	европска	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Definite=Def|Distance=Dist	_	_	_	_
+4	комисија	комисија	NOUN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+5	треба	треба	VERB	_	Tense=Pres|Person=3|Number=Sing|Gender=Neut|Voice=Act|Polarity=Pos|Aspect=Prog	_	_	_	_
+6	да	да	PART	_		_	_	_	_
+7	пристигне	пристигне	VERB	_	Tense=Pres|Person=3|Number=Sing|Gender=Neut|Voice=Act|Polarity=Pos|Aspect=Perf	_	_	_	_
+8	во	во	Adp	_	Type=Prep	_	_	_	_
+9	БиХ	БиХ	PROPN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+10	на	на	Adp	Sps	Type=Prep	_	_	_	_
+11	19-ти	19-ти	NUM	_	NumType=Card|Number=Plur|NumForm=Digit|Definite=Ind	_	_	_	_
+12	мај	мај	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+13	со	со	Adp	_	Type=Prep	_	_	_	_
+14	цел	цел	NOUN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+15	да	да	PART	_		_	_	_	_
+16	го	го	PRON	_	Case=Acc|Person=3|Gender=Masc|Number=Sing|PronType=Prs	_	_	_	_
+17	провери	провери	VERB	_	Tense=Pres|Person=3|Number=Sing|Gender=Neut|Voice=Act|Polarity=Pos|Aspect=Perf	_	_	_	_
+18	напредокот	напредок	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|Definite=Def|Distance=Dist	_	_	_	_
+19	во	во	Adp	_	Type=Prep	_	_	_	_
+20	исполнувањето	исполнување	NOUN	_	Gender=Neut|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+21	на	на	Adp	Sps	Type=Prep	_	_	_	_
+22	16-те	16-те	NUM	_	NumType=Card|Number=Plur|NumForm=Digit|Definite=Def	_	_	_	_
+23	барања	барање	NOUN	_	Gender=Fem|Number=Plur|Case=Nom|Definite=Ind	_	_	_	_
+24	наведени	наведено	VERB	_	Tense=Pres|Person=3|Number=Plur|Gender=Neut|Voice=Act|Polarity=Pos|Aspect=Prog	_	_	_	_
+25	во	во	Adp	_	Type=Prep	_	_	_	_
+26	физибилити	физибилити	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Definite=Ind	_	_	_	_
+27	студијата	студија	NOUN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Def|Distance=Dist	_	_	_	_
+28	на	на	Adp	Sps	Type=Prep	_	_	_	_
+29	ЕУ	ЕУ	PROPN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+30	за	за	SCONJ	Css	_	_	_	_	_
+31	земјата	земја	NOUN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Def|Distance=Dist	_	_	_	_
+32	.	.	PUNCT	Z	_	_	_	_	_
+
+# sent_id = set-s352
+# text = Тоа ќе се случи официјално на 1-ви јули 2013 година.
+1	Тоа	тоа	PRON	_	PronType=Prsl|Gender=Neut|Person=3|Number=Sing|Case=Nom	_	_	_	_
+2	ќе	ќе	PART	_		_	_	_	_
+3	се	сум	AUX	_	Tense=Pres|Person=3|Number=Plur|Gender=Neut|Voice=Act|Polarity=Pos	_	_	_	_
+4	случи	случи	VERB	_	Tense=Pres|Person=3|Number=Sing|Gender=Neut|Voice=Act|Polarity=Pos|Aspect=Perf	_	_	_	_
+5	официјално	официјално	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Definite=Ind	_	_	_	_
+6	на	на	Adp	Sps	Type=Prep	_	_	_	_
+7	1-ви	1-ви	NUM	_	NumType=Card|Number=Plur|NumForm=Digit|Definite=Ind	_	_	_	_
+8	јули	јули	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+9	2013	2013	NUM	_	NumType=Card|NumForm=Digit	_	_	_	_
+10	година	година	NOUN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+11	.	.	PUNCT	Z	_	_	_	_	_
+
+# sent_id = set-s3841
+# text = Рељиќ, сепак, истакнува дека Турција е сé уште меѓу помалку важните економски партнери во регионот -- земјите на ЕУ и Русија сé уште доминираат.
+1	Рељиќ	Рељиќ	PROPN	Npmsnn	Gender=Masc|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+2	,	,	PUNCT	Z	_	_	_	_	_
+3	сепак	сепак	CCONJ	_	_	_	_	_	_
+4	,	,	PUNCT	Z	_	_	_	_	_
+5	истакнува	истакна	VERB	_	Tense=Pres|Person=3|Number=Sing|Gender=Neut|Voice=Act|Polarity=Pos|Aspect=Prog	_	_	_	_
+6	дека	дека	SCONJ	_	_	_	_	_	_
+7	Турција	Турција		Npfsnn	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+8	е	е	AUX	_	Tense=Pres|Person=3|Number=Sing|Gender=Neut|Voice=Act|Polarity=Pos	_	_	_	_
+9	сé	сé	ADV	_	Degree=Ela	_	_	_	_
+10	уште	уште	ADV	_	Degree=Ela	_	_	_	_
+11	меѓу	меѓу	Adp	_	Type=Prep	_	_	_	_
+12	помалку	малку	ADV	_	Degree=Ela	_	_	_	_
+13	важните	важен	ADJ	_	Degree=Pos|Gender=Masc|Number=Plur|Definite=Def|Distance=Dist	_	_	_	_
+14	економски	економско	ADJ	_	Degree=Pos|Gender=Neut|Number=Plur|Definite=Ind	_	_	_	_
+15	партнери	партнер	NOUN	_	Gender=Masc|Number=Plur|Case=Nom|Definite=Def|Distance=Dist	_	_	_	_
+16	во	во	Adp	_	Type=Prep	_	_	_	_
+17	регионот	регион	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|Definite=Def|Distance=Dist	_	_	_	_
+18	--	--	PUNCT	Z	_	_	_	_	_
+19	земјите	земја	NOUN	_	Gender=Fem|Number=Plur|Case=Nom|Definite=Def|Distance=Def|Distance=Dist	_	_	_	_
+20	на	на	Adp	Sps	Type=Prep	_	_	_	_
+21	ЕУ	ЕУ	PROPN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+22	и	и	CCONJ	_	_	_	_	_	_
+23	Русија	Русија		Npfsnn	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+24	сé	сé	ADV	_	Degree=Ela	_	_	_	_
+25	уште	уште	ADV	_	Degree=Ela	_	_	_	_
+26	доминираат	доминира	VERB	_	Tense=Pres|Person=3|Number=Plur|Gender=Neut|Voice=Act|Polarity=Pos|Aspect=Prog	_	_	_	_
+27	.	.	PUNCT	Z	_	_	_	_	_
+
+# sent_id = set-s2586
+# text = Довербата во демократијата, вели Јововиќ, ќе зависи од созревањето на политичкиот систем.
+1	Довербата	доверба	NOUN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Def|Distance=Dist	_	_	_	_
+2	во	во	Adp	_	Type=Prep	_	_	_	_
+3	демократијата	демократија	NOUN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Def|Distance=Dist	_	_	_	_
+4	,	,	PUNCT	Z	_	_	_	_	_
+5	вели	вели	VERB	_	Tense=Pres|Person=3|Number=Sing|Gender=Masc|Voice=Act|Polarity=Pos|Aspect=Perf	_	_	_	_
+6	Јововиќ	Јововиќ	PROPN	Npmsnn	Gender=Masc|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+7	,	,	PUNCT	Z	_	_	_	_	_
+8	ќе	ќе	PART	_		_	_	_	_
+9	зависи	зависи	VERB	_	Tense=Pres|Person=3|Number=Sing|Gender=Neut|Voice=Act|Polarity=Pos|Aspect=Perf	_	_	_	_
+10	од	од	Adp	_	Type=Prep	_	_	_	_
+11	созревањето	созревање	VERB	_	Tense=Pres|Person=3|Number=Sing|Gender=Neut|Voice=Act|Polarity=Pos|Aspect=Prog	_	_	_	_
+12	на	на	Adp	Sps	Type=Prep	_	_	_	_
+13	политичкиот	политика	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Definite=Def|Distance=Dist	_	_	_	_
+14	систем	систем	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+15	.	.	PUNCT	Z	_	_	_	_	_
+
+# sent_id = set-s1739
+# text = На состанокот на земјите од Јадранската повелба во Тирана, на 14-ти декември, Македонија и Црна Гора потпишаа договор кој им овозможува на граѓаните на трите земји да патуваат со пасош и биометриски лични карти до и од овие земји.
+1	На	на	Adp	_	Type=Prep	_	_	_	_
+2	состанокот	состанок	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|Definite=Def|Distance=Dist	_	_	_	_
+3	на	на	Adp	_	Type=Prep	_	_	_	_
+4	земјите	земја	NOUN	_	Gender=Fem|Number=Plur|Case=Nom|Definite=Def|Distance=Dist	_	_	_	_
+5	од	од	Adp	_	Type=Prep	_	_	_	_
+6	Јадранската	Јадран	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Definite=Def|Distance=Dist	_	_	_	_
+7	повелба	повелба	NOUN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+8	во	во	Adp	_	Type=Prep	_	_	_	_
+9	Тирана	Тирана	PROPN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	на	на	Adp	_	Type=Prep	_	_	_	_
+12	14-ти	14-ти	NUM	_	NumType=Card|Number=Plur|NumForm=Digit|Definite=Ind	_	_	_	_
+13	декември	декември	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+14	,	,	PUNCT	_	_	_	_	_	_
+15	Македонија	Македонија	PROPN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+16	и	и	CCONJ	_	_	_	_	_	_
+17	Црна	Црна	PROPN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+18	Гора	Гора	PROPN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+19	потпишаа	потпише	VERB	_	Tense=Past|Person=3|Number=Plur|Gender=Neut|Voice=Act|Polarity=Pos|Aspect=Perf	_	_	_	_
+20	договор	договор	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+21	кој	кој	PRON	_	Person=3|Gender=Masc|Number=Sing|Case=Nom|PronType=Rel	_	_	_	_
+22	им	им	PRON	_	Person=3|Number=Plur|Case=Dat|PronType=Rel	_	_	_	_
+23	овозможува	овозможува	VERB	_	Tense=Pres|Person=3|Number=Plur|Voice=Act|Polarity=Pos|Aspect=Perf	_	_	_	_
+24	на	на	Adp	_	Type=Prep	_	_	_	_
+25	граѓаните	граѓанин	NOUN	_	Gender=Masc|Number=Plur|Case=Nom|Definite=Def|Distance=Dist	_	_	_	_
+26	на	на	Adp	_	Type=Prep	_	_	_	_
+27	трите	три	NUM	_	NumType=Card|Gender=Masc|Number=Sing|NumForm=Word|Definite=Def|Distance=Dist	_	_	_	_
+28	земји	земја	NOUN	_	Gender=Fem|Number=Plur|Case=Nom|Definite=Ind	_	_	_	_
+29	да	да	PART	_		_	_	_	_
+30	патуваат	патува	VERB	_	Tense=Pres|Person=3|Number=Plur|Voice=Act|Polarity=Pos|Aspect=Perf	_	_	_	_
+31	со	со	Adp	_	Type=Prep	_	_	_	_
+32	пасош	пасош	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+33	и	и	CCONJ	_	_	_	_	_	_
+34	биометриски	биометриски	ADJ	_	Degree=Pos|Gender=Masc|Number=Plur|Definite=Ind	_	_	_	_
+35	лични	лични	ADJ	_	Degree=Pos|Gender=Masc|Number=Plur|Definite=Ind	_	_	_	_
+36	карти	карти	NOUN	_	Gender=Fem|Number=Plur|Case=Nom|Definite=Ind	_	_	_	_
+37	до	до	Adp	_	Type=Prep	_	_	_	_
+38	и	и	CCONJ	_	_	_	_	_	_
+39	од	од	Adp	_	Type=Prep	_	_	_	_
+40	овие	овие	PRON	_	Person=3|Gender=Neut|Number=Sing|Case=Nom|PronType=Dem	_	_	_	_
+41	земји	земја	NOUN	_	Gender=Fem|Number=Plur|Case=Nom|Definite=Ind	_	_	_	_
+42	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = set-s1787
+# text = Но, тој исто така рече дека Анкара не може да се надева на пристапување во ЕУ ако држи илјадници турски војници стационирани на северот од Кипар, како и дека кипарските Грци може да продолжат со блокирање на нејзиниот процес на пристапување.
+1	Но	но	CCONJ	_	_	_	_	_	_
+2	,	,	PUNCT	_	_	_	_	_	_
+3	тој	тој	PRON	_	PronType=Prsl|Gender=Masc|Person=3|Number=Sing|Case=Nom	_	_	_	_
+4	исто	исто	ADV	_	Degree=Pos	_	_	_	_
+5	така	така	ADV	_	Degree=Pos	_	_	_	_
+6	рече	рече	VERB	_	Tense=Past|Person=3|Number=Sing|Gender=Masc|Voice=Act|Polarity=Pos	_	_	_	_
+7	дека	дека	SCONJ	_	_	_	_	_	_
+8	Анкара	Анкара	PROPN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+9	не	не	PART	_		_	_	_	_
+10	може	може	MOD	_	Mood=Part|Number=Sing|Gender=Neut|Voice=Act	_	_	_	_
+11	да	да	PART	_		_	_	_	_
+12	се	е	AUX	_	Tense=Pres|Person=3|Number=Plur|Gender=Neut|Voice=Act|Polarity=Pos	_	_	_	_
+13	надева	надева	VERB	_	Tense=Pres|Person=3|Number=Sing|Voice=Act|Polarity=Pos|Aspect=Perf	_	_	_	_
+14	на	на	Adp	_	Type=Prep	_	_	_	_
+15	пристапување	пристапува	VERB	_	Tense=Pres|Person=3|Number=Sing|Voice=Act|Polarity=Pos|Aspect=Prog	_	_	_	_
+16	во	во	Adp	_	Type=Prep	_	_	_	_
+17	ЕУ	ЕУ	PROPN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+18	ако	ако	CCONJ	_	_	_	_	_	_
+19	држи	држи	VERB	_	Tense=Pres|Person=3|Number=Sing|Voice=Act|Polarity=Pos|Aspect=Perf	_	_	_	_
+20	илјадници	илјадници	NUM	_	NumType=Sets|Gender=Fem|Number=Plur|NumForm=Word|Definite=Ind	_	_	_	_
+21	турски	турски	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Definite=Ind	_	_	_	_
+22	војници	војник	NOUN	_	Gender=Masc|Number=Plur|Case=Nom|Definite=Ind	_	_	_	_
+23	стационирани	стациониран	VERB	_	Tense=Pres|Person=3|Number=Plur|Voice=Act|Polarity=Pos|Aspect=Perf	_	_	_	_
+24	на	на	Adp	_	Type=Prep	_	_	_	_
+25	северот	север	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|Definite=Def|Distance=Dist	_	_	_	_
+26	од	од	Adp	_	Type=Prep	_	_	_	_
+27	Кипар	Кипар	PROPN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+28	,	,	PUNCT	_	_	_	_	_	_
+29	како	како	Adp	_	Type=Prep	_	_	_	_
+30	и	и	CCONJ	_	_	_	_	_	_
+31	дека	дека	SCONJ	_	_	_	_	_	_
+32	кипарските	Кипар	ADJ	_	Degree=Pos|Gender=Masc|Number=Plur|Definite=Def|Distance=Dist	_	_	_	_
+33	Грци	Грк	PROPN	_	Gender=Masc|Number=Plur|Case=Nom|Definite=Ind	_	_	_	_
+34	може	може	MOD	_	Mood=Part|Number=Sing|Gender=Neut|Voice=Act	_	_	_	_
+35	да	да	PART	_		_	_	_	_
+36	продолжат	продолжи	VERB	_	Tense=Pres|Person=3|Number=Plur|Gender=Neut|Voice=Act|Polarity=Pos|Aspect=Perf	_	_	_	_
+37	со	со	Adp	_	Type=Prep	_	_	_	_
+38	блокирање	блокира	NOUN	_	Gender=Neut|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+39	на	на	Adp	_	Type=Prep	_	_	_	_
+40	нејзиниот	нејзин	PRON	_	Gender=Masc|Person=3|Number=Sing|Number[psor]=Sing|Gender[psor]=Fem|PronType=Poss	_	_	_	_
+41	процес	процес	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+42	на	на	Adp	_	Type=Prep	_	_	_	_
+43	пристапување	пристапува	NOUN	_	Gender=Neut|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+44	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = set-s2083
+# text = Случајот против Харадинај и другите моментно е во постапка пред Апелационата комисија на МКТЈ.
+1	Случајот	случај	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|Definite=Def|Distance=Dist	_	_	_	_
+2	против	против	ADV	_	Degree=Ela	_	_	_	_
+3	Харадинај	Харадинај	PROPN	_	Gender=Masc|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+4	и	и	CCONJ	_	_	_	_	_	_
+5	другите	друг	ADJ	_	Degree=Pos|Gender=Masc|Number=Plur|Definite=Def|Distance=Dist	_	_	_	_
+6	моментно	моментно	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Definite=Ind	_	_	_	_
+7	е	сум	AUX	_	Tense=Pres|Person=3|Number=Sing|Gender=Neut|Voice=Act|Polarity=Pos	_	_	_	_
+8	во	во	Adp	_	Type=Prep	_	_	_	_
+9	постапка	постапка	NOUN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+10	пред	пред	ADV	_	Degree=Ela	_	_	_	_
+11	Апелационата	апелација	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Definite=Def|Distance=Dist	_	_	_	_
+12	комисија	комисија	NOUN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+13	на	на	Adp	_	Type=Prep	_	_	_	_
+14	МКТЈ	МКТЈ	PROPN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = set-s1331
+# text = Ако започне судска постапка, додаде таа, работодавачот може да добие казна од 100 евра до 8.000 евра, во зависност од тежината на истата.
+1	Ако	ако		_		_	_	_	_
+2	започне	почне	VERB	_	Tense=Pres|Person=3|Number=Sing|Gender=Neut|Voice=Act|Polarity=Pos|Aspect=Perf	_	_	_	_
+3	судска	суд	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Definite=Ind	_	_	_	_
+4	постапка	постапка	NOUN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	додаде	додава	VERB	_	Tense=Pres|Person=3|Number=Sing|Gender=Neut|Voice=Act|Polarity=Pos|Aspect=Perf	_	_	_	_
+7	таа	таа	PRON	_	Gender=Fem|Person=3|Number=Sing|Case=Nom|PronType=Prsl	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	работодавачот	работодавач	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|Definite=Def|Distance=Dist	_	_	_	_
+10	може	може	MOD	_	Mood=Part|Number=Sing|Gender=Neut|Voice=Act	_	_	_	_
+11	да	да	PART	_		_	_	_	_
+12	добие	добие	VERB	_	Tense=Pres|Person=3|Number=Sing|Gender=Neut|Voice=Act|Polarity=Pos|Aspect=Perf	_	_	_	_
+13	казна	казна	NOUN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+14	од	од	Adp	_	Type=Prep	_	_	_	_
+15	100	100	NUM	_	NumType=Card|NumForm=Digit	_	_	_	_
+16	евра	евра	NOUN	_	Gender=Neut|Number=Plur|Case=Nom|Definite=Ind	_	_	_	_
+17	до	до	Adp	_	Type=Prep	_	_	_	_
+18	8	8	NUM	_	NumType=Card|NumForm=Digit
+	_	_	_	_
+19	евра	евра	NOUN	_	Gender=Neut|Number=Plur|Case=Nom|Definite=Ind	_	_	_	_
+20	,	,	PUNCT	_	_	_	_	_	_
+21	во	во	Adp	_	Type=Prep	_	_	_	_
+22	зависност	зависност	NOUN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+23	од	од	Adp	_	Type=Prep	_	_	_	_
+24	тежината	тежина	NOUN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Def|Distance=Dist	_	_	_	_
+25	на	на	Adp	_	Type=Prep	_	_	_	_
+26	истата	ист	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Definite=Def|Distance=Dist	_	_	_	_
+27	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = set-s1819
+# text = Според протоколот на ЦХП, ЦИД и „Документа“, потпишан во април 2004 година, тие се согласуваат на соработка и координирање на своите напори во документирањето и откривањето на вистината во врска со конфликтите во 1990-тите, ставајќи крај на неказнетоста за минатите прекршувања на хуманитарното право и доаѓајќи до правдата за жртвите.
+1	Според	Според	AdpType=Prep	_		_	_	_	_
+2	протоколот	протоколот	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|Definite=Def|Distance=Dist	_	_	_	_
+3	на	на	AdpType=Prep	_		_	_	_	_
+4	ЦХП	ЦХП	PROPN	_	Gender=Masc|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	ЦИД	ЦИД	PROPN	_	Gender=Masc|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+7	и	и	CCONJ	_	_	_	_	_	_
+8	„	„	PUNCT	_	_	_	_	_	_
+9	Документа	Документа	PROPN	_	Gender=Masc|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+10	“	“	PUNCT	_	_	_	_	_	_
+11	,	,	PUNCT	_	_	_	_	_	_
+12	потпишан	потпишан	VERB	_	Tense=Past|Person=3|Number=Sing|Gender=Masc|Voice=Act|Polarity=Pos|Aspect=Perf	_	_	_	_
+13	во	во	Adp	_	Type=Prep	_	_	_	_
+14	април	април	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+15	2004	2004	NUM	_	NumType=Card|NumForm=Digit	_	_	_	_
+16	година	година	NOUN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+17	,	,	PUNCT	_	_	_	_	_	_
+18	тие	тие	PRON	_	Case=Nom|Person=3|Number=Plur|PronType=Prs	_	_	_	_
+19	се	се	AUX	_	Tense=Pres|Person=3|Number=Plur|Gender=Neut|Voice=Act|Polarity=Pos	_	_	_	_
+20	согласуваат	согласуваат	VERB	_	Tense=Pres|Person=3|Number=Plur|Voice=Act|Polarity=Pos|Aspect=Perf	_	_	_	_
+21	на	на	AdpType=Prep	_		_	_	_	_
+22	соработка	соработка	NOUN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+23	и	и	CCONJ	_	_	_	_	_	_
+24	координирање	координирање	NOUN	_	Gender=Neut|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+25	на	на	AdpType=Prep	_		_	_	_	_
+26	своите	своите	PRON	_	Case=Nom|Person=3|Number=Plur|Number[psor]=Plur|PronType=Rel	_	_	_	_
+27	напори	напори	NOUN	_	Gender=Neut|Number=Plur|Case=Nom|Definite=Ind	_	_	_	_
+28	во	во	Adp	_	Type=Prep	_	_	_	_
+29	документирањето	документирањето	NOUN	_	Gender=Neut|Number=Sing|Case=Nom|Definite=Def	_	_	_	_
+30	и	и	CCONJ	_	_	_	_	_	_
+31	откривањето	откривањето	NOUN	_	Gender=Neut|Number=Sing|Case=Nom|Definite=Def	_	_	_	_
+32	на	на	AdpType=Prep	_		_	_	_	_
+33	вистината	вистината	NOUN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Def|Distance=Dist	_	_	_	_
+34	во	во	AdpType=Prep	_		_	_	_	_
+35	врска	врска	NOUN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+36	со	со	AdpType=Prep	_		_	_	_	_
+37	конфликтите	конфликтите	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|Definite=Def|Distance=Dist	_	_	_	_
+38	во	во	Adp	_	Type=Prep	_	_	_	_
+39	1990-тите	1990-тите	NUM	_	NumType=Card|Number=Plur|NumForm=Digit|Definite=Def	_	_	_	_
+40	,	,	PUNCT	_	_	_	_	_	_
+41	ставајќи	ставајќи	ADV	_	AdvType=Verb|Degree=Pos	_	_	_	_
+42	крај	крај	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+43	на	на	AdpType=Prep	_		_	_	_	_
+44	неказнетоста	неказнетоста	NOUN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Def|Distance=Dist	_	_	_	_
+45	за	за	SCONJ	_	_	_	_	_	_
+46	минатите	минатите	ADJ	_	Degree=Pos|Gender=Fem|Number=Plur|Definite=Def|Distance=Dist	_	_	_	_
+47	прекршувања	прекршувања	NOUN	_	Gender=Neut|Number=Plur|Case=Nom|Definite=Def	_	_	_	_
+48	на	на	AdpType=Prep	_		_	_	_	_
+49	хуманитарното	хуманитарното	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Definite=Def|Distance=Dist	_	_	_	_
+50	право	право	NOUN	_	Gender=Neut|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+51	и	и	CCONJ	_	_	_	_	_	_
+52	доаѓајќи	доаѓајќи	ADV	_	AdvType=Verb|Degree=Pos	_	_	_	_
+53	до	до	AdpType=Prep	_		_	_	_	_
+54	правдата	правдата	NOUN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Def|Distance=Dist	_	_	_	_
+55	за	за	SCONJ	_	_	_	_	_	_
+56	жртвите	жртвите	NOUN	_	Gender=Fem|Number=Plur|Case=Nom|Definite=Def|Distance=Dist	_	_	_	_
+57	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = set-s2579
+# text = Тоа не се случи.
+1	Тоа	Тоа	PRON	_	PronType=Prsl|Gender=Neut|Person=3|Number=Sing|Case=Nom	_	_	_	_
+2	не	не	PART	_		_	_	_	_
+3	се	се	AUX	_	Tense=Pres|Person=3|Number=Plur|Gender=Neut|Voice=Act|Polarity=Pos	_	_	_	_
+4	случи	случи	VERB	_	Tense=Pres|Person=3|Number=Sing|Gender=Neut|Voice=Act|Polarity=Pos|Aspect=Perf	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = set-s3140
+# text = Контроверзниот предлог-закон беше повлечен под притисок на народот.
+1	Контроверзниот	Контроверзниот	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Definite=Def|Distance=Dist	_	_	_	_
+2	предлог-закон	предлог-закон	NOUN	_	Gender=Macs|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+3	беше	беше	AUX	_	Tense=Past|Person=3|Number=Sing|Gender=Neut|Voice=Act|Polarity=Pos	_	_	_	_
+4	повлечен	повлечен	VERB	_	Tense=Past|Person=3|Number=Sing|Gender=Masc|Voice=Act|Polarity=Pos|Aspect=Perf	_	_	_	_
+5	под	под	AdpType=Prep	_		_	_	_	_
+6	притисок	притисок	NOUN	_	Gender=Macs|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+7	на	на	AdpType=Prep	_		_	_	_	_
+8	народот	народот	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|Definite=Def|Distance=Dist	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = set-s104
+# text = Во ноември 2011 година неколку членови на комунистите ја напуштија партијата за да ја формираат социјалистичката фракција во парламентот.
+1	Во	Во	Adp	_	Type=Prep	_	_	_	_
+2	ноември	ноември	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+3	2011	2011	NUM	_	NumType=Card|NumForm=Digit	_	_	_	_
+4	година	година	NOUN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+5	неколку	неколку	PRON	_	Person=3|Gender=Masc|Number=Plur|Case=Nom|PronType=Rel	_	_	_	_
+6	членови	членови	NOUN	_	Gender=Masc|Number=Plur|Case=Nom|Definite=Ind	_	_	_	_
+7	на	на	AdpType=Prep	_		_	_	_	_
+8	комунистите	комунистите	NOUN	_	Gender=Masc|Number=Plur|Case=Nom|Definite=Def	_	_	_	_
+9	ја	ја	PRON	_	PronType=Prsl|Gender=Fem|Person=3|Number=Sing|Case=Acc	_	_	_	_
+10	напуштија	напуштија	VERB	_	Tense=Imp|Person=3|Number=Plur|Gender=Neut|Voice=Act|Polarity=Pos|Aspect=Prog	_	_	_	_
+11	партијата	партијата	NOUN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Def|Distance=Dist	_	_	_	_
+12	за	за	SCONJ	_	_	_	_	_	_
+13	да	да	SCONJ	_	_	_	_	_	_
+14	ја	ја	PRON	_	PronType=Prsl|Gender=Fem|Person=3|Number=Sing|Case=Acc	_	_	_	_
+15	формираат	формираат	VERB	_	Tense=Pres|Person=3|Number=Plur|Voice=Act|Polarity=Pos|Aspect=Perf	_	_	_	_
+16	социјалистичката	социјалистичката	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Definite=Def|Distance=Dist	_	_	_	_
+17	фракција	фракција	NOUN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+18	во	во	Adp	_	Type=Prep	_	_	_	_
+19	парламентот	парламентот	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|Definite=Def|Distance=Dist	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = set-s1024
+# text = Новиот музеј ќе биде целосно функционален во 2009 година.
+1	Новиот	Новиот	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Definite=Def|Distance=Dist	_	_	_	_
+2	музеј	музеј	NOUN	_	Gender=Macs|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+3	ќе	ќе	PART	_		_	_	_	_
+4	биде	биде	AUX	_	Tense=Pres|Person=3|Number=Sing|Gender=Neut|Voice=Act|Polarity=Pos	_	_	_	_
+5	целосно	целосно	ADV	_	Degree=Ela	_	_	_	_
+6	функционален	функционален	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Definite=Ind|Distance=Dist	_	_	_	_
+7	во	во	AdpType=Prep	_		_	_	_	_
+8	2009	2009	NUM	_	NumType=Card|NumForm=Digit	_	_	_	_
+9	година	година	NOUN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = set-s259
+# text = Министерството за внатрешни работи објави дека осомничениот имал оружје и експлозиви за терористичка употреба.
+1	Министерството	Министерството	NOUN	_	Gender=Neut|Number=Sing|Case=Nom|Definite=Def|Distance=Dist	_	_	_	_
+2	за	за	SCONJ	_	_	_	_	_	_
+3	внатрешни	внатрешни	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Definite=Ind	_	_	_	_
+4	работи	работи	NOUN	_	Gender=Fem|Number=Plur|Case=Nom|Definite=Ind	_	_	_	_
+5	објави	објави	VERB	_	Tense=Pres|Person=3|Number=Sing|Gender=Neut|Voice=Act|Polarity=Pos|Aspect=Perf	_	_	_	_
+6	дека	дека	SCONJ	_	_	_	_	_	_
+7	осомничениот	осомничениот	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|Definite=Def|Distance=Dist	_	_	_	_
+8	имал	имал	AUX	_	Tense=Pres|Person=3|Number=Sing|Gender=Neut|Voice=Act|Polarity=Pos	_	_	_	_
+9	оружје	оружје	NOUN	_	Gender=Neut|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+10	и	и	CCONJ	_	_	_	_	_	_
+11	експлозиви	експлозиви	NOUN	_	Gender=Masc|Number=Plur|Case=Nom|Definite=Ind	_	_	_	_
+12	за	за	SCONJ	_	_	_	_	_	_
+13	терористичка	терористичка	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Definite=Ind	_	_	_	_
+14	употреба	употреба	NOUN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = set-s260
+# text = Полицијата пребара уште две други локации во сараевските населби Седреник и Барице, каде што пронајдоа материјали што се користат за производство на експлозиви.
+1	Полицијата	Полицијата	NOUN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Def|Distance=Dist	_	_	_	_
+2	пребара	пребара	VERB	_	Tense=Past|Person=3|Number=Sing|Voice=Act|Polarity=Pos|Aspect=Perf	_	_	_	_
+3	уште	уште	ADV	_	Degree=Ela	_	_	_	_
+4	две	две	NUM	_	NumType=Card|Gender=Fem|Number=Plur|NumForm=Word|Definite=Ind	_	_	_	_
+5	други	други	ADJ	_	Degree=Pos|Gender=Masc|Number=Plur|Definite=Ind	_	_	_	_
+6	локации	локации	NOUN	_	Gender=Fem|Number=Plur|Case=Nom|Definite=Ind	_	_	_	_
+7	во	во	AdpType=Prep	_		_	_	_	_
+8	сараевските	сараевските	ADJ	_	Degree=Pos|Number=Plur|Definite=Def|Distance=Dist	_	_	_	_
+9	населби	населби	NOUN	_	Gender=Fem|Number=Plur|Case=Nom|Definite=Ind	_	_	_	_
+10	Седреник	Седреник	PROPN	_	Gender=Masc|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+11	и	и	CCONJ	_	_	_	_	_	_
+12	Барице	Барице	PROPN	_	Gender=Masc|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+13	,	,	PUNCT	_	_	_	_	_	_
+14	каде	каде	AdpType=Prep	_		_	_	_	_
+15	што	што	PRON	_	Case=Nom|Person=3|Gender=Neut|Number=Sing|PronType=Rel	_	_	_	_
+16	пронајдоа	пронајдоа	VERB	_	Tense=Past|Person=3|Number=Plur|Voice=Act|Polarity=Pos	_	_	_	_
+17	материјали	материјали	NOUN	_	Gender=Masc|Number=Plur|Case=Nom|Definite=Ind	_	_	_	_
+18	што	што	PRON	_	Case=Nom|Person=3|Gender=Neut|Number=Sing|PronType=Rel	_	_	_	_
+19	се	се	AUX	_	Tense=Pres|Person=3|Number=Plur|Gender=Neut|Voice=Act|Polarity=Pos	_	_	_	_
+20	користат	користат	VERB	_	Tense=Pres|Person=3|Number=Plur|Voice=Act|Polarity=Pos|Aspect=Perf	_	_	_	_
+21	за	за	SCONJ	_	_	_	_	_	_
+22	производство	производство	NOUN	_	Gender=Neut|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+23	на	на	AdpType=Prep	_		_	_	_	_
+24	експлозиви	експлозиви	NOUN	_	Gender=Masc|Number=Plur|Case=Nom|Definite=Ind	_	_	_	_
+25	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = set-s3757
+# text = БиХ сега се наоѓа на прагот од разговорите за Договорот за стабилизација и асоцијација со ЕУ и учеството во програмата на НАТО Партнерство за мир, објави КВП.
+1	БиХ	БиХ	PROPN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+2	сега	сега	ADV	_	Degree=Ela	_	_	_	_
+3	се	се	AUX	_	Tense=Pres|Person=3|Number=Plur|Gender=Neut|Voice=Act|Polarity=Pos	_	_	_	_
+4	наоѓа	наоѓа	VERB	_	Tense=Pres|Person=3|Number=Sing|Voice=Act|Polarity=Pos|Aspect=Perf	_	_	_	_
+5	на	на	AdpType=Prep	_		_	_	_	_
+6	прагот	прагот	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|Definite=Def|Distance=Dist	_	_	_	_
+7	од	од	AdpType=Prep	_		_	_	_	_
+8	разговорите	разговорите	NOUN	_	Gender=Masc|Number=Plur|Case=Nom|Definite=Def|Distance=Dist	_	_	_	_
+9	за	за	SCONJ	_	_	_	_	_	_
+10	Договорот	Договорот	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|Definite=Def|Distance=Dist	_	_	_	_
+11	за	за	SCONJ	_	_	_	_	_	_
+12	стабилизација	стабилизација	NOUN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+13	и	и	CCONJ	_	_	_	_	_	_
+14	асоцијација	асоцијација	NOUN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+15	со	со	AdpType=Prep	_		_	_	_	_
+16	ЕУ	ЕУ	PROPN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+17	и	и	CCONJ	_	_	_	_	_	_
+18	учеството	учеството	NOUN	_	Gender=Neut|Number=Sing|Case=Nom|Definite=Def	_	_	_	_
+19	во	во	AdpType=Prep	_		_	_	_	_
+20	програмата	програмата	NOUN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Def|Distance=Dist	_	_	_	_
+21	на	на	AdpType=Prep	_		_	_	_	_
+22	НАТО	НАТО	PROPN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+23	Партнерство	Партнерство	NOUN	_	Gender=Neut|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+24	за	за	SCONJ	_	_	_	_	_	_
+25	мир	мир	NOUN	_	Gender=Macs|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+26	,	,	PUNCT	_	_	_	_	_	_
+27	објави	објави	VERB	_	Tense=Pres|Person=3|Number=Sing|Gender=Neut|Voice=Act|Polarity=Pos|Aspect=Perf	_	_	_	_
+28	КВП	КВП	PROPN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+29	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = set-s1680
+# text = Другите тројца би можеле да бидат екстрадирани во МКТЈ по кусата процедура, но претходно со тоа мора да се согласи српската Влада.
+1	Другите	Другите	ADJ	_	Degree=Pos|Gender=Masc|Number=Plur|Definite=Def|Distance=Dist	_	_	_	_
+2	тројца	тројца	NUM	_	NumType=Card|Number=Plur|NumForm=Word|Definite=Ind	_	_	_	_
+3	би	би	PART	_		_	_	_	_
+4	можеле	можеле	MOD	_	Mood=Part|Number=Plur|Voice=Act|Aspect=Perf	_	_	_	_
+5	да	да	PART	_		_	_	_	_
+6	бидат	бидат	AUX	_	Tense=Pres|Number=Plur|Gender=Neut|Voice=Act|Polarity=Pos	_	_	_	_
+7	екстрадирани	екстрадирани	VERB	_	Tense=Pres|Person=3|Number=Plur||Voice=Pass|Polarity=Pos|Aspect=Perf	_	_	_	_
+8	во	во	AdpType=Prep	_		_	_	_	_
+9	МКТЈ	МКТЈ	PROPN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+10	по	по	AdpType=Prep	_		_	_	_	_
+11	кусата	кусата	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Definite=Def|Distance=Dist	_	_	_	_
+12	процедура	процедура	NOUN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+13	,	,	PUNCT	_	_	_	_	_	_
+14	но	но	CCONJ	_	_	_	_	_	_
+15	претходно	претходно	ADV	_	Degree=Ela	_	_	_	_
+16	со	со	AdpType=Prep	_		_	_	_	_
+17	тоа	тоа	PRON	_	PronType=Prsl|Gender=Neut|Person=3|Number=Sing|Case=Nom	_	_	_	_
+18	мора	мора	MOD	_	Number=Sing|Gender=Neut|Voice=Act	_	_	_	_
+19	да	да	PART	_		_	_	_	_
+20	се	се	AUX	_	Tense=Pres|Person=3|Number=Plur|Gender=Neut|Voice=Act|Polarity=Pos	_	_	_	_
+21	согласи	согласи	VERB	_	Tense=Pres|Person=3|Number=Sing|Gender=Neut|Voice=Act|Polarity=Pos|Aspect=Perf	_	_	_	_
+22	српската	српската	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Definite=Def|Distance=Dist	_	_	_	_
+23	Влада	Влада	NOUN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+24	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = set-s486
+# text = Од друга страна, рече тој, се чини дека постои голем јаз помеѓу позициите на двете страни, а меѓусебната доверба е на ниско ниво.
+1	Од	Од	AdpType=Prep	_		_	_	_	_
+2	друга	друга	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Definite=Ind	_	_	_	_
+3	страна	страна	NOUN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	рече	рече	VERB	_	Tense=Past|Person=3|Number=Sing|Gender=Masc|Voice=Act|Polarity=Pos	_	_	_	_
+6	тој	тој	PRON	_	Gender=Masc|Person=3|Number=Sing|Case=Nom|PronType=Prsl	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	се	се	AUX	_	Tense=Pres|Person=3|Number=Plur|Gender=Neut|Voice=Act|Polarity=Pos	_	_	_	_
+9	чини	чини	MOD	_	Mood=Part|Person=3|Number=Sing|Gender=Neut|Voice=Act	_	_	_	_
+10	дека	дека	SCONJ	_	_	_	_	_	_
+11	постои	постои	VERB	_	Tense=Pres|Person=3|Number=Sing|Gender=Neut|Voice=Act|Polarity=Pos|Aspect=Perf	_	_	_	_
+12	голем	голем	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Definite=Ind	_	_	_	_
+13	јаз	јаз	NOUN	_	Gender=Macs|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+14	помеѓу	помеѓу	AdpType=Prep	_		_	_	_	_
+15	позициите	позициите	NOUN	_	Gender=Fem|Number=Plur|Case=Nom|Definite=Def|Distance=Dist	_	_	_	_
+16	на	на	AdpType=Prep	_		_	_	_	_
+17	двете	двете	NUM	_	NumType=Card|Number=Plur|NumForm=Word|Definite=Def	_	_	_	_
+18	страни	страни	NOUN	_	Gender=Fem|Number=Plur|Case=Nom|Definite=Ind	_	_	_	_
+19	,	,	PUNCT	_	_	_	_	_	_
+20	а	а	CCONJ	_	_	_	_	_	_
+21	меѓусебната	меѓусебната	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Definite=Def|Distance=Dist	_	_	_	_
+22	доверба	доверба	NOUN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+23	е	е	AUX	_	Tense=Pres|Person=3|Number=Sing|Gender=Neut|Voice=Act|Polarity=Pos	_	_	_	_
+24	на	на	AdpType=Prep	_		_	_	_	_
+25	ниско	ниско	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Definite=Ind	_	_	_	_
+26	ниво	ниво	NOUN	_	Gender=Neut|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+27	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = set-s2592
+# text = „Ова претставува најдолг континуиран период на пад на слободата во светот во скоро 40-годишната историја“ на извештаи Слободата во светот, вели групата, кој оваа година опфати 195 земји и 14 територии.
+1	„	„	PUNCT	_	_	_	_	_	_
+2	Ова	Ова	PRON	_	PronType=Dem|Gender=Neut|Person=3|Number=Sing|Case=Nom	_	_	_	_
+3	претставува	претставува	VERB	_	Tense=Pres|Person=3|Number=Sing|Voice=Act|Polarity=Pos|Aspect=Prog	_	_	_	_
+4	најдолг	најдолг	ADJ	_	Degree=Sup|Gender=Neut|Number=Sing|Definite=Ind	_	_	_	_
+5	континуиран	континуиран	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Definite=Ind	_	_	_	_
+6	период	период	NOUN	_	Gender=Macs|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+7	на	на	AdpType=Prep	_		_	_	_	_
+8	пад	пад	NOUN	_	Gender=Macs|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+9	на	на	AdpType=Prep	_		_	_	_	_
+10	слободата	слободата	NOUN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Def|Distance=Dist	_	_	_	_
+11	во	во	AdpType=Prep	_		_	_	_	_
+12	светот	светот	NOUN	_	Gender=Macs|Number=Sing|Case=Nom|Definite=Def	_	_	_	_
+13	во	во	AdpType=Prep	_		_	_	_	_
+14	скоро	скоро	ADV	_	Degree=Ela	_	_	_	_
+15	40-годишната	40-годишната	NUM	_	NumType=Card|Gender=Fem|Number=Plur|NumForm=Digit|Definite=Ind	_	_	_	_
+16	историја	историја	NOUN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+17	“	“	PUNCT	_	_	_	_	_	_
+18	на	на	AdpType=Prep	_		_	_	_	_
+19	извештаи	извештаи	NOUN	_	Gender=Masc|Number=Plur|Case=Nom|Definite=Ind	_	_	_	_
+20	Слободата	Слободата	NOUN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Def|Distance=Dist	_	_	_	_
+21	во	во	AdpType=Prep	_		_	_	_	_
+22	светот	светот	NOUN	_	Gender=Macs|Number=Sing|Case=Nom|Definite=Def	_	_	_	_
+23	,	,	PUNCT	_	_	_	_	_	_
+24	вели	вели	NOUN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Def|Distance=Dist	_	_	_	_
+25	групата	групата	NOUN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Def|Distance=Dist	_	_	_	_
+26	,	,	PUNCT	_	_	_	_	_	_
+27	кој	кој	PRON	_	|Person=3|Gender=Masc|Number=Sing|Case=Nom|PronType=Rel	_	_	_	_
+28	оваа	оваа	PRON	_	PronType=Dem|Gender=Fem|Person=3|Number=Sing|Case=Nom	_	_	_	_
+29	година	година	NOUN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+30	опфати	опфати	VERB	_	Tense=Pres|Person=3|Number=Sing|Gender=Neut|Voice=Act|Polarity=Pos|Aspect=Perf	_	_	_	_
+31	195	195	NUM	_	NumType=Card|NumForm=Digit	_	_	_	_
+32	земји	земји	NOUN	_	Gender=Plur|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+33	и	и	CCONJ	_	_	_	_	_	_
+34	14	14	NUM	_	NumType=Card|NumForm=Digit	_	_	_	_
+35	територии	територии	NOUN	_	Gender=Plur|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+36	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = set-s184
+# text = Црвенковски: Регионалната соработка е од клучна важност.
+1	Црвенковски	Црвенковски	PROPN	_	Gender=Masc|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+2	:	:	PUNCT	_	_	_	_	_	_
+3	Регионалната	Регионалната	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Definite=Def|Distance=Dist	_	_	_	_
+4	соработка	соработка	NOUN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+5	е	е	AUX	_	Tense=Pres|Person=3|Number=Sing|Gender=Neut|Voice=Act|Polarity=Pos	_	_	_	_
+6	од	од	AdpType=Prep	_		_	_	_	_
+7	клучна	клучна	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Definite=Ind	_	_	_	_
+8	важност	важност	NOUN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = set-s1566
+# text = Нема потреба за нов нуклеарен капацитет, рече тој.
+1	Нема	Нема	VERB	_	Tense=Pres|Person=3|Number=Sing|Gender=Neut|Voice=Act|Polarity=Neg	_	_	_	_
+2	потреба	потреба	NOUN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+3	за	за	SCONJ	_	_	_	_	_	_
+4	нов	нов	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Definite=Ind	_	_	_	_
+5	нуклеарен	нуклеарен	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Definite=Ind	_	_	_	_
+6	капацитет	капацитет	NOUN	_	Gender=Macs|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	рече	рече	VERB	_	Tense=Past|Person=3|Number=Sing|Gender=Masc|Voice=Act|Polarity=Pos	_	_	_	_
+9	тој	тој	PRON	_	Gender=Masc|Person=3|Number=Sing|Case=Nom|PronType=Prsl	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = set-s1737
+# text = Граѓаните на трите балкански држави сега имаат пристап до меѓусебно слободно движење со биометриски лични карти.
+1	Граѓаните	Граѓаните	NOUN	_	Gender=Masc|Number=Plur|Case=Nom|Definite=Def	_	_	_	_
+2	на	на	AdpType=Prep	_		_	_	_	_
+3	трите	трите	NUM	_	NumType=Card|Gender=Masc|Number=Sing|NumForm=Word|Definite=Def|Distance=Dist	_	_	_	_
+4	балкански	балкански	ADJ	_	Degree=Pos|Number=Plur|Definite=Ind	_	_	_	_
+5	држави	држави	NOUN	_	Gender=Fem|Number=Plur|Case=Nom|Definite=Ind	_	_	_	_
+6	сега	сега	ADV	_	Degree=Ela	_	_	_	_
+7	имаат	имаат	AUX	_	Tense=Pres|Number=Plur|Gender=Neut|Voice=Act|Polarity=Pos	_	_	_	_
+8	пристап	пристап	NOUN	_	Gender=Macs|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+9	до	до	AdpType=Prep	_		_	_	_	_
+10	меѓусебно	меѓусебно	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Definite=Int	_	_	_	_
+11	слободно	слободно	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Definite=Ind	_	_	_	_
+12	движење	движење	NOUN	_	Gender=Neut|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+13	со	со	AdpType=Prep	_		_	_	_	_
+14	биометриски	биометриски	ADJ	_	Degree=Pos|Number=Plur|Definite=Ind	_	_	_	_
+15	лични	лични	ADJ	_	Degree=Pos|Number=Plur|Definite=Ind	_	_	_	_
+16	карти	карти	NOUN	_	Gender=Fem|Number=Plur|Case=Nom|Definite=Ind	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = set-s377
+# text = Во април 2002 година, неговата идеја доби поддршка за време на состанокот на високо ниво на УНЕСКО, за зајакнување на регионалната соработка во Југоисточна Европа.
+1	Во	Во	AdpType=Prep	_		_	_	_	_
+2	април	април	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+3	2002	2002	NUM	_	NumType=Card|NumForm=Digit	_	_	_	_
+4	година	година	NOUN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	неговата	неговата	PRON	_	Gender=Fem|Person=3|Number=Sing|Number[psor]=Sing|Gender[psor]=Masc|PronType=Poss|Definite=Def	_	_	_	_
+7	идеја	идеја	NOUN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+8	доби	доби	VERB	_	Tense=Pres|Person=3|Number=Sing|Gender=Neut|Voice=Act|Polarity=Pos|Aspect=Perf	_	_	_	_
+9	поддршка	поддршка	NOUN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+10	за	за	SCONJ	_	_	_	_	_	_
+11	време	време	NOUN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+12	на	на	AdpType=Prep	_		_	_	_	_
+13	состанокот	состанокот	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|Definite=Def|Distance=Dist	_	_	_	_
+14	на	на	AdpType=Prep	_		_	_	_	_
+15	високо	високо	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Definite=Ind	_	_	_	_
+16	ниво	ниво	NOUN	_	Gender=Neut|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+17	на	на	AdpType=Prep	_		_	_	_	_
+18	УНЕСКО	УНЕСКО	PROPN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+19	,	,	PUNCT	_	_	_	_	_	_
+20	за	за	SCONJ	_	_	_	_	_	_
+21	зајакнување	зајакнува	NOUN	_	Gender=Neut|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+22	на	на	AdpType=Prep	_		_	_	_	_
+23	регионалната	регионалната	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Definite=Def|Distance=Dist	_	_	_	_
+24	соработка	соработка	NOUN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+25	во	во	AdpType=Prep	_		_	_	_	_
+26	Југоисточна	Југоисточна	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Definite=Ind	_	_	_	_
+27	Европа	Европа	PROPN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+28	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = set-s1296
+# text = Според ова, има многу повеќе млади кандидати кои се кандидираат за функцијата од кога и да е.
+1	Според	Според	AdpType=Prep	_		_	_	_	_
+2	ова	ова	PRON	_	PronType=Dem|Gender=Neut|Person=3|Number=Sing|Case=Nom	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	има	има	AUX	_	Tense=Pres|Mood=Ind|Person=3|Number=Sing|Gender=Neut|Voice=Act|Polarity=Pos	_	_	_	_
+5	многу	многу	ADV	_	Degree=Pos	_	_	_	_
+6	повеќе	повеќе	ADV	_	Degree=Cmp	_	_	_	_
+7	млади	млади	ADJ	_	Degree=Pos|Gender=Masc|Number=Plur|Definite=Ind	_	_	_	_
+8	кандидати	кандидати	NOUN	_	Gender=Masc|Number=Plur|Case=Nom|Definite=Ind	_	_	_	_
+9	кои	кои	PRON	_	|Person=3|Number=Plur|Case=Nom|PronType=Rel	_	_	_	_
+10	се	се	AUX	_	Tense=Pres|Person=3|Number=Plur|Gender=Neut|Voice=Act|Polarity=Pos	_	_	_	_
+11	кандидираат	кандидираат	VERB	_	Tense=Pres|Person=3|Number=Plur|Gender=Neut|Voice=Act|Polarity=Pos|Aspect=Perf	_	_	_	_
+12	за	за	SCONJ	_	_	_	_	_	_
+13	функцијата	функцијата	NOUN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Def|Distance=Dist	_	_	_	_
+14	од	од	AdpType=Prep	_		_	_	_	_
+15	кога	кога	ADV	_	Degree=Ela	_	_	_	_
+16	и	и	CCONJ	_	_	_	_	_	_
+17	да	да	PART	_		_	_	_	_
+18	е	е	PART	_		_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = set-s3446
+# text = Претседателот на Република Српска Рајко Кузмановиќ доби сертификат за членство во Европската академија на науките и уметностите на 7-ми март.
+1	Претседателот	Претседателот	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|Definite=Def|Distance=Dist	_	_	_	_
+2	на	на	AdpType=Prep	_		_	_	_	_
+3	Република	Република	NOUN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+4	Српска	Српска	PROPN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+5	Рајко	Рајко	PROPN	_	Gender=Masc|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+6	Кузмановиќ	Кузмановиќ	PROPN	_	Gender=Masc|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+7	доби	доби	VERB	_	Tense=Imp|Person=3|Number=Sing|Gender=Neut|Voice=Act|Polarity=Pos|Aspect=Perf	_	_	_	_
+8	сертификат	сертификат	NOUN	_	Gender=Macs|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+9	за	за	SCONJ	_	_	_	_	_	_
+10	членство	членство	NOUN	_	Gender=Neut|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+11	во	во	AdpType=Prep	_		_	_	_	_
+12	Европската	Европската	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Definite=Def|Distance=Dist	_	_	_	_
+13	академија	академија	NOUN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+14	на	на	AdpType=Prep	_		_	_	_	_
+15	науките	науките	NOUN	_	Gender=Fem|Number=Plur|Case=Nom|Definite=Def	_	_	_	_
+16	и	и	CCONJ	_	_	_	_	_	_
+17	уметностите	уметностите	NOUN	_	Gender=Fem|Number=Plur|Case=Nom|Definite=Def	_	_	_	_
+18	на	на	AdpType=Prep	_		_	_	_	_
+19	7-ми	7-ми	NUM	_	NumType=Card|Number=Plur|NumForm=Digit|Definite=Ind	_	_	_	_
+20	март	март	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+21	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = set-s2371
+# text = Министерот за надворешни работи на Република Чешка, Карел Шварценберг, му рече на косовскиот премиер Хашим Тачи за време на состанокот во понеделникот (14-ти јануари) во Приштина дека неговата земја ќе „реагира на прогласувањето независност на Косово во согласност со другите земји на ЕУ“.
+1	Министерот	Министерот	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|Definite=Def	_	_	_	_
+2	за	за	Adp	_	Type=Prep	_	_	_	_
+3	надворешни	надворешни	ADJ	_	Degree=Pos|Gender=Masc|Number=Plur|Definite=Ind	_	_	_	_
+4	работи	работи	NOUN	_	Gender=Fem|Number=Plur|Case=Nom|Definite=Ind	_	_	_	_
+5	на	на	AdpType=Prep	_		_	_	_	_
+6	Република	Република	NOUN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+7	Чешка	Чешка	PROPN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	Карел	Карел	PROPN	_	Gender=Masc|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+10	Шварценберг	Шварценберг	PROPN	_	Gender=Masc|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+11	,	,	PUNCT	_	_	_	_	_	_
+12	му	му	VERB	_	Tense=Past|Person=3|Number=Sing|Gender=Masc|Voice=Act|Polarity=Pos	_	_	_	_
+13	рече	рече	PRON	_	Case=Dat|Person=3|Gender=Masc|Number=Sing|PronType=Prs	_	_	_	_
+14	на	на	AdpType=Prep	_		_	_	_	_
+15	косовскиот	косовскиот	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Definite=Def|Distance=Dist	_	_	_	_
+16	премиер	премиер	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+17	Хашим	Хашим	PROPN	_	Gender=Masc|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+18	Тачи	Тачи	PROPN	_	Gender=Masc|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+19	за	за	SCONJ	_	_	_	_	_	_
+20	време	време	NOUN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+21	на	на	AdpType=Prep	_		_	_	_	_
+22	состанокот	состанокот	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|Definite=Def|Distance=Dist	_	_	_	_
+23	во	во	AdpType=Prep	_		_	_	_	_
+24	понеделникот	понеделникот	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|Definite=Def|Distance=Dist	_	_	_	_
+25	(	(	PUNCT	_	_	_	_	_	_
+26	14-ти	14-ти	NUM	_	NumType=Card|Number=Plur|NumForm=Digit|Definite=Ind	_	_	_	_
+27	јануари	јануари	NOUN	_	Gender=Masc|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+28	)	)	PUNCT	_	_	_	_	_	_
+29	во	во	AdpType=Prep	_		_	_	_	_
+30	Приштина	Приштина	PROPN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+31	дека	дека	SCONJ	_	_	_	_	_	_
+32	неговата	неговата	PRON	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Gender[psor]=Masc|PronType=Poss	_	_	_	_
+33	земја	земја	NOUN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+34	ќе	ќе	PART	_		_	_	_	_
+35	„	„	PUNCT	_	_	_	_	_	_
+36	реагира	реагира	VERB	_	Tense=Pres|Person=3|Number=Sing|Voice=Act|Polarity=Pos|Aspect=Perf	_	_	_	_
+37	на	на	AdpType=Prep	_		_	_	_	_
+38	прогласувањето	прогласувањето	AdpType=Prep	_		_	_	_	_
+39	независност	независност	NOUN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+40	на	на	AdpType=Prep	_		_	_	_	_
+41	Косово	Косово	PROPN	_	Gender=Neut|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+42	во	во	AdpType=Prep	_		_	_	_	_
+43	согласност	согласност	NOUN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+44	со	со	AdpType=Prep	_		_	_	_	_
+45	другите	другите	ADJ	_	Degree=Pos|Gender=Fem|Number=Plur|Definite=Ind	_	_	_	_
+46	земји	земји	NOUN	_	Gender=Fem|Number=Plur|Case=Nom|Definite=Ind	_	_	_	_
+47	на	на	AdpType=Prep	_		_	_	_	_
+48	ЕУ	ЕУ	PROPN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+49	“	“	PUNCT	_	_	_	_	_	_
+50	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = set-s1688
+# text = Хрватскиот премиер Санадер вети целосна соработка со МКТЈ
+1	Хрватскиот	Хрватскиот	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Definite=Def|Distance=Dist	_	_	_	_
+2	премиер	премиер	NOUN	_	Gender=Macs|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+3	Санадер	Санадер	PROPN	_	Gender=Masc|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+4	вети	вети	VERB	_	Tense=Past|Person=3|Number=Sing|Gender=Masc|Voice=Act|Polarity=Pos	_	_	_	_
+5	целосна	целосна	ADV	_	Degree=Ela	_	_	_	_
+6	соработка	соработка	NOUN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+7	со	со	AdpType=Prep	_		_	_	_	_
+8	МКТЈ	МКТЈ	PROPN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
+
