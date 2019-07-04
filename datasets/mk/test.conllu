@@ -29,9 +29,9 @@
 12	билатерален	билатерален	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Definite=Ind|Distance=Dist	_	_	_	_
 13	договор	договор	NOUN	_	Gender=Macs|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
 14	или	или	CCONJ	_	_	_	_	_	_
-15	под	под	AdpType=Prep	_		_	_	_	_
+15	под	под	AdpType=Prep	_	_	_	_	_	_
 16	закрилата	закрилата	NOUN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Def|Distance=Dist	_	_	_	_
-17	на	на	AdpType=Prep	_		_	_	_	_
+17	на	на	AdpType=Prep	_	_	_	_	_	_
 18	ЕУ	ЕУ	PROPN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
 19	.	.	PUNCT	_	_	_	_	_	_
 
