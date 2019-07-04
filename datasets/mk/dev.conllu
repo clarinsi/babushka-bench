@@ -158,7 +158,7 @@
 20	земји-членки	земји-членки	NOUN	_	Gender=Fem|Number=Plur|Case=Nom|Definite=Ind	_	_	_	_
 21	на	на	AdpType=Prep	_	_	_	_	_	_
 22	ЕУ	ЕУ	PROPN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
-23	кои	кои	PRON	_	|Person=3|Number=Plur|Case=Nom|PronType=Rel	_	_	_	_
+23	кои	кои	PRON	_	Person=3|Number=Plur|Case=Nom|PronType=Rel	_	_	_	_
 24	сé	сé	ADV	_	Degree=Ela	_	_	_	_
 25	уште	уште	ADV	_	Degree=Ela	_	_	_	_
 26	не	не	PART	_	_	_	_	_	_

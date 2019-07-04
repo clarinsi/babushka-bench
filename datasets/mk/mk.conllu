@@ -1024,7 +1024,7 @@
 20	земји-членки	земји-членки	NOUN	_	Gender=Fem|Number=Plur|Case=Nom|Definite=Ind	_	_	_	_
 21	на	на	AdpType=Prep	_	_	_	_	_	_
 22	ЕУ	ЕУ	PROPN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
-23	кои	кои	PRON	_	|Person=3|Number=Plur|Case=Nom|PronType=Rel	_	_	_	_
+23	кои	кои	PRON	_	Person=3|Number=Plur|Case=Nom|PronType=Rel	_	_	_	_
 24	сé	сé	ADV	_	Degree=Ela	_	_	_	_
 25	уште	уште	ADV	_	Degree=Ela	_	_	_	_
 26	не	не	PART	_	_	_	_	_	_
@@ -1107,7 +1107,7 @@
 4	можеле	можеле	MOD	_	Mood=Part|Number=Plur|Voice=Act|Aspect=Perf	_	_	_	_
 5	да	да	PART	_	_	_	_	_	_
 6	бидат	бидат	AUX	_	Tense=Pres|Number=Plur|Gender=Neut|Voice=Act|Polarity=Pos	_	_	_	_
-7	екстрадирани	екстрадирани	VERB	_	Tense=Pres|Person=3|Number=Plur||Voice=Pass|Polarity=Pos|Aspect=Perf	_	_	_	_
+7	екстрадирани	екстрадирани	VERB	_	Tense=Pres|Person=3|Number=Plur|Voice=Pass|Polarity=Pos|Aspect=Perf	_	_	_	_
 8	во	во	AdpType=Prep	_	_	_	_	_	_
 9	МКТЈ	МКТЈ	PROPN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
 10	по	по	AdpType=Prep	_	_	_	_	_	_
@@ -1184,7 +1184,7 @@
 24	вели	вели	NOUN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Def|Distance=Dist	_	_	_	_
 25	групата	групата	NOUN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Def|Distance=Dist	_	_	_	_
 26	,	,	PUNCT	_	_	_	_	_	_
-27	кој	кој	PRON	_	|Person=3|Gender=Masc|Number=Sing|Case=Nom|PronType=Rel	_	_	_	_
+27	кој	кој	PRON	_	Person=3|Gender=Masc|Number=Sing|Case=Nom|PronType=Rel	_	_	_	_
 28	оваа	оваа	PRON	_	PronType=Dem|Gender=Fem|Person=3|Number=Sing|Case=Nom	_	_	_	_
 29	година	година	NOUN	_	Gender=Fem|Number=Sing|Case=Nom|Definite=Ind	_	_	_	_
 30	опфати	опфати	VERB	_	Tense=Pres|Person=3|Number=Sing|Gender=Neut|Voice=Act|Polarity=Pos|Aspect=Perf	_	_	_	_
@@ -1281,7 +1281,7 @@
 6	повеќе	повеќе	ADV	_	Degree=Cmp	_	_	_	_
 7	млади	млади	ADJ	_	Degree=Pos|Gender=Masc|Number=Plur|Definite=Ind	_	_	_	_
 8	кандидати	кандидати	NOUN	_	Gender=Masc|Number=Plur|Case=Nom|Definite=Ind	_	_	_	_
-9	кои	кои	PRON	_	|Person=3|Number=Plur|Case=Nom|PronType=Rel	_	_	_	_
+9	кои	кои	PRON	_	Person=3|Number=Plur|Case=Nom|PronType=Rel	_	_	_	_
 10	се	се	AUX	_	Tense=Pres|Person=3|Number=Plur|Gender=Neut|Voice=Act|Polarity=Pos	_	_	_	_
 11	кандидираат	кандидираат	VERB	_	Tense=Pres|Person=3|Number=Plur|Gender=Neut|Voice=Act|Polarity=Pos|Aspect=Perf	_	_	_	_
 12	за	за	SCONJ	_	_	_	_	_	_
