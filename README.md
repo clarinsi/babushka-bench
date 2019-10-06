@@ -66,8 +66,8 @@ Will come later when tagging is included?
 | meta-tagger | | | gold segmentation, meta-tagger | ssj500k | sl | 98.66 |     98.66 |     98.66 |
 | stanfordnlp | 828ef2e | | gold | ssj500k | sl | 97.75 |     97.75 |     97.75 |
 | stanfordnlp | 828ef2e | | gold segmentation, stanfordnlp | ssj500k | sl | 97.51 |     97.51 |     97.51 |
-| stanfordnlp+lex | 828ef2e | | gold | ssj500k | sl | 99.30 |     99.30 |     99.30 |
-| stanfordnlp+lex | 828ef2e | | gold segmentation, stanfordnlp | ssj500k | sl | 98.74 |     98.74 |     98.74 |
+| classla-stanfordnlp | 828ef2e | | gold | ssj500k | sl | 99.63 | 99.63 | 99.63 |
+| classla-stanfordnlp | 828ef2e | | gold segmentation, stanfordnlp | ssj500k | sl | 99.02 | 99.02 |  99.02 |
 | reldi-tagger | 994f746 | | gold | hr500k | hr |98.17 |     98.17 |     98.17 |
 | reldi-tagger | 994f746 | | gold segmentaton, reldi-tagger | hr500k | hr | 96.82 |     96.82 |     96.82 |
 | reldi-tagger | 994f746 | | gold segmentation, stanfordnlp | hr500k | hr | 97.22 |     97.22 |     97.22 |
