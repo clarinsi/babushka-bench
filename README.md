@@ -66,19 +66,29 @@ Will come later when tagging is included?
 | meta-tagger | | | gold segmentation, meta-tagger | ssj500k | sl | 98.66 |     98.66 |     98.66 |
 | stanfordnlp | 828ef2e | | gold | ssj500k | sl | 97.75 |     97.75 |     97.75 |
 | stanfordnlp | 828ef2e | | gold segmentation, stanfordnlp | ssj500k | sl | 97.51 |     97.51 |     97.51 |
-| classla-stanfordnlp | 828ef2e | | gold | ssj500k | sl | 99.63 | 99.63 | 99.63 |
-| classla-stanfordnlp | 828ef2e | | gold segmentation, stanfordnlp | ssj500k | sl | 99.02 | 99.02 |  99.02 |
+| classla-stanfordnlp |  | | gold | ssj500k | sl | 99.63 | 99.63 | 99.63 |
+| classla-stanfordnlp |  | | gold segmentation, stanfordnlp | ssj500k | sl | 99.02 | 99.02 |  99.02 |
 | reldi-tagger | 994f746 | | gold | hr500k | hr |98.17 |     98.17 |     98.17 |
 | reldi-tagger | 994f746 | | gold segmentaton, reldi-tagger | hr500k | hr | 96.82 |     96.82 |     96.82 |
 | reldi-tagger | 994f746 | | gold segmentation, stanfordnlp | hr500k | hr | 97.22 |     97.22 |     97.22 |
 | stanfordnlp | 828ef2e | | gold | hr500k | hr | 96.22 |     96.22 |     96.22 |
 | stanfordnlp | 828ef2e | | gold segmentation, stanfordnlp | hr500k | hr | 95.85 |     95.85 |     95.85 |
-| stanfordnlp+lex | 828ef2e | | gold | hr500k | hr | 98.11 |     98.11 |     98.11 |
-| stanfordnlp+lex | 828ef2e | | gold segmentation, stanfordnlp | hr500k | hr | 97.22 |     97.22 |     97.22 |
+| classla-stanfordnlp | 56c7241 | | gold | hr500k | hr | 98.57 | 98.57 | 98.57 |
+| classla-stanfordnlp | 56c7241 | | gold segmentation, stanfordnlp | hr500k | hr | 97.60 | 97.60 | 97.60 |
 | reldi-tagger | 994f746 | | gold | SETimes.SR | sr | 97.89 |     97.89 |     97.89 |
 | reldi-tagger | 994f746 | | gold segmentation, reldi-tagger | SETimes.SR | sr | 96.44 |     96.44 |     96.44 |
 | reldi-tagger | 994f746 | | gold segmentation, stanfordnlp | SETimes.SR | sr | 97.26 |     97.26 |     97.26 |
 | stanfordnlp | 828ef2e | | gold | SETimes.SR | sr | 95.29 |     95.29 |     95.29 |
 | stanfordnlp | 828ef2e | | gold segmentation, stanfordnlp | SETimes.SR | sr | 95.18 |     95.18 |     95.18 |
-| stanfordnlp+lex | 828ef2e | | gold | SETimes.SR | sr | 97.78 |     97.78 |     97.78 |
-| stanfordnlp+lex | 828ef2e | | gold segmentation, stanfordnlp | SETimes.SR |  97.13 |     97.13 |     97.13 
+| classla-stanfordnlp | 56c7241 | | gold | SETimes.SR | sr | 98.49 | 98.49 | 98.49 |
+| classla-stanfordnlp | 56c7241 | | gold segmentation, stanfordnlp | SETimes.SR | sr | 97.89 | 97.89 | 97.89 |
+
+### Parsing
+
+| tool | revision | comment | preprocessing | dataset | language | P | R | F1 |
+| classla-stanfordnlp | 56c7241 | | gold segmentation, classla-stanfordnlp | ssj500k | sl | 92.68 | 92.68 | 92.68 |
+| classla-stanfordnlp | 56c7241 | | gold | ssj500k | sl | 94.19 | 94.19 | 94.19 |
+| classla-stanfordnlp | 56c7241 | | gold segmentation, classla-stanfordnlp | hr500k | hr | 85.86 | 85.86 | 85.86 |
+| classla-stanfordnlp | 56c7241 | | gold | hr500k | hr | 86.64 | 86.64 | 86.64 |
+| classla-stanfordnlp | 56c7241 | | gold segmentation, classla-stanfordnlp | SETimes.SR | sr | 88.96 | 88.96 | 88.96 |
+| classla-stanfordnlp | 56c7241 | | gold | SETimes.SR | sr | 90.20 | 90.20 | 90.20 |
