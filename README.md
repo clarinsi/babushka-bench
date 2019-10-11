@@ -1,4 +1,3 @@
-# bench
 
 Benchmarking NLP tools on Slovene, Croatian and Serbian
 
@@ -86,6 +85,7 @@ Will come later when tagging is included?
 ### Parsing
 
 | tool | revision | comment | preprocessing | dataset | language | P | R | F1 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | classla-stanfordnlp | 56c7241 | | gold segmentation, classla-stanfordnlp | ssj500k | sl | 92.68 | 92.68 | 92.68 |
 | classla-stanfordnlp | 56c7241 | | gold | ssj500k | sl | 94.19 | 94.19 | 94.19 |
 | classla-stanfordnlp | 56c7241 | | gold segmentation, classla-stanfordnlp | hr500k | hr | 85.86 | 85.86 | 85.86 |
