@@ -1,13 +1,13 @@
 # sent_id = set-s1979
 # text = Судските процеси против осомничените се очекува да започнат во средината од септември.
-1	Судските	суд	ADJ	_	Definite=Def|Degree=Pos|Distance=Dist|Gender=Masc|Number=Plur	_	_	_	_
+1	Судските	судски	ADJ	_	Definite=Def|Degree=Pos|Distance=Dist|Gender=Masc|Number=Plur	_	_	_	_
 2	процеси	процес	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	_	_	_	_
 3	против	против	ADP	_	Type=Prep	_	_	_	_
-4	осомничените	сомнева	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	_	_	_	_
-5	се	сум	AUX	_	Gender=Neut|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|Voice=Act	_	_	_	_
-6	очекува	чека	VERB	_	Gender=Neut|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|Voice=Pass	_	_	_	_
+4	осомничените	осомничен	ADJ	_	Definite=Def|Degree=Pos|Distance=Dist|Gender=Masc|Number=Plur	_	_	_	_
+5	се	се	PRON	_	???
+6	очекува	очекува	VERB	_	Gender=Neut|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|Voice=Pass	_	_	_	_
 7	да	да	PART	_	_	_	_	_	_
-8	започнат	почне	VERB	_	Aspect=Prog|Gender=Neut|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|Voice=Act	_	_	_	_
+8	започнат	започне	VERB	_	Aspect=Prog|Gender=Neut|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|Voice=Act	_	_	_	_
 9	во	во	ADP	_	Type=Prep	_	_	_	_
 10	средината	средина	NOUN	_	Case=Nom|Definite=Def|Distance=Dist|Gender=Fem|Number=Sing	_	_	_	_
 11	од	од	ADP	_	Type=Prep	_	_	_	_
@@ -28,10 +28,10 @@
 10	сé	сé	ADV	_	Degree=Ela	_	_	_	_
 11	уште	уште	ADV	_	Degree=Ela	_	_	_	_
 12	нема	нема	VERB	_	Gender=Neut|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|Voice=Act	_	_	_	_
-13	добиено	добие	VERB	_	Gender=Neut|Number=Sing|Person=3|Polarity=Pos|Tense=Imp|Voice=Passive	_	_	_	_
+13	добиено	добиен	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	_	_	_	_
 14	никакво	никакво	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	_	_	_	_
 15	официјално	официјален	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	_	_	_	_
-16	известување	известува	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	_	_	_	_
+16	известување	известување	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	_	_	_	_
 17	од	од	ADP	_	Type=Prep	_	_	_	_
 18	Сараево	Сараево	PROPN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	_	_	_	_
 19	и	и	CCONJ	_	_	_	_	_	_
@@ -63,13 +63,13 @@
 14	хипотека	хипотека	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	_	_	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	_	_	_	_
 16	која	која	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Rel	_	_	_	_
-17	значително	значително	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	_	_	_	_
+17	значително	значително	ADV	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	_	_	_	_??????
 18	ги	ги	PRON	_	Case=Acc|Clitic=Yes|Number=Plur|Person=3|PronType=Prsl	_	_	_	_
-19	проширува	шири	VERB	_	Aspect=Prog|Gender=Neut|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|Voice=Act	_	_	_	_
+19	проширува	проширува	VERB	_	Aspect=Prog|Gender=Neut|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|Voice=Act	_	_	_	_
 20	рамките	рамки	NOUN	_	Case=Nom|Definite=Def|Distance=Dist|Gender=Fem|Number=Plur	_	_	_	_
 21	на	на	ADP	_	Type=Prep	_	_	_	_
 22	видовите	вид	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	_	_	_	_
-23	недвижен	движи	ADJ	_	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	_	_	_	_
+23	недвижен	недвижен	ADJ	_	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	_	_	_	_
 24	имот	имот	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	_	_	_	_
 25	кој	кој	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Rel	_	_	_	_
 26	може	може	VERB	_	Gender=Neut|Mood=Part|Number=Sing|Voice=Act	_	_	_	_
@@ -79,10 +79,10 @@
 30	под	под	ADP	_	Type=Prep	_	_	_	_
 31	хипотека	хипотека	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	_	_	_	_
 32	и	и	CCONJ	_	_	_	_	_	_
-33	значително	значително	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	_	_	_	_
+33	значително	значително	ADV	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	_	_	_	_??????
 34	ја	ја	PRON	_	Case=Acc|Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	_	_	_	_
-35	скратува	крати	VERB	_	Gender=Neut|Number=Sing|Person=3|Polarity=Pos|Tense=Imp|Voice=Act	_	_	_	_
-36	временската	време	ADJ	_	Definite=Def|Degree=Pos|Distance=Dist|Gender=Fem|Number=Sing	_	_	_	_
+35	скратува	скратува	VERB	_	Gender=Neut|Number=Sing|Person=3|Polarity=Pos|Tense=Imp|Voice=Act	_	_	_	_
+36	временската	временски	ADJ	_	Definite=Def|Degree=Pos|Distance=Dist|Gender=Fem|Number=Sing	_	_	_	_
 37	рамка	рамка	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	_	_	_	_
 38	за	за	SCONJ	_	_	_	_	_	_
 39	негова	негова	PRON	_	Definite=Ind|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Poss=Yes	_	_	_	_
