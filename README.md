@@ -92,3 +92,13 @@ Will come later when tagging is included?
 | classla-stanfordnlp | 56c7241 | | gold | hr500k | hr | 86.64 | 86.64 | 86.64 |
 | classla-stanfordnlp | 56c7241 | | gold segmentation, classla-stanfordnlp | SETimes.SR | sr | 88.96 | 88.96 | 88.96 |
 | classla-stanfordnlp | 56c7241 | | gold | SETimes.SR | sr | 90.20 | 90.20 | 90.20 |
+
+### Named entity recognition
+
+For named entity recognition, macro-F1 and accuracy are calculated on the token level, disregarding the B-/I- label prefixes.
+
+| tool | revision | comment | preprocessing | dataset | language | macro-F1 | accuracy |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| janes-ner | cf687e8 | | gold segmentation and tagging | ssj500k | sl | 0.673 | 0.984 |
+| janes-ner | cf687e8 | | gold segmentation and tagging | hr500k | hr | 0.752 | 0.978 |
+| janes-ner | cf687e8 | | gold segmentation and tagging | SETimes.SR | sr | 0.781 | 0.975 |

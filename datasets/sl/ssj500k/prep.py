@@ -76,6 +76,7 @@ for doc in root.iter('{http://www.tei-c.org/ns/1.0}div'):
       do_ner=False
     for element in p:
       if element.tag.endswith('s'):
+        sent_id=element.attrib['{http://www.w3.org/XML/1998/namespace}id']
         sentence=element
         text=''
         tokens=[]
@@ -140,16 +141,16 @@ for doc in root.iter('{http://www.tei-c.org/ns/1.0}div'):
             if do_ner:
               ners.append('O')
         tokens=[a+b for a,b in zip(tokens,uposfeats)]
-        pointer.append((text,tokens))
+        pointer.append((sent_id,text,tokens))
         pointer_text.write(text.encode('utf8'))
         if ud!=None:
-          pointer_ud.append((text,tokens,ud))
+          pointer_ud.append((sent_id,text,tokens,ud))
           pointer_ud_text.write(text.encode('utf8'))
         if jos!=None:
-          pointer_jos.append((text,tokens,jos))
+          pointer_jos.append((sent_id,text,tokens,jos))
           pointer_jos_text.write(text.encode('utf8'))
         if do_ner:
-          pointer_ner.append((text,tokens,ners))
+          pointer_ner.append((sent_id,text,tokens,ners))
           pointer_ner_text.write(text.encode('utf8'))
       else:
         pointer_text.write(element.text.encode('utf8'))
@@ -172,11 +173,12 @@ def write_list(lst,fname,synt=False,ner=False):
   f=open(fname,'w')
   for el in lst:
     if not synt and not ner:
-      text,tokens=el
+      sid,text,tokens=el
     elif ner:
-      text,tokens,nes=el
+      sid,text,tokens,nes=el
     else:
-      text,tokens,dep=el
+      sid,text,tokens,dep=el
+    f.write('# sent_id = '+sid+'\n')
     f.write('# text = '+text.encode('utf8')+'\n')
     for idx,token in enumerate(tokens):
       if not synt and not ner:
