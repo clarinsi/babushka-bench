@@ -102,3 +102,6 @@ For named entity recognition, macro-F1 and accuracy are calculated on the token 
 | janes-ner | cf687e8 | | gold segmentation and tagging | ssj500k | sl | 0.673 | 0.984 |
 | janes-ner | cf687e8 | | gold segmentation and tagging | hr500k | hr | 0.752 | 0.978 |
 | janes-ner | cf687e8 | | gold segmentation and tagging | SETimes.SR | sr | 0.781 | 0.975 |
+| simpletransformers | ver 0.7.10 | bert-base-multilingual-cased, 3 epochs, other default | gold segmentation and tagging | ssj500k | sl | 0.868 | 0.991 |
+| simpletransformers | ver 0.7.10 | bert-base-multilingual-cased, 3 epochs, other default | gold segmentation and tagging | hr500k | hr | 0.886 | 0.988 |
+| simpletransformers | ver 0.7.10 | bert-base-multilingual-cased, 3 epochs, other default | gold segmentation and tagging | SETimes.SR | sr | 0.911 | 0.989 |
