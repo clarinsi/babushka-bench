@@ -2,10 +2,10 @@
 Benchmarking NLP tools on Slovene, Croatian and Serbian
 
 For now, the following processing levels are present in the repo:
-- (Segmentation)[#segmentation]
-- (Morphosyntactic tagging)[#morphosyntactic-tagging]
-- (Syntactic parsing)[#parsing]
-- (Named entity recognition)[#named-entity-recognition] 
+- [Segmentation](#segmentation)
+- [Morphosyntactic tagging](#morphosyntactic-tagging)
+- [Syntactic parsing](#parsing)
+- [Named entity recognition](#named-entity-recognition) 
 
 ## Segmentation
 
