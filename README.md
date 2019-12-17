@@ -1,6 +1,12 @@
 
 Benchmarking NLP tools on Slovene, Croatian and Serbian
 
+For now, the following processing levels are present in the repo:
+- (Segmentation)[#segmentation]
+- (Morphosyntactic tagging)[#morphosyntactic-tagging]
+- (Syntactic parsing)[#parsing]
+- (Named entity recognition)[#named-entity-recognition] 
+
 ## Segmentation
 
 ### Tokens
@@ -54,7 +60,7 @@ Will come later when tagging is included?
 | stanfordnlp | 828ef2e | CLARIN.SI FT (Serbian) embeddings | gold | SETimes.SR | sr |  95.23 |     95.23 |     95.23 |
 | stanfordnlp | 828ef2e | CLARIN.SI W2V (Serbian) embeddings | gold | SETimes.SR | sr | 94.91 |     94.91 |     94.91 |
 
-### Lemmatization
+## Lemmatization
 
 | tool | revision | comment | preprocessing | dataset | language | P | R | F1 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -82,7 +88,7 @@ Will come later when tagging is included?
 | classla-stanfordnlp | 56c7241 | | gold | SETimes.SR | sr | 98.49 | 98.49 | 98.49 |
 | classla-stanfordnlp | 56c7241 | | gold segmentation, stanfordnlp | SETimes.SR | sr | 97.89 | 97.89 | 97.89 |
 
-### Parsing
+## Parsing
 
 | tool | revision | comment | preprocessing | dataset | language | P | R | F1 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -93,7 +99,7 @@ Will come later when tagging is included?
 | classla-stanfordnlp | 56c7241 | | gold segmentation, classla-stanfordnlp | SETimes.SR | sr | 88.96 | 88.96 | 88.96 |
 | classla-stanfordnlp | 56c7241 | | gold | SETimes.SR | sr | 90.20 | 90.20 | 90.20 |
 
-### Named entity recognition
+## Named entity recognition
 
 For named entity recognition, macro-F1 and accuracy are calculated on the token level, disregarding the B-/I- label prefixes.
 
