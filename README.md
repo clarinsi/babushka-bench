@@ -1,5 +1,5 @@
 
-Benchmarking NLP tools on Slovene, Croatian and Serbian
+Benchmarking NLP tools on Slovene, Croatian, Serbian and Bulgarian
 
 For now, the following processing levels are present in the repo:
 - [Segmentation](#segmentation)
@@ -45,6 +45,7 @@ Will come later when tagging is included?
 | stanfordnlp | 828ef2e | CLARIN.SI FT embeddings | gold | ssj500k | sl |  96.72 |     96.72 |     96.72 |
 | stanfordnlp | 828ef2e | CLARIN.SI W2V embeddings | gold | ssj500k | sl | 96.79 |     96.79 |     96.79 |
 | stanfordnlp |  828ef2e | CLARIN.SI FT embeddings | gold | ssj500k_ud | sl | 95.65 |     95.65 |     95.65 |
+| classla-stanfordnlp | 2c41295 | CLARIN.SI FT embeddings | gold | ssj500k | sl | 97.06 | 97.06 | 97.06 |
 | reldi-tagger | 994f746 | | gold | hr500k | hr | 91.91 |     91.91 |     91.91 |
 | Parser-v3 | 9ee9e8f | CLARIN.SI FT embeddings | gold | hr500k | hr | 94.29 |     94.29 |     94.29 |
 | Parser-v3 | 9ee9e8f | CLARIN.SI FT embeddings | reldi-tokeniser | hr500k | hr | 93.89 |     93.86 |     93.87 |
@@ -59,6 +60,7 @@ Will come later when tagging is included?
 | stanfordnlp | 828ef2e | CLARIN.SI FT (Croatian) embeddings| gold | SETimes.SR | sr |     94.69 |     94.69 |     94.69 |
 | stanfordnlp | 828ef2e | CLARIN.SI FT (Serbian) embeddings | gold | SETimes.SR | sr |  95.23 |     95.23 |     95.23 |
 | stanfordnlp | 828ef2e | CLARIN.SI W2V (Serbian) embeddings | gold | SETimes.SR | sr | 94.91 |     94.91 |     94.91 |
+| classla-stanfordnlp | 2c41295 | CoNLL17 embeddings | gold | BTB | bg | 96.77 | 96.77 | 96.77 |
 
 ## Lemmatization
 
@@ -87,6 +89,7 @@ Will come later when tagging is included?
 | stanfordnlp | 828ef2e | | gold segmentation, stanfordnlp | SETimes.SR | sr | 95.18 |     95.18 |     95.18 |
 | classla-stanfordnlp | 56c7241 | | gold | SETimes.SR | sr | 98.49 | 98.49 | 98.49 |
 | classla-stanfordnlp | 56c7241 | | gold segmentation, stanfordnlp | SETimes.SR | sr | 97.89 | 97.89 | 97.89 |
+| classla-stanfordnlp | 2c41295 | gold segmentation, classla-stanfordnlp | BTB | bg | 98.80 | 98.80 | 98.80 |
 
 ## Parsing
 
@@ -98,6 +101,7 @@ Will come later when tagging is included?
 | classla-stanfordnlp | 56c7241 | | gold | hr500k | hr | 86.64 | 86.64 | 86.64 |
 | classla-stanfordnlp | 56c7241 | | gold segmentation, classla-stanfordnlp | SETimes.SR | sr | 88.96 | 88.96 | 88.96 |
 | classla-stanfordnlp | 56c7241 | | gold | SETimes.SR | sr | 90.20 | 90.20 | 90.20 |
+| classla-stanfordnlp | 2c41295 | | gold segmentation, classla-stanfordnlp | BTB-UD | bg | 91.45 | 91.45 | 91.45 |
 
 ## Named entity recognition
 
