@@ -1,5 +1,6 @@
 import random
 random.seed(42)
+tags = ['<g/>', '<corpus', '<text', '</corpus', '</text']
 train=[]
 dev=[]
 test=[]
@@ -28,7 +29,7 @@ for line in open('ReLDI-sr.vert/reldi_sr.vert'):
   elif line.startswith('</name>'):
     ner_type='O'
   else:
-    if not line.startswith('<'):
+    if not any(line.startswith(t) for t in tags):
       line=line.split('\t')
       s.append((line[0],line[1],line[3],line[4],line[5],ner_type))
     if ner_type.startswith('B-'):

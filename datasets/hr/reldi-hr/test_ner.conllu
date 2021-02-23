@@ -2109,6 +2109,7 @@
 21	takav	takav	DET	Pd-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	_	_	_	O
 22	humor	humor	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	O
 23	volim	volim	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	_	_	_	O
+24	<3	<3	SYM	Xe	-	_	_	_	O
 
 # sent_id = tid.490428493105467392.1
 1	@utikejt	@utikejt	SYM	Xa	-	_	_	_	B-per
@@ -2908,6 +2909,7 @@
 # sent_id = tid.501863215308218368.2
 1	scary	scary	X	Xf	Foreign=Yes	_	_	_	O
 2	really	really	X	Xf	Foreign=Yes	_	_	_	O
+3	<.<	<.<	SYM	Xe	-	_	_	_	O
 
 # sent_id = tid.501863215308218368.3
 1	svi	svi	ADJ	Agpmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	_	_	_	O
@@ -3746,6 +3748,7 @@
 3	moje	moje	DET	Ps1nsn	Case=Nom|Gender=Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	_	_	_	O
 4	gomilanje	gomilanje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	_	_	_	O
 5	love	love	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	_	_	_	O
+6	<3	<3	SYM	Xe	-	_	_	_	O
 
 # sent_id = tid.505611463395147776.1
 1	U	U	ADP	Sl	Case=Loc	_	_	_	O
@@ -6614,6 +6617,7 @@
 11	le1fu	le1fu	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	_	_	_	B-per
 12	u	u	ADP	Sl	Case=Loc	_	_	_	O
 13	berlinu	berlinu	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	_	_	_	B-loc
+14	<3	<3	SYM	Xe	-	_	_	_	O
 
 # sent_id = tid.370850527359545344.2
 1	ma	ma	INTJ	I	-	_	_	_	O
@@ -8295,6 +8299,7 @@
 10	u	u	ADP	Sl	Case=Loc	_	_	_	O
 11	takvom	takvom	DET	Pd-msl	Case=Loc|Gender=Masc|Number=Sing|PronType=Dem	_	_	_	O
 12	kreveticu	krevetiću	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	_	_	_	O
+13	<3	<3	SYM	Xe	-	_	_	_	O
 
 # sent_id = tid.375584516473380864.3
 1	vracaju	vraćaju	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	O
@@ -8667,7 +8672,8 @@
 15	'	'	PUNCT	Z	-	_	_	_	O
 16	xD	xD	SYM	Xe	-	_	_	_	O
 17	(Y)	(Y)	SYM	Xe	-	_	_	_	O
-18	#Enzlle	#Enzlle	SYM	Xh	-	_	_	_	O
+18	<3	<3	SYM	Xe	-	_	_	_	O
+19	#Enzlle	#Enzlle	SYM	Xh	-	_	_	_	O
 
 # sent_id = tid.489063535901945856.1
 1	ove	ove	DET	Pd-fsg	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	_	_	_	O

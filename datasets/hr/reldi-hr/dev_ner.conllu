@@ -4688,6 +4688,7 @@
 
 # sent_id = tid.343054280590245890.2
 1	#life	#life	SYM	Xh	-	_	_	_	O
+2	<3	<3	SYM	Xe	-	_	_	_	O
 
 # sent_id = tid.379236174579396608.1
 1	Trebam	Trebam	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	_	_	_	O

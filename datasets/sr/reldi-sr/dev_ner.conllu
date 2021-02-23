@@ -2511,7 +2511,8 @@
 17	jedna	jedna	NUM	Mlcfsn	Case=Nom|Gender=Fem|Number=Sing|NumType=Card	_	_	_	O
 18	od	od	ADP	Sg	Case=Gen	_	_	_	O
 19	opcija	opcija	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	_	_	_	O
-20	...	...	PUNCT	Z	-	_	_	_	O
+20	<	<	PUNCT	Z	-	_	_	_	O
+21	...	...	PUNCT	Z	-	_	_	_	O
 
 # sent_id = tid.357616738650701826.1
 1	Kakav	Kakav	DET	Pi-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	_	_	_	O
@@ -6450,6 +6451,7 @@
 # sent_id = tid.376058775700254721.3
 1	Najlepsi	Najlepši	ADJ	Agsmsny	Case=Nom|Definite=Def|Degree=Sup|Gender=Masc|Number=Sing	_	_	_	O
 2	ste	ste	AUX	Var2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	_	_	_	O
+3	<3	<3	SYM	Xe	-	_	_	_	O
 
 # sent_id = tid.543898152055865344.1
 1	Ima	Ima	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	O
@@ -7070,7 +7072,8 @@
 18	slušali	slušali	VERB	Vmp-pm	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	_	_	_	O
 19	Bad	Bad	PROPN	Npmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	_	_	_	B-org
 20	Copy	Copy	PROPN	Npmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	_	_	_	I-org
-21	456789	456789	NUM	Mdc	NumType=Card	_	_	_	O
+21	<3	<3	SYM	Xe	-	_	_	_	O
+22	456789	456789	NUM	Mdc	NumType=Card	_	_	_	O
 
 # sent_id = tid.420951368342323200.1
 1	na	na	ADP	Sa	Case=Acc	_	_	_	O
@@ -8551,7 +8554,8 @@
 3	sto	što	PART	Qo	-	_	_	_	O
 4	si	si	AUX	Var2s	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	_	_	_	O
 5	lepa	lepa	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	_	_	_	O
-6	*	*	PUNCT	Z	-	_	_	_	O
+6	<3	<3	SYM	Xe	-	_	_	_	O
+7	*	*	PUNCT	Z	-	_	_	_	O
 
 # sent_id = tid.473235266392838145.2
 1	Predivna	Predivna	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	_	_	_	O
@@ -8570,6 +8574,7 @@
 10	!	!	PUNCT	Z	-	_	_	_	O
 
 # sent_id = tid.473235266392838145.4
+1	<3	<3	SYM	Xe	-	_	_	_	O
 
 # sent_id = tid.473235266392838145.5
 1	Poznati	Poznati	ADJ	Agpmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	_	_	_	O
@@ -8930,6 +8935,7 @@
 20	razumeo	razumeo	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	_	_	_	O
 21	pričaju	pričaju	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	O
 22	engleski	engleski	ADJ	Agpmsayn	Animacy=Inan|Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	_	_	_	O
+23	<333	<333	SYM	Xe	-	_	_	_	O
 
 # sent_id = tid.426128918018396161.1
 1	Penis	Penis	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	O
@@ -9278,10 +9284,12 @@
 6	http://t.co/lIZnLMngRH	http://t.co/lIZnLMngRH	SYM	Xw	-	_	_	_	O
 
 # sent_id = tid.415869987916505088.3
-1	:*	:*	SYM	Xe	-	_	_	_	O
-2	Hvala	Hvala	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	_	_	_	O
-3	unapred	unapred	ADV	Rgp	Degree=Pos	_	_	_	O
-4	:*	:*	SYM	Xe	-	_	_	_	O
+1	<3	<3	SYM	Xe	-	_	_	_	O
+2	:*	:*	SYM	Xe	-	_	_	_	O
+3	Hvala	Hvala	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	_	_	_	O
+4	unapred	unapred	ADV	Rgp	Degree=Pos	_	_	_	O
+5	<3	<3	SYM	Xe	-	_	_	_	O
+6	:*	:*	SYM	Xe	-	_	_	_	O
 
 # sent_id = tid.410751388382015488.1
 1	@MrchaMikrokozma	@MrchaMikrokozma	SYM	Xa	-	_	_	_	B-per

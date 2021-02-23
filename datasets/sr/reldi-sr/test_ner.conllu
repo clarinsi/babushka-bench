@@ -5458,6 +5458,7 @@
 15	sistematski	sistematski	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	_	_	_	O
 16	pregled	pregled	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	O
 17	#sistematskionelove	#sistematskionelove	SYM	Xh	-	_	_	_	O
+18	<33	<33	SYM	Xe	-	_	_	_	O
 
 # sent_id = tid.477553063944019971.1
 1	@MihovilLogar	@MihovilLogar	SYM	Xa	-	_	_	_	B-per
@@ -5759,6 +5760,7 @@
 4	lepšu	lepšu	ADJ	Agcfsay	Case=Acc|Definite=Def|Degree=Cmp|Gender=Fem|Number=Sing	_	_	_	O
 5	guzicu	guzicu	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	_	_	_	O
 6	žaomie	žao mi je	ADV PRON AUX	Rgp Pp1-sd Var3s	Degree=Pos Case=Dat|Number=Sing|Person=1|PronType=Prs Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	O
+7	<3	<3	SYM	Xe	-	_	_	_	O
 
 # sent_id = tid.539077919537369089.3
 1	plus	plus	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	O
@@ -7944,6 +7946,7 @@
 5	A	A	CCONJ	Cc	-	_	_	_	O
 6	I	I	PART	Qo	-	_	_	_	O
 7	ŠIRE	ŠIRE	ADV	Rgc	Degree=Cmp	_	_	_	O
+8	<3	<3	SYM	Xe	-	_	_	_	O
 
 # sent_id = tid.352373428268965888.1
 1	Histerisem	Histerišem	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	_	_	_	O
