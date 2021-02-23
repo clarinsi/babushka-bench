@@ -34,16 +34,23 @@ for line in open('ReLDI-sr.vert/reldi_sr.vert'):
     if ner_type.startswith('B-'):
       ner_type='I-'+ner_type[2:]
 
-def write_list(lst,fname):
+def write_list(lst,fname,norm=False):
   f=open(fname,'w')
   for el in lst:
     sent_id=el[0]
     tokens=el[1:]
-    f.write('# sent_id = '+sent_id+'\n')
+    if not norm:
+      f.write('# sent_id = '+sent_id+'\n')
     for idx,token in enumerate(tokens):
-      f.write(str(idx+1)+'\t'+token[0]+'\t'+token[1]+'\t'+token[3]+'\t'+token[2]+'\t'+token[4]+'\t_\t_\t_\t'+token[5]+'\n')
+      if not norm:
+        f.write(str(idx+1)+'\t'+token[0]+'\t'+token[1]+'\t'+token[3]+'\t'+token[2]+'\t'+token[4]+'\t_\t_\t_\t'+token[5]+'\n')
+      else:
+        f.write(token[0] + '\t' + token[1] + '\n')
     f.write('\n')
   f.close()
 write_list(train,'train_ner.conllu')
 write_list(dev,'dev_ner.conllu')
 write_list(test,'test_ner.conllu')
+write_list(train,'train_norm.tbl',True)
+write_list(dev,'dev_norm.tbl',True)
+write_list(test,'test_norm.tbl',True)
