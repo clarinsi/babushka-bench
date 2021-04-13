@@ -49,6 +49,8 @@ for tree in conlls:
     if word['misc'] is not None and 'Normalized' in word['misc']:
       word['form'] = word['misc']['Normalized']
       del word['misc']['Normalized']
+      if 'misc' not in word or word['misc'] == {}:
+        word['misc'] = None
   c = tree.serialize()
   pointer.append(tree.serialize())
   pointer_normed.append(tree_normed.serialize())
