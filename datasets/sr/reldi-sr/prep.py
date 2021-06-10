@@ -44,7 +44,7 @@ for line in open('ReLDI-sr.vert/reldi_sr.vert'):
       ner_type='I-'+ner_type[2:]
 
 def write_list(lst,fname,norm=False,raw=False):
-  f=open(fname,'w')
+  f=open(fname,'w', encoding='utf8')
   for el in lst:
     sent_id=el[0]
     tokens=el[1:]
