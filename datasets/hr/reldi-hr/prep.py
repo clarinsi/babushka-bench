@@ -5,10 +5,13 @@ train=[]
 dev=[]
 test=[]
 ner_type='O'
+s=[]
+pointer=''
+previous_glue = False
 import re
 ner_re=re.compile(r' type="(.+?)"')
 id_re=re.compile(r' id="(.+?)"')
-for line in open('ReLDI-hr.vert/reldi_hr.vert'):
+for line in open('ReLDI-hr.vert/reldi_hr.vert', 'r', encoding='utf8'):
   if line.startswith('<text'):
     rand=random.random()
     if rand<0.8:
@@ -25,7 +28,10 @@ for line in open('ReLDI-hr.vert/reldi_hr.vert'):
     s=[id_re.search(line).group(1)]
     previous_glue = True
   elif line.startswith('<name'):
-    ner_type='B-'+ner_re.search(line).group(1)
+    tag = ner_re.search(line).group(1)
+    if tag == '*':
+      tag = 'misc'
+    ner_type='B-'+tag
   elif line.startswith('</name>'):
     ner_type='O'
   else:
@@ -36,12 +42,14 @@ for line in open('ReLDI-hr.vert/reldi_hr.vert'):
       else:
         glue = ' '
       previous_glue = False
-      s.append((line[0],line[1],line[3],line[4],line[5],ner_type, glue))
+      s.append((line[0],line[1],line[2].split('-')[0],line[3],line[4],line[5],ner_type, glue))
     if ner_type.startswith('B-'):
       ner_type='I-'+ner_type[2:]
 
-def write_list(lst,fname,norm=False,raw=False):
+def write_list(lst,fname,norm=False,raw=False,all=False):
   f=open(fname,'w', encoding='utf8')
+  if all:
+    f.write('# global.columns = ID TOKEN NORM LEMMA UPOS XPOS FEATS NER_TYPE')
   for el in lst:
     sent_id=el[0]
     tokens=el[1:]
@@ -50,13 +58,14 @@ def write_list(lst,fname,norm=False,raw=False):
       f.write('# sent_id = '+sent_id+'\n')
     for idx,token in enumerate(tokens):
       if not norm:
-        f.write(str(idx+1)+'\t'+token[0]+'\t'+token[1]+'\t'+token[3]+'\t'+token[2]+'\t'+token[4]+'\t_\t_\t_\t'+token[5]+'\n')
+        f.write(str(idx+1)+'\t'+token[0]+'\t'+token[2]+'\t'+token[4]+'\t'+token[3]+'\t'+token[5]+'\t_\t_\t_\t'+token[6]+'\n')
+      elif not raw:
+        f.write(token[0]+'\t'+token[1]+'\n')
+      elif not all:
+        raw_list.append(token[-1])
+        raw_list.append(token[0])
       else:
-        if not raw:
-          f.write(token[0]+'\t'+token[1]+'\n')
-        else:
-          raw_list.append(token[-1])
-          raw_list.append(token[0])
+        f.write(str(idx+1)+'\t'+token[0]+'\t'+token[1]+'\t'+token[2]+'\t'+token[4]+'\t'+token[3]+'\t'+token[5]+token[6]+'\n')
     if not raw:
       f.write('\n')
     else:
@@ -71,3 +80,6 @@ write_list(test,'test_norm.tbl',True)
 write_list(train,'train_norm.txt',True,True)
 write_list(dev,'dev_norm.txt',True,True)
 write_list(test,'test_norm.txt',True,True)
+write_list(train,'train_all.conllup',True,True,True)
+write_list(dev,'dev_all.conllup',True,True,True)
+write_list(test,'test_all.conllup',True,True,True)
