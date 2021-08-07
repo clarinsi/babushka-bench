@@ -12,6 +12,9 @@ test_ud=[]
 train_ner=[]
 dev_ner=[]
 test_ner=[]
+train_ner_ud = []
+dev_ner_ud = []
+test_ner_ud = []
 train_text=open('train.txt','w', encoding='utf8')
 dev_text=open('dev.txt','w', encoding='utf8')
 test_text=open('test.txt','w', encoding='utf8')
@@ -31,6 +34,7 @@ for doc in root.iter('{http://www.tei-c.org/ns/1.0}ab'):
     pointer_ud_text=train_ud_text
     pointer_ner=train_ner
     pointer_ner_text=train_ner_text
+    pointer_ner_ud = train_ner_ud
   elif rand<0.9:
     pointer=dev
     pointer_text=dev_text
@@ -38,6 +42,7 @@ for doc in root.iter('{http://www.tei-c.org/ns/1.0}ab'):
     pointer_ud_text=dev_ud_text
     pointer_ner=dev_ner  
     pointer_ner_text=dev_ner_text
+    pointer_ner_ud = dev_ner_ud
   else:
     pointer=test
     pointer_text=test_text
@@ -45,6 +50,7 @@ for doc in root.iter('{http://www.tei-c.org/ns/1.0}ab'):
     pointer_ud_text=test_ud_text
     pointer_ner=test_ner
     pointer_ner_text=test_ner_text
+    pointer_ner_ud = test_ner_ud
   for element in doc:
     if element.tag.endswith('s'):
       sent_id=element.attrib['{http://www.w3.org/XML/1998/namespace}id']
@@ -112,6 +118,7 @@ for doc in root.iter('{http://www.tei-c.org/ns/1.0}ab'):
         pointer_ner_text.write(text+'\n')
       if ud!=None:
         pointer_ud.append((sent_id,text,tokens,ud))
+        pointer_ner_ud.append((sent_id, text, tokens, ners, ud))
         if not newline:
           pointer_ud_text.write(text)
         else:
@@ -129,26 +136,37 @@ for doc in root.iter('{http://www.tei-c.org/ns/1.0}ab'):
   if ud!=None:
     pointer_ud_text.write('\n')
 
-def write_list(lst,fname,synt=False,ner=False):
+def write_list(lst,fname,synt=False,ner=False,all=False):
   f=open(fname,'w', encoding='utf8')
+  if all:
+    f.write('# global.columns = ID TOKEN LEMMA UPOS XPOS FEATS NER_TYPE UD')
   for el in lst:
     if not synt and not ner:
       sent_id,text,tokens=el
     elif synt:
-      sent_id,text,tokens,dep=el
+      if all:
+        sent_id, text, tokens, nes, dep = el
+      else:
+        sent_id,text,tokens,dep=el
     else:
       sent_id,text,tokens,nes=el
+
     f.write('# sent_id = '+sent_id+'\n')
     f.write('# text = '+text+'\n')
     for idx,token in enumerate(tokens):
       if not synt and not ner:
         f.write(str(idx+1)+'\t'+token[0]+'\t'+token[1]+'\t'+token[2]+'\t'+token[3]+'\t'+token[4]+'\t_\t_\t_\t_\n')
       elif synt:
-        f.write(str(idx+1)+'\t'+token[0]+'\t'+token[1]+'\t'+token[2]+'\t'+token[3]+'\t'+token[4]+'\t'+dep[idx][0]+'\t'+dep[idx][1]+'\t_\t_\n')
+        if all:
+          f.write(str(idx+1)+'\t'+token[0]+'\t'+token[1]+'\t'+token[2]+'\t'+token[3]+'\t'+token[4]+'\t'+nes[idx]+'\t'+dep[idx][0]+'\t'+dep[idx][1]+'\n')
+        else:
+          f.write(str(idx+1)+'\t'+token[0]+'\t'+token[1]+'\t'+token[2]+'\t'+token[3]+'\t'+token[4]+'\t'+dep[idx][0]+'\t'+dep[idx][1]+'\t_\t_\n')
       else:
         f.write(str(idx+1)+'\t'+token[0]+'\t'+token[1]+'\t'+token[2]+'\t'+token[3]+'\t'+token[4]+'\t_\t_\t_\t'+nes[idx]+'\n')
+
     f.write('\n')
   f.close()
+
 write_list(train,'train.conllu')
 write_list(dev,'dev.conllu')
 write_list(test,'test.conllu')
@@ -158,6 +176,9 @@ write_list(test_ud,'test_ud.conllu',True)
 write_list(train_ner,'train_ner.conllu',ner=True)
 write_list(dev_ner,'dev_ner.conllu',ner=True)
 write_list(test_ner,'test_ner.conllu',ner=True)
+write_list(train_ner_ud, 'train_ner_ud.conllup', synt=True, ner=True, all=True)
+write_list(dev_ner_ud, 'dev_ner_ud.conllup', synt=True, ner=True, all=True)
+write_list(test_ner_ud, 'test_ner_ud.conllup', synt=True, ner=True, all=True)
 
 train_text.close()
 dev_text.close()
