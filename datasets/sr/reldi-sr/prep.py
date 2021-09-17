@@ -52,12 +52,12 @@ for line in open('ReLDI-sr.vert/reldi_sr.vert', 'r', encoding='utf8'):
 def write_list(lst,fname,norm=False,raw=False,all=False):
   f=open(fname,'w', encoding='utf8')
   if all:
-    f.write('# global.columns = ID TOKEN NORM LEMMA UPOS XPOS FEATS NER_TYPE')
+    f.write('# global.columns = ID TOKEN NORM LEMMA UPOS XPOS FEATS NER_TYPE\n')
   for el in lst:
     sent_id=el[0]
     tokens=el[1:]
     raw_list = []
-    if not norm:
+    if all or not norm:
       f.write('# sent_id = '+sent_id+'\n')
     for idx,token in enumerate(tokens):
       if not norm:
@@ -74,6 +74,7 @@ def write_list(lst,fname,norm=False,raw=False,all=False):
     else:
       f.write(''.join(raw_list) + '\n')
   f.close()
+
 write_list(train,'train_ner.conllu')
 write_list(dev,'dev_ner.conllu')
 write_list(test,'test_ner.conllu')
