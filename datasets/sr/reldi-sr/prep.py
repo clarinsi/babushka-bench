@@ -68,7 +68,8 @@ def write_list(lst,fname,norm=False,raw=False,all=False):
         raw_list.append(token[-1])
         raw_list.append(token[0])
       else:
-        f.write(str(idx+1)+'\t'+token[0]+'\t'+token[1]+'\t'+token[2]+'\t'+token[4]+'\t'+token[3]+'\t'+token[5]+token[6]+'\n')
+        f.write(str(idx+1)+'\t'+token[0]+'\t'+token[1]+'\t'+token[2]+'\t'+token[4]+'\t'+token[3]+'\t'+token[5]
+                +'\t'+token[6]+'\n')
     if not raw:
       f.write('\n')
     else:
