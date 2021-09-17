@@ -1,4 +1,5 @@
-# global.columns = ID TOKEN LEMMA UPOS XPOS FEATS NER_TYPE UD# sent_id = train-s209
+# global.columns = ID TOKEN LEMMA UPOS XPOS FEATS NER_TYPE UD
+# sent_id = train-s209
 # text = Hrvatska pozvana na ubrzanje reformi koje traži EU
 1	Hrvatska	Hrvatska	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	B-loc	2	nsubj_pass
 2	pozvana	pozvati	ADJ	Appfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	O	0	root

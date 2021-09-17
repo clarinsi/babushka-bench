@@ -1,4 +1,5 @@
-# global.columns = ID TOKEN LEMMA UPOS XPOS FEATS NER_TYPE UD# sent_id = train-s593
+# global.columns = ID TOKEN LEMMA UPOS XPOS FEATS NER_TYPE UD
+# sent_id = train-s593
 # text = Poslovanje: Istraživanje pokazuje kako raste broj Europljana suočenih sa siromaštvom
 1	Poslovanje	poslovanje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	O	4	parataxis
 2	:	:	PUNCT	Z	_	O	1	punct

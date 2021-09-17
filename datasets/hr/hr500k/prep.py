@@ -139,7 +139,7 @@ for doc in root.iter('{http://www.tei-c.org/ns/1.0}ab'):
 def write_list(lst,fname,synt=False,ner=False,all=False):
   f=open(fname,'w', encoding='utf8')
   if all:
-    f.write('# global.columns = ID TOKEN LEMMA UPOS XPOS FEATS NER_TYPE UD')
+    f.write('# global.columns = ID TOKEN LEMMA UPOS XPOS FEATS NER_TYPE UD\n')
   for el in lst:
     if not synt and not ner:
       sent_id,text,tokens=el
