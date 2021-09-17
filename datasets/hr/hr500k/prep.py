@@ -158,11 +158,14 @@ def write_list(lst,fname,synt=False,ner=False,all=False):
         f.write(str(idx+1)+'\t'+token[0]+'\t'+token[1]+'\t'+token[2]+'\t'+token[3]+'\t'+token[4]+'\t_\t_\t_\t_\n')
       elif synt:
         if all:
-          f.write(str(idx+1)+'\t'+token[0]+'\t'+token[1]+'\t'+token[2]+'\t'+token[3]+'\t'+token[4]+'\t'+nes[idx]+'\t'+dep[idx][0]+'\t'+dep[idx][1]+'\n')
+          f.write(str(idx+1)+'\t'+token[0]+'\t'+token[1]+'\t'+token[2]+'\t'+token[3]+'\t'+token[4]+'\t'+nes[idx]+'\t'
+                  +dep[idx][1]+'\n')
         else:
-          f.write(str(idx+1)+'\t'+token[0]+'\t'+token[1]+'\t'+token[2]+'\t'+token[3]+'\t'+token[4]+'\t'+dep[idx][0]+'\t'+dep[idx][1]+'\t_\t_\n')
+          f.write(str(idx+1)+'\t'+token[0]+'\t'+token[1]+'\t'+token[2]+'\t'+token[3]+'\t'+token[4]+'\t'+dep[idx][0]+'\t'
+                  +dep[idx][1]+'\t_\t_\n')
       else:
-        f.write(str(idx+1)+'\t'+token[0]+'\t'+token[1]+'\t'+token[2]+'\t'+token[3]+'\t'+token[4]+'\t_\t_\t_\t'+nes[idx]+'\n')
+        f.write(str(idx+1)+'\t'+token[0]+'\t'+token[1]+'\t'+token[2]+'\t'+token[3]+'\t'+token[4]+'\t_\t_\t_\t'
+                +nes[idx]+'\n')
 
     f.write('\n')
   f.close()
