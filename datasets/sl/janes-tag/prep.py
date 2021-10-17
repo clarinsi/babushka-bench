@@ -26,12 +26,15 @@ with open('Janes-Tag.conllu/Janes-Tag.conllu', 'r', encoding='utf-8') as f:
             if rand < 0.8:
                 pointer = train
                 pointer_normed = train_normed
+                pointer_all = train_all
             elif rand < 0.9:
                 pointer = dev
                 pointer_normed = dev_normed
+                pointer_all = dev_all
             else:
                 pointer = test
                 pointer_normed = test_normed
+                pointer_all = test_all
             token_counter = 0
             norm_line = line
             all_line = line
@@ -93,6 +96,7 @@ with open('Janes-Tag.conllu/Janes-Tag.conllu', 'r', encoding='utf-8') as f:
         if line != 'None':
             pointer.append(line)
             pointer_normed.append(norm_line)
+            pointer_all.append(all_line)
 
 
 def write_list(lst, fname, all=False):
@@ -109,6 +113,6 @@ write_list(test, 'test.conllu')
 write_list(train_normed, 'train_normed.conllu')
 write_list(dev_normed, 'dev_normed.conllu')
 write_list(test_normed, 'test_normed.conllu')
-write_list(train_all, 'train_all.conllup')
-write_list(dev_all, 'dev_all.conllup')
-write_list(test_all, 'test_all.conllup')
+write_list(train_all, 'train_all.conllup', all=True)
+write_list(dev_all, 'dev_all.conllup', all=True)
+write_list(test_all, 'test_all.conllup', all=True)
