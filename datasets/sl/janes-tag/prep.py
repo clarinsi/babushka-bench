@@ -63,6 +63,7 @@ with open('Janes-Tag.conllu/Janes-Tag.conllu', 'r', encoding='utf-8') as f:
                     xpos = ' '.join(current_xpos)
                     feats = ' '.join(current_feats)
                     misc = ' '.join(current_misc)
+                    form = current_form
 
                     current_items = []
                     current_lemma = []
@@ -70,9 +71,10 @@ with open('Janes-Tag.conllu/Janes-Tag.conllu', 'r', encoding='utf-8') as f:
                     current_xpos = []
                     current_feats = []
                     current_misc = []
+                    current_form = ''
 
                     line = '\t'.join(
-                        [str(token_counter), current_form, lemma, upos, xpos, feats, head, deprel, deps, misc, '\n'])
+                        [str(token_counter), form, lemma, upos, xpos, feats, head, deprel, deps, misc, '\n'])
 
                 else:
                     line = 'None'
