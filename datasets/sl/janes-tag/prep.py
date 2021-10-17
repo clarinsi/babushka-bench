@@ -8,6 +8,9 @@ test = []
 train_normed = []
 dev_normed = []
 test_normed = []
+train_all = []
+dev_all = []
+test_all = []
 
 with open('Janes-Tag.conllu/Janes-Tag.conllu', 'r', encoding='utf-8') as f:
     current_form = ''
@@ -31,9 +34,11 @@ with open('Janes-Tag.conllu/Janes-Tag.conllu', 'r', encoding='utf-8') as f:
                 pointer_normed = test_normed
             token_counter = 0
             norm_line = line
+            all_line = line
 
         elif line.startswith('# text'):
             norm_line = line
+            all_line = line
 
         elif line and line != '\n':
             idx, form, lemma, upos, xpos, feats, head, deprel, deps, misc = line.strip().split('\t')
@@ -80,17 +85,20 @@ with open('Janes-Tag.conllu/Janes-Tag.conllu', 'r', encoding='utf-8') as f:
                 else:
                     misc = '_'
                 norm_line = '\t'.join([str(token_counter), norm, lemma, upos, xpos, feats, head, deprel, deps, misc, '\n'])
+                all_line = '\t'.join([str(token_counter), form, norm, lemma, upos, xpos, feats, '\n'])
             else:
                 norm_line = line
+                all_line = '\t'.join([str(token_counter), form, form, lemma, upos, xpos, feats, '\n'])
 
         if line != 'None':
             pointer.append(line)
-        if norm_line != 'None':
             pointer_normed.append(norm_line)
 
 
-def write_list(lst, fname):
+def write_list(lst, fname, all=False):
     with open(fname, 'w', encoding='utf-8') as f:
+        if all:
+            f.write('# global.columns = ID TOKEN NORM LEMMA UPOS XPOS FEATS\n')
         for el in lst:
             f.write(el)
 
@@ -101,3 +109,6 @@ write_list(test, 'test.conllu')
 write_list(train_normed, 'train_normed.conllu')
 write_list(dev_normed, 'dev_normed.conllu')
 write_list(test_normed, 'test_normed.conllu')
+write_list(train_all, 'train_all.conllup')
+write_list(dev_all, 'dev_all.conllup')
+write_list(test_all, 'test_all.conllup')
