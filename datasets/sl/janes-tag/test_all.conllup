@@ -418,7 +418,7 @@
 # sent_id = janes.blog.publishwall.10894.11.2
 # text = (vprasanjeniretoricno.
 1	(	(	(	PUNCT	Z	_	
-3	ni	ni	biti	AUX	Va-r3s-y	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	
+3	vprasanjeniretoricno	vprasanjeniretoricno	biti	AUX	Va-r3s-y	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	
 3	retorično	retorično	vprašanje retoričen	NOUN ADJ	Ncnsn Agpnsn	Case=Nom|Gender=Neut|Number=Sing Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	
 4	.	.	.	PUNCT	Z	_	
 
@@ -8031,7 +8031,7 @@
 1	ahhh	ahhh	ahhh	INTJ	I	_	
 2	,	,	,	PUNCT	Z	_	
 3	pa	pa	pa	CCONJ	Cc	_	
-5	vas	vas	ti	PRON	Pp2-pa	Case=Acc|Number=Plur|Person=2|PronType=Prs	
+5	jebovasčuk	jebovasčuk	ti	PRON	Pp2-pa	Case=Acc|Number=Plur|Person=2|PronType=Prs	
 5	čuk	čuk	jebati čuk	VERB NOUN	Vmpp-sm Ncmsn	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part Case=Nom|Gender=Masc|Number=Sing	
 6	,	,	,	PUNCT	Z	_	
 7	ki	kje	kje	ADV	Rgp	Degree=Pos	

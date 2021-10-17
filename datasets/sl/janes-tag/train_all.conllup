@@ -5982,7 +5982,7 @@
 # text = hahaha, jajaja!!!
 1	hahaha	haha	haha	INTJ	I	_	
 2	,	,	,	PUNCT	Z	_	
-4	ja	ja	ja	PART	Q	_	
+4	jajaja	jajaja	ja	PART	Q	_	
 4	ja	ja	ja ja	PART PART	Q Q	_ _	
 5	!!!	!!!	!	PUNCT	Z	_	
 
@@ -8144,7 +8144,7 @@
 # text = ta je izwajdovšneburje
 1	ta	ta	ta	DET	Pd-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	
 2	je	je	biti	VERB	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	
-4	Ajdovščine	Ajdovščine	Ajdovščina	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	
+4	izwajdovšneburje	izwajdovšneburje	Ajdovščina	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	
 4	burje	burje	iz burja	ADP NOUN	Sg Ncfsg	Case=Gen Case=Gen|Gender=Fem|Number=Sing	
 
 # sent_id = tid.421744821779574784.1
@@ -8784,7 +8784,7 @@
 25	ob	ob	ob	ADP	Sl	Case=Loc	
 26	6h	6h	6h	NUM	Mdc	NumForm=Digit|NumType=Card	
 27	začel	začel	začeti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	
-29	postelje	postelje	postelja	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	
+29	spostlemetat	spostlemetat	postelja	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	
 29	metati	metati	z metati	ADP VERB	Sg Vmpn	Case=Gen Aspect=Imp|VerbForm=Inf	
 
 # sent_id = tid.484650918982725632.1
@@ -22396,7 +22396,7 @@
 
 # sent_id = tid.533006587305406464.5
 # text = Pisofkejk:)
-2	of	of	of	X	Xf	Foreign=Yes	
+2	Pisofkejk	Pisofkejk	of	X	Xf	Foreign=Yes	
 2	kejk	kejk	pis kejk	NOUN NOUN	Ncmsn Ncmsn	Case=Nom|Gender=Masc|Number=Sing Case=Nom|Gender=Masc|Number=Sing	
 3	:)	:)	:)	SYM	Xe	_	
 
@@ -22684,7 +22684,7 @@
 14	,	,	,	PUNCT	Z	_	
 15	sem	sem	biti	AUX	Va-r1s-n	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	
 16	predlagala	predlagala	predlagati	VERB	Vmbp-sf	Gender=Fem|Number=Sing|VerbForm=Part	
-18	od	od	od	ADP	Sg	Case=Gen	
+18	fotkoodspred	fotkoodspred	od	ADP	Sg	Case=Gen	
 18	spredaj	spredaj	fotka spredaj	NOUN ADV	Ncfsa Rgp	Case=Acc|Gender=Fem|Number=Sing Degree=Pos	
 
 # sent_id = janes.forum.medovernet.9164988.1
@@ -38291,7 +38291,7 @@
 9	be	be	be	X	Xf	Foreign=Yes	
 10	quiet	quiet	quiet	X	Xf	Foreign=Yes	
 11	(	(	(	PUNCT	Z	_	
-13	ne	ne	ne	PART	Q	Polarity=Neg	
+13	sejneno	sejneno	ne	PART	Q	Polarity=Neg	
 13	no	no	saj no	CCONJ PART	Cc Q	_ _	
 14	)	)	)	PUNCT	Z	_	
 
@@ -47826,7 +47826,7 @@
 
 # sent_id = tid.542638923307307008.1
 # text = ThePirateBay je bil itak shitty site s popupi in tono reklam.
-2	Pirate	Pirate	Pirate	X	Xf	Foreign=Yes	
+2	ThePirateBay	ThePirateBay	Pirate	X	Xf	Foreign=Yes	
 2	Bay	Bay	the Bay	X X	Xf Xf	Foreign=Yes Foreign=Yes	
 3	je	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	
 4	bil	bil	biti	AUX	Va-p-sm	Gender=Masc|Number=Sing|VerbForm=Part	
@@ -60394,7 +60394,7 @@
 24	dela	dela	delo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	
 25	še	še	še	PART	Q	_	
 26	od	od	od	ADP	Sg	Case=Gen	
-28	ni	ni	biti	AUX	Va-r3s-y	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	
+28	blizunivid	blizunivid	biti	AUX	Va-r3s-y	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	
 28	vid.	vid.	blizu vid.	ADV X	Rgp Y	Degree=Pos Abbr=Yes	
 
 # sent_id = tid.404007156304723968.1
@@ -64629,7 +64629,7 @@
 # text = @7inki In bohnedej, da jim kej rečeš glede tega, ker potem takoj izpadeš kot ta hujši snob.
 1	@7inki	@7inki	@7inki	SYM	Xa	_	
 2	In	In	in	CCONJ	Cc	_	
-4	ne	ne	ne	PART	Q	Polarity=Neg	
+4	bohnedej	bohnedej	ne	PART	Q	Polarity=Neg	
 4	daj	daj	bog dati	NOUN VERB	Ncmsn Vmem2s	Case=Nom|Gender=Masc|Number=Sing Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	
 5	,	,	,	PUNCT	Z	_	
 6	da	da	da	SCONJ	Cs	_	
@@ -75452,7 +75452,7 @@
 
 # sent_id = tid.450237206423429120.2
 # text = boženedaj, da jim pošljem tekst v enakem jeziku.
-2	ne	ne	ne	X	Xf	Foreign=Yes	
+2	boženedaj	boženedaj	ne	X	Xf	Foreign=Yes	
 2	daj	daj	Bože dati	X X	Xf Xf	Foreign=Yes Foreign=Yes	
 3	,	,	,	PUNCT	Z	_	
 4	da	da	da	SCONJ	Cs	_	
@@ -79666,7 +79666,7 @@
 
 # sent_id = tid.479705914375933952.2
 # text = Semtertja popahlja tudi bjondo zraven #soocenje http://t.co/4gOolGcIf9
-2	ter	ter	ter	CCONJ	Cc	_	
+2	Semtertja	Semtertja	ter	CCONJ	Cc	_	
 2	tja	tja	biti tja	AUX ADV	Rgp Rgp	Degree=Pos Degree=Pos	
 3	popahlja	popahlja	popahljati	VERB	Vmbr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	
 4	tudi	tudi	tudi	PART	Q	_	
