@@ -93,6 +93,10 @@ with open('Janes-Tag.conllu/Janes-Tag.conllu', 'r', encoding='utf-8') as f:
                 norm_line = line
                 all_line = '\t'.join([str(token_counter), form, form, lemma, upos, xpos, feats, '\n'])
 
+        elif line == '\n':
+            norm_line = line
+            all_line = line
+
         if line != 'None':
             pointer.append(line)
             pointer_normed.append(norm_line)
