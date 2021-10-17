@@ -20,7 +20,6 @@ with open('Janes-Tag.conllu/Janes-Tag.conllu', 'r', encoding='utf-8') as f:
     current_xpos = []
     current_feats = []
     current_misc = []
-    current_form = ''
     for line in f:
         if line.startswith('# sent_id'):
             rand = random.random()
@@ -64,6 +63,7 @@ with open('Janes-Tag.conllu/Janes-Tag.conllu', 'r', encoding='utf-8') as f:
                     xpos = ' '.join(current_xpos)
                     feats = ' '.join(current_feats)
                     misc = ' '.join(current_misc)
+                    form = current_form
 
                     current_items = []
                     current_lemma = []
@@ -74,7 +74,7 @@ with open('Janes-Tag.conllu/Janes-Tag.conllu', 'r', encoding='utf-8') as f:
                     current_form = ''
 
                     line = '\t'.join(
-                        [str(token_counter), current_form, lemma, upos, xpos, feats, head, deprel, deps, misc, '\n'])
+                        [str(token_counter), form, lemma, upos, xpos, feats, head, deprel, deps, misc, '\n'])
 
                 else:
                     line = 'None'
@@ -90,12 +90,10 @@ with open('Janes-Tag.conllu/Janes-Tag.conllu', 'r', encoding='utf-8') as f:
                 else:
                     misc = '_'
                 norm_line = '\t'.join([str(token_counter), norm, lemma, upos, xpos, feats, head, deprel, deps, misc, '\n'])
-                all_line = '\t'.join([str(token_counter), current_form if current_form else form, norm, lemma, upos,
-                                      xpos, feats, '\n'])
+                all_line = '\t'.join([str(token_counter), form, norm, lemma, upos, xpos, feats, '\n'])
             else:
                 norm_line = line
-                all_line = '\t'.join([str(token_counter), current_form if current_form else form,
-                                      current_form if current_form else form, lemma, upos, xpos, feats, '\n'])
+                all_line = '\t'.join([str(token_counter), form, form, lemma, upos, xpos, feats, '\n'])
 
         elif line == '\n':
             norm_line = line
