@@ -33,6 +33,9 @@ test_ner=[]
 train_ner_ud = []
 dev_ner_ud = []
 test_ner_ud = []
+train_srl = []
+dev_srl = []
+test_srl = []
 train_text=open('train.txt','w', encoding='utf8')
 dev_text=open('dev.txt','w', encoding='utf8')
 test_text=open('test.txt','w', encoding='utf8')
@@ -45,6 +48,9 @@ test_ud_text=open('test_ud.txt','w', encoding='utf8')
 train_ner_text=open('train_ner.txt','w', encoding='utf8')
 dev_ner_text=open('dev_ner.txt','w', encoding='utf8')
 test_ner_text=open('test_ner.txt','w', encoding='utf8')
+train_srl_text=open('train_srl.txt','w', encoding='utf8')
+dev_srl_text=open('dev_srl.txt','w', encoding='utf8')
+test_srl_text=open('test_srl.txt','w', encoding='utf8')
 do_ner=True
 for doc in root.iter('{http://www.tei-c.org/ns/1.0}div'):
   rand=random.random()
@@ -58,6 +64,8 @@ for doc in root.iter('{http://www.tei-c.org/ns/1.0}div'):
     pointer_ner_text=train_ner_text
     pointer_ner=train_ner
     pointer_ner_ud = train_ner_ud
+    pointer_srl = train_srl
+    pointer_srl_text = train_srl_text
   elif rand<0.9:
     pointer=dev
     pointer_text=dev_text
@@ -68,6 +76,8 @@ for doc in root.iter('{http://www.tei-c.org/ns/1.0}div'):
     pointer_ner=dev_ner
     pointer_ner_text=dev_ner_text
     pointer_ner_ud = dev_ner_ud
+    pointer_srl = dev_srl
+    pointer_srl_text = dev_srl_text
   else:
     pointer=test
     pointer_text=test_text
@@ -78,6 +88,8 @@ for doc in root.iter('{http://www.tei-c.org/ns/1.0}div'):
     pointer_ner=test_ner
     pointer_ner_text=test_ner_text
     pointer_ner_ud = test_ner_ud
+    pointer_srl = test_srl
+    pointer_srl_text = test_srl_text
   for p in doc.iter('{http://www.tei-c.org/ns/1.0}p'):
     #print p.attrib
     if p.attrib['{http://www.w3.org/XML/1998/namespace}id']=='ssj500.2653':
@@ -92,6 +104,7 @@ for doc in root.iter('{http://www.tei-c.org/ns/1.0}div'):
         uposfeats=next(get_next_sent)
         jos=None
         ud=None
+        srl=None
         for element in sentence:
           if element.tag[-3:]=='seg':
             if element.attrib['type']=='name':
@@ -138,6 +151,24 @@ for doc in root.iter('{http://www.tei-c.org/ns/1.0}div'):
                   else:
                     head=head[1:]
                   jos.append((head,label))
+              elif element.attrib['type']=='SRL':
+                srl = {}
+                for subelement in element:
+                  label = subelement.attrib['ana'].split(':')[1]
+                  head, dep = subelement.attrib['target'].split(' ')
+                  head = head.split('.')[-1]
+                  dep = dep.split('.')[-1]
+                  if dep[0] != 't':
+                    dep = '0'
+                  else:
+                    dep = dep[1:]
+                  if head[0] != 't':
+                    head = '0'
+                  else:
+                    head = head[1:]
+                  if dep in srl:
+                    assert 'A srl dependency is repeated!'
+                  srl[dep] = (head, label)
             continue
           text+=element.text
           if not element.tag.endswith('}c'):
@@ -162,6 +193,9 @@ for doc in root.iter('{http://www.tei-c.org/ns/1.0}div'):
         if do_ner:
           pointer_ner.append((sent_id,text,tokens,ners))
           pointer_ner_text.write(text)
+        if srl!=None and ud!=None:
+          pointer_srl.append((sent_id,text,tokens,ud,srl))
+          pointer_srl_text.write(text)
       else:
         pointer_text.write(element.text)
         if ud!=None:
@@ -170,6 +204,8 @@ for doc in root.iter('{http://www.tei-c.org/ns/1.0}div'):
           pointer_jos_text.write(element.text)
         if do_ner:
           pointer_ner_text.write(element.text)
+        if srl!=None and ud!=None:
+          pointer_srl_text.write(element.text)
     pointer_text.write('\n')
     if ud!=None:
       pointer_ud_text.write('\n')
@@ -177,9 +213,11 @@ for doc in root.iter('{http://www.tei-c.org/ns/1.0}div'):
       pointer_jos_text.write('\n')
     if do_ner:
       pointer_ner_text.write('\n')
+    if srl!=None:
+      pointer_srl_text.write('\n')
   #pointer_text.write('\n')
 
-def write_list(lst,fname,synt=False,ner=False,all=False):
+def write_list(lst,fname,synt=False,ner=False,all=False,srl=False):
   f=open(fname,'w', encoding='utf8')
   if all:
     f.write('# global.columns = ID TOKEN LEMMA UPOS XPOS FEATS NER_TYPE UD\n')
@@ -189,6 +227,8 @@ def write_list(lst,fname,synt=False,ner=False,all=False):
     elif synt:
       if all:
         sid, text, tokens, nes, dep = el
+      elif srl:
+        sid, text, tokens, dep, srl = el
       else:
         sid, text, tokens, dep = el
     else:
@@ -203,6 +243,10 @@ def write_list(lst,fname,synt=False,ner=False,all=False):
         if all:
           f.write(str(idx+1)+'\t'+token[0]+'\t'+token[1]+'\t'+token[3]+'\t'+token[2]+'\t'+token[4]+'\t'+nes[idx]+'\t'
                   +dep[idx][1]+'\n')
+        elif srl:
+          srl_print = f'Head={srl[str(idx+1)][0]}|Deprel={srl[str(idx+1)][1]}' if str(idx+1) in srl else '_'
+          f.write(str(idx + 1) + '\t' + token[0] + '\t' + token[1] + '\t' + token[3] + '\t' + token[2] + '\t' + token[
+            4] + '\t' + dep[idx][0]+'\t'+dep[idx][1] +'\t_\t' + srl_print + '\n')
         else:
           f.write(str(idx+1)+'\t'+token[0]+'\t'+token[1]+'\t'+token[3]+'\t'+token[2]+'\t'+token[4]+'\t'+dep[idx][0]+'\t'
                   +dep[idx][1]+'\t_\t_\n')
@@ -227,6 +271,9 @@ write_list(test_ner,'test_ner.conllu',ner=True)
 write_list(train_ner_ud, 'train_ner_ud.conllup', synt=True, ner=True, all=True)
 write_list(dev_ner_ud, 'dev_ner_ud.conllup', synt=True, ner=True, all=True)
 write_list(test_ner_ud, 'test_ner_ud.conllup', synt=True, ner=True, all=True)
+write_list(train_srl, 'train_srl.conllu', synt=True, srl=True)
+write_list(dev_srl, 'dev_srl.conllu', synt=True, srl=True)
+write_list(test_srl, 'test_srl.conllu', synt=True, srl=True)
 
 train_text.close()
 dev_text.close()
@@ -240,3 +287,6 @@ test_jos_text.close()
 train_ner_text.close()
 dev_ner_text.close()
 test_ner_text.close()
+train_srl_text.close()
+dev_srl_text.close()
+test_srl_text.close()
