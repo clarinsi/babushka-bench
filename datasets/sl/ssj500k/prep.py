@@ -213,7 +213,7 @@ for doc in root.iter('{http://www.tei-c.org/ns/1.0}div'):
       pointer_jos_text.write('\n')
     if do_ner:
       pointer_ner_text.write('\n')
-    if srl!=None:
+    if srl!=None and ud!=None:
       pointer_srl_text.write('\n')
   #pointer_text.write('\n')
 
